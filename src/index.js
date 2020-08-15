@@ -1,16 +1,12 @@
-import { handleSegments, condenseSegments } from "./text-to-speech"
+import main from "./text-to-speech"
+import condense from "./condense"
 
-export default async function ({ segments, slug, working_directory = "/tmp" }) {
-  if (!segments) {
-    throw "No segments"
-  }
-  if (!slug) {
-    throw "No slug"
-  }
-  if (process.env.GOOGLE_APPLICATION_CREDENTIALS) {
-    throw "No google API credentials"
-  }
-
-  const condensed = await condenseSegments(segments)
-  return await handleSegments(condensed, slug, working_directory)
+export default async function ({
+  segments,
+  slug,
+  working_directory,
+  max_chars
+}) {
+  const condensed = condense(segments, max_chars)
+  await main(condensed, slug, working_directory)
 }

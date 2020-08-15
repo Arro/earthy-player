@@ -1,8 +1,8 @@
 {
   "name": "earthy-player",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "scripts": {
-    "start": "babel-node ./main.js"
+    "build": "babel src --out-dir dist"
   },
   "license": "MIT",
   "keywords": [

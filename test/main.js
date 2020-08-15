@@ -36,7 +36,6 @@ test("main function no slug", async (t) => {
   const segments = [
     {
       text: "Blah Blah Blah",
-
       what: "paragraph",
       type: "speech",
       voice_name: "en-US-Wavenet-C",
@@ -57,7 +56,6 @@ test("main function no dir ", async (t) => {
   const segments = [
     {
       text: "Blah Blah Blah",
-
       what: "paragraph",
       type: "speech",
       voice_name: "en-US-Wavenet-C",
@@ -80,7 +78,6 @@ test("main function all provided", async (t) => {
   const segments = [
     {
       text: "Blah Blah Blah",
-
       what: "paragraph",
       type: "speech",
       voice_name: "en-US-Wavenet-C",
