@@ -8,6 +8,7 @@
   "keywords": [
     "text to speech"
   ],
+  "main": "dist/main.js",
   "description": "a util for combining text to speech",
   "repository": {
     "type": "git",
