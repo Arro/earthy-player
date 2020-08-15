@@ -1,0 +1,29 @@
+{
+  "name": "earthy-player",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "babel-node ./main.js"
+  },
+  "license": "MIT",
+  "keywords": [ "text to speech"],
+  "description": "a util for combining text to speech",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arro/earthy-player.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/runtime": "^7.11.2",
+    "@google-cloud/text-to-speech": "^3.1.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.27.0",
+    "promisify-child-process": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/runtime": "^7.11.2",
+    "eslint": "^7.7.0",
+    "prettier": "^2.0.5"
+  }
+}
