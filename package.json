@@ -19,7 +19,6 @@
     "@babel/runtime": "^7.11.2",
     "@google-cloud/text-to-speech": "^3.1.0",
     "dotenv": "^8.2.0",
-    "esm": "^3.2.25",
     "moment": "^2.27.0",
     "promisify-child-process": "^4.1.1"
   },
