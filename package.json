@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "build": "babel src --out-dir dist"
   },
@@ -8,7 +8,7 @@
   "keywords": [
     "text to speech"
   ],
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "description": "a util for combining text to speech",
   "repository": {
     "type": "git",
