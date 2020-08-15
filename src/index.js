@@ -7,6 +7,6 @@ export default async function ({
   working_directory,
   max_chars
 }) {
-  const condensed = condense(segments, max_chars)
-  await main(condensed, slug, working_directory)
+  const condensed = condense({ segments, max_chars })
+  await main({ segments: condensed, slug, working_directory })
 }
