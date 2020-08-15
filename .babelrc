@@ -4,7 +4,7 @@
       "useBuiltIns": "usage",
       "corejs": 3,
       "targets": {
-          "node": "14"
+          "node": "12"
       }
     }]
   ]

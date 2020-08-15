@@ -1,6 +1,7 @@
 const textToSpeech = require("@google-cloud/text-to-speech")
 const { writeFile } = require("fs").promises
 import moment from "moment"
+import path from "path"
 
 import { getAudioDuration } from "./get-audio-duration"
 import { spawn } from "promisify-child-process"
@@ -22,7 +23,7 @@ title=${title}
 `
 }
 
-export async function handleSegments(slug, segments) {
+export async function handleSegments(segments, slug, working_directory) {
   const client = new textToSpeech.TextToSpeechClient()
 
   let ms_passed = 0
@@ -59,7 +60,7 @@ export async function handleSegments(slug, segments) {
     }
 
     const [response] = await client.synthesizeSpeech(request)
-    const filename = `/tmp/${slug}-${i}.mp3`
+    const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
     await writeFile(filename, response.audioContent, "binary")
 
     if (segment.what === "title") {
@@ -81,13 +82,19 @@ export async function handleSegments(slug, segments) {
     filelist += `file '${filename}'\n`
   }
   chapters += addChapter(last_chapter, ms_passed, last_title)
-  const chapter_filename = `/tmp/${slug}-chapters.txt`
+  const chapter_filename = path.resolve(
+    `${working_directory}/${slug}-chapters.txt`
+  )
   await writeFile(chapter_filename, chapters, "utf-8")
 
-  const list_filename = `/tmp/${slug}-list.txt`
-  const untracked_filename = `/tmp/${slug}-untracked.mp3`
-  const output_filename = `/tmp/${slug}.mp3`
-  const description_filename = `/tmp/${slug}-description.txt`
+  const list_filename = path.resolve(`${working_directory}/${slug}-list.txt`)
+  const untracked_filename = path.resolve(
+    `${working_directory}/${slug}-untracked.mp3`
+  )
+  const output_filename = path.resolve(`${working_directory}/${slug}.mp3`)
+  const description_filename = path.resolve(
+    `${working_directory}/${slug}-description.txt`
+  )
   await writeFile(list_filename, filelist, "utf-8")
   await writeFile(description_filename, description, "utf-8")
 
@@ -113,28 +120,4 @@ export async function handleSegments(slug, segments) {
     ],
     { encoding: "utf-8", maxBuffer: 200 * 1024 }
   )
-}
-
-export function condenseSegments(speech_segments) {
-  // condense now
-  let condensed = []
-
-  for (const segment of speech_segments) {
-    let prev_segment = condensed?.[condensed.length - 1]
-    if (
-      segment.type === "speech" &&
-      prev_segment?.type === "speech" &&
-      prev_segment?.what === segment.what &&
-      prev_segment?.voice_name === segment.voice_name &&
-      prev_segment?.text?.length + segment.text.length < 4000
-    ) {
-      condensed[
-        condensed.length - 1
-      ].text = `${prev_segment.text}<break time="1s"/>${segment.text}`
-    } else {
-      condensed.push(segment)
-    }
-  }
-
-  return condensed
 }
