@@ -3,7 +3,7 @@ export default function ({ segments, max_chars = 4000 }) {
 
   let new_segments = []
   for (const segment of segments) {
-    if (segment.text.length < max_chars) {
+    if (!segment.text || segment?.text?.length < max_chars) {
       new_segments.push({
         ...segment
       })
@@ -11,7 +11,7 @@ export default function ({ segments, max_chars = 4000 }) {
       const working_max_chars = max_chars - 100
       for (
         let i = 0;
-        i < Math.ceil(working_max_chars / segment.text.length) + 1;
+        i < Math.ceil(working_max_chars / (segment.text?.length || 0)) + 1;
         i++
       ) {
         // todo find a better split point

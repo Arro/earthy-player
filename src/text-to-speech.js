@@ -49,7 +49,28 @@ export default async function ({ segments, slug, working_directory }) {
     const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
     await writeFile(filename, response.audioContent, "binary")
 
-    filelist += `file '${filename}'\n`
+    const wav_filename = path.resolve(`${working_directory}/${slug}-${i}.wav`)
+    await spawn(
+      `/usr/local/bin/ffmpeg`,
+      [
+        "-i",
+        filename,
+        "-vn",
+        "-acodec",
+        "pcm_s16le",
+        "-ar",
+        "48000",
+        "-y",
+        "-ac",
+        "2",
+        "-strict",
+        "-2",
+        wav_filename
+      ],
+      { encoding: "utf-8", maxBuffer: 200 * 1024 }
+    )
+
+    filelist += `file '${wav_filename}'\n`
   }
 
   const list_filename = path.resolve(`${working_directory}/${slug}-list.txt`)
@@ -61,6 +82,6 @@ export default async function ({ segments, slug, working_directory }) {
   await spawn(
     `/usr/local/bin/ffmpeg`,
     ["-f", "concat", "-safe", 0, "-i", list_filename, "-y", untracked_filename],
-    { encoding: "utf-8", maxBuffer: 200 * 1024 }
+    { encoding: "utf-8", maxBuffer: 1000 * 1024 }
   )
 }
