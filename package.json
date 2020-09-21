@@ -1,8 +1,10 @@
 {
   "name": "earthy-player",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "test": "npx ava",
+    "tdd": "npx ava --watch"
   },
   "license": "MIT",
   "keywords": [
@@ -20,6 +22,7 @@
     "@babel/runtime": "^7.11.2",
     "@google-cloud/text-to-speech": "^3.1.0",
     "dotenv": "^8.2.0",
+    "jsdom": "^16.4.0",
     "moment": "^2.27.0",
     "promisify-child-process": "^4.1.1"
   },
@@ -29,7 +32,7 @@
     "@babel/node": "^7.10.5",
     "@babel/register": "^7.10.5",
     "@babel/runtime": "^7.11.2",
-    "ava": "^3.11.1",
+    "ava": "^3.12.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.7.0",
     "eslint-plugin-babel": "^5.3.1",
@@ -39,7 +42,8 @@
   "ava": {
     "babel": true,
     "files": [
-      "test/main.js"
+      "test/main.js",
+      "test/html-to-segments.js"
     ],
     "require": [
       "@babel/register"
