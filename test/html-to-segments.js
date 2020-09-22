@@ -1,5 +1,7 @@
 import test from "ava"
 import path from "path"
+import os from "os"
+
 import { promises as fsPromises } from "fs"
 import htmlToSegments from "../src/html-to-segments"
 
@@ -15,17 +17,9 @@ test("html not provided", async (t) => {
   t.is(error.message, "HTML not provided")
 })
 
-test("types not provided", async (t) => {
-  const error = await t.throwsAsync(
-    htmlToSegments({ html: t.context.pff_html })
-  )
-
-  t.is(error.message, "Top level types not provided")
-})
-
 test("selectors not provided", async (t) => {
   const error = await t.throwsAsync(
-    htmlToSegments({ html: t.context.pff_html, top_level_types: ["p"] })
+    htmlToSegments({ html: t.context.pff_html })
   )
 
   t.is(error.message, "Selectors not provided")
@@ -43,38 +37,78 @@ test("sound effects not provided", async (t) => {
 })
 
 test("standard call", async (t) => {
-  const top_level_types = [
-    "p",
-    "h1",
-    "h2",
-    "h3",
-    "h4",
-    "h5",
-    "h6",
-    "ul>li",
-    "blockquote",
-    "div"
-  ]
-
   const segments = await htmlToSegments({
     html: t.context.pff_html,
-    top_level_types,
     selectors: {
       parent: ".m-longform-copy",
-      title: ".g-h1",
-      by: ".m-micro-copy",
-      date: ".m-micro-copy",
-      date_format: "MMM D, YYYY"
+      top_level_types: [
+        "p",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "ul>li",
+        "blockquote",
+        "div"
+      ],
+      title: "meta[name='twitter:title']",
+      by: "meta[name='author']",
+      date: "meta[property='article:published_time']",
+      date_format: "YYYY-MM-DD HH:mm:ss"
     },
-    sound_effects_dir: "~/Dropbox/Audio/Sounds",
+    sound_effects_dir: `${os.homedir()}/Dropbox/Audio/Sounds`,
     sound_effects: {
       start: "moldy-trace-48000.wav",
       tweet_replacement: "moldy-prove-48000.wav",
       unknown_replacement: "nappy-begin-48000.wav"
+    },
+    discard_if_found: [
+      "Subscribe to PFF",
+      "Premium Article",
+      "Subscribe now",
+      "Sign Up"
+    ],
+    voices: {
+      heading: {
+        type: "speech",
+        voice_name: `en-GB-Wavenet-A`,
+        language_code: `en-GB`,
+        pitch: -2.8,
+        speed: 1.15
+      },
+      list_item: {
+        type: "speech",
+        voice_name: `en-GB-Wavenet-C`,
+        language_code: `en-GB`,
+        pitch: -3.6,
+        speed: 1.23
+      },
+      paragraph: {
+        type: "speech",
+        voice_name: `en-GB-Wavenet-B`,
+        language_code: `en-GB`,
+        pitch: -5,
+        speed: 1
+      },
+      quote: {
+        type: "speech",
+        voice_name: `en-GB-Wavenet-D`,
+        language_code: `en-GB`,
+        pitch: -2,
+        speed: 1
+      }
     }
   })
 
-  console.log(segments)
+  await fsPromises.writeFile(
+    path.resolve(`${os.homedir()}/Downloads/segments.json`),
+    JSON.stringify(segments, null, 2),
+    "utf-8"
+  )
+
+  //console.log(segments)
 
   t.pass()
 })
