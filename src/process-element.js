@@ -63,8 +63,8 @@ export default function ({
       }
       return_value.push({
         text: text.substring(
-          has_quote.index,
-          has_quote[0].length + has_quote.index
+          has_quote.index + 1,
+          has_quote[0].length + has_quote.index - 1
         ),
         what: "quote",
         ...voices.quote
@@ -73,16 +73,26 @@ export default function ({
     }
   } while (has_quote)
 
-  if (!/[.!?;:,\\]$/.test(text)) {
-    text = `${text}.`
-  }
+  return_value.push({
+    text,
+    what,
+    ...voices[what]
+  })
 
-  return [
-    ...return_value,
-    {
-      text,
-      what,
-      ...voices[what]
+  let prev
+  return_value = return_value.map((segment) => {
+    if (!/[.!?;:,\\]$/.test(segment.text)) {
+      segment.text += "."
     }
-  ]
+    if (prev?.what === "quote") {
+      const has_dash = /^[-—]\s/.exec(segment.text)
+      if (has_dash) {
+        segment.text = segment.text.substring(has_dash[0].length)
+      }
+    }
+    prev = segment
+    return segment
+  })
+
+  return return_value
 }
