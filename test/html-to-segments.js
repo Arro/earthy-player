@@ -103,12 +103,15 @@ test("standard call", async (t) => {
   })
 
   await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/segments.json`),
+    path.resolve(`${os.homedir()}/Downloads/003_segments.json`),
     JSON.stringify(segments, null, 2),
     "utf-8"
   )
+  let solution = await fsPromises.readFile(
+    path.resolve(`./test/fixtures/003_segments.json`),
+    "utf-8"
+  )
+  solution = JSON.parse(solution)
 
-  //console.log(segments)
-
-  t.pass()
+  t.deepEqual(segments, solution)
 })

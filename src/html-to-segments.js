@@ -79,14 +79,18 @@ export default async function (args = {}) {
   })
 
   for (const element of article_elements) {
-    const pElement = processElement({
-      element,
+    const pElements = processElement({
+      text: element.textContent.trim(),
+      type: element.nodeName?.toLowerCase(),
+      class_name: element.className,
       discard_if_found,
       sound_effects,
       voices
     })
-    if (pElement) {
-      segments.push(pElement)
+    for (const pElement of pElements) {
+      if (pElement) {
+        segments.push(pElement)
+      }
     }
   }
 

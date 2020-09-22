@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "npx ava",
@@ -43,7 +43,8 @@
     "babel": true,
     "files": [
       "test/main.js",
-      "test/html-to-segments.js"
+      "test/html-to-segments.js",
+      "test/process-element.js"
     ],
     "require": [
       "@babel/register"
