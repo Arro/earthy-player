@@ -2,6 +2,7 @@ import { JSDOM } from "jsdom"
 import path from "path"
 import moment from "moment"
 import processElement from "./process-element"
+import processTable from "./process-table"
 
 export default async function (args = {}) {
   let {
@@ -79,14 +80,23 @@ export default async function (args = {}) {
   })
 
   for (const element of article_elements) {
-    const pElements = processElement({
-      text: element.textContent.trim(),
-      type: element.nodeName?.toLowerCase(),
-      class_name: element.className,
-      discard_if_found,
-      sound_effects,
-      voices
-    })
+    const type = element.nodeName?.toLowerCase()
+    let pElements
+    if (type === "table") {
+      pElements = processTable({
+        html: element.innerHTML,
+        voices
+      })
+    } else {
+      pElements = processElement({
+        text: element.textContent.trim(),
+        type,
+        class_name: element.className,
+        discard_if_found,
+        sound_effects,
+        voices
+      })
+    }
     for (const pElement of pElements) {
       if (pElement) {
         segments.push(pElement)

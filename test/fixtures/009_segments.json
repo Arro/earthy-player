@@ -1,0 +1,312 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "NFL Rookie Rankings: 10 highest-graded rookies through Week 2.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Anthony Treash on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Now that the members of the 2020 rookie class have two weeks of NFL action under their belts, we are starting to get an idea of those who are going to stick around on this list week in and week out.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "There are three new entrants on this list, and just one player remained in the same spot, so there was quite a bit of shuffling here this week. Here are the 10 highest-graded rookies in the NFL through Week 2 of the 2020 NFL season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "[Editor's Note: PFF's advanced statistics and player grades are powered by AWS machine learning capabilities.].",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "1. EDGE CHASE YOUNG, WASHINGTON FOOTBALL TEAM.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Young has been as good as advertised so far. He has earned an 81.1 PFF grade through two weeks of action, eighth among 84 qualifying edge defenders. In addition, the 2020 second overall pick has produced four run stops (tied for fifth) and eight total pressures (tied for seventh).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This past week, Young matched up with the NFL's sixth-highest-paid left tackle, D.J. Humphries, for nine pass rushes, and he came away with multiple wins.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Next week will likely present a far more difficult matchup for Young, as he is set to go up against the Cleveland Browns and their stout tackles Jack Conklin (assuming he's healthy) and Jedrick Wills Jr. On top of that, he won't see many true pass-rush opportunities, given Kevin Stefanski's play-action-heavy offense.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "T-2. CB JAYLON JOHNSON, CHICAGO BEARS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "We learned that Johnson's Week 1 was no fluke, as the rookie has been one of the stickiest outside cornerbacks in the league over the first two weeks. Johnson has seen 11 targets in his two games when lined up on the outside, and he has been in close coverage on eight of those passes. Of those eight, he's allowed just one to be caught while forcing four incompletions. He's allowed only five catches from 12 total targets in coverage so far, giving up just 79 yards and a passer rating of 64.2.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Next week will be a true test of Johnson's NFL makeup, as the Bears will travel to Atlanta to take on the Falcons, where he and Kyle Fuller have to go toe-to-toe with one of the best wide receiver duos in the NFL in Julio Jones and Calvin Ridley. Jones is coming off a bit of a down week, but Ridley is looking like the biggest breakout of the 2020 season — he's toasted the Seattle and Dallas secondaries, earning the highest PFF grade at the position through Week 2. Johnson versus Ridley will be one of the most interesting matchups to watch in Week 3.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "T-2. CB C.J. HENDERSON, JACKSONVILLE JAGUARS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Henderson wasn't able to match his dominant Week 1 performance, but he still played an all-around solid game. He did give up a 9-yard touchdown to Corey Davis, but that was just one of the two catches allowed all game against Tennessee.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Henderson also added another forced incompletion to his stat sheet, bringing his total to five to lead all outside cornerbacks. Overall, he's produced an 80.3 PFF grade, tying four the fourth-best (along with Johnson) at the position. He won't have nearly as difficult a matchup as Johnson will next week, but it still won't be easy given that he will face off against DeVante Parker, who made a habit of winning against single coverage deep downfield in 2019.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "4. OT MEKHI BECTON, NEW YORK JETS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Becton came back down to earth a little bit in pass protection in Week 2, as he gave up two pressures on 10 true pass sets against the 49ers, but he's still been impressive overall as a rookie. His 72.6 pass-block grade ranks 27th among 62 qualifying tackles after two weeks, but his work in the run game is what is standing out so far. These types of blocks (below) in the run game are something we routinely saw from him at Louisville and will likely continue to see in the NFL.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Becton still does have a lot to prove in pass protection, though. This past week was supposed to be a tough matchup for him, but multiple injuries to the San Francisco line pitted him against Kerry Hyder and Kentavius Street. Next week should be a tougher test as he faces the Colts and Justin Houston, who has yet to produce as he did in 2018 and 2019 (just four pressures on 48 pass rushes).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "5. DI JORDAN ELLIOTT, CLEVELAND BROWNS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Elliott hasn't had too many dominant reps in his two weeks, but he has been consistent and has yet to make any bad mistakes. Elliott has earned a 78.2 PFF grade so far, 10th among all interior defensive linemen. And while Elliott has notched just one pressure, he has also won on 13% of his reps, which is a rate that cracks the top 25 at the position.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It's a similar story against the run. Elliott has no run stops — or even tackles — but he still ninth in run-defense grade because (a). he has yet to be sealed out of a gap and has yet to miss a tackle, and (b). he has had multiple defeated blocks that have caused some disruption for the ball carrier.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "6. G MICHAEL ONWENU, NEW ENGLAND PATRIOTS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Onwenu has been used extensively in jumbo packages with the new-look Patriots offense and has been impactful when given the opportunity. Onwenu has earned a grade above 70.0 as both a pass-protector and run-blocker en route to a 78.0 PFF overall grade. And while he's not likely to see any actual reps at guard with Joe Thuney and Shaq Mason still on the roster, he's thriving in this new role.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "7. G DAMIEN LEWIS, SEATTLE SEAHAWKS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "There isn't an offensive lineman in the entire NFL with a bigger discrepancy between performance in pass protection compared to performance in the run game than Seattle's Damien Lewis.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Lewis has produced a 36.6 pass-blocking grade and allowed seven total pressures in his two starts at right guard for Seattle. But as a run-blocker, Lewis has earned a 91.1 grade that is currently the third-best at the position. Lewis has produced a 77.9 PFF overall grade, which is good enough to rank third among right guards and land him a spot on this list.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "8. S ANTOINE WINFIELD JR., TAMPA BAY BUCCANEERS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Winfield was out there making plays for the Buccaneers defense for the second straight week. After making a clutch pass breakup in the end zone in Week 1, Winfield had this strip-sack on Teddy Bridgewater in Week 2:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He wasn't going to accept leaving that blitz without putting a hand on Bridgewater, and he came up with the big forced fumble. On top of that, Winfield's top-tier tackling ability was on full display, as he registered a tackle on 14.5% of his defensive snaps without a single miss (10 total tackles). Tampa faces a depleted Denver offense next week, and I wouldn't be surprised to see the rookie Winfield take advantage of that and make more impactful plays.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "9. T TRISTAN WIRFS, TAMPA BAY BUCCANEERS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Wirfs makes his debut in our highest-graded rookie rankings after turning in an 86.0 PFF grade in Week 2, which trailed only Lane Johnson for the best among right tackles. Wirfs finished the day with a 90.6 run-blocking grade and had multiple big-time blocks with no clear loss. And while he allowed a couple of pressures in pass protection, he was still a lot better than he was in Week 1, as he raised his grade in that facet from 64.7 to 75.2.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "10. RB CLYDE EDWARDS-HELAIRE, KANSAS CITY CHIEFS.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "After not catching a single pass in Week 1, Edwards-Helaire finally got pumped some targets in Week 2. While there wasn't much damage done there (no first downs on six catches), the LSU product at least caught all of his catchable targets and did have an impressive contested snag downfield that was ultimately negated by a holding penalty.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Edwards-Helaire only had one 10-plus-yard gain on 10 carries in the run game, but it was business as usual when it came to shedding tackles. In fact, he forced four missed tackles on those 10 attempts, bringing his season broken tackles per attempt total to 0.31 — the second-best in the NFL.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]

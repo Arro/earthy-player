@@ -1,0 +1,429 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "Jahnke: Fantasy football reactions from the Raiders' win over the Saints.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Nathan Jahnke on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Monday night's game between the Las Vegas Raiders and New Orleans Saints not only marked the 50th anniversary of Monday Night Football, but it was also the first NFL game to be played in the new Allegiant Stadium in Las Vegas.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In a week that was heavy on injuries and light on upsets, this Monday night clash gave us the biggest upset of the week and didn't seem to have any major injuries.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "By far the biggest fantasy question heading into the game was how the Saints would handle not having Michael Thomas. Many believed that it would have to be a team effort, but one player ended up benefiting the most from his absence.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "New Orleans Saints at Las Vegas Raiders.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "New Orleans Saints.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "WR.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Tre' Quan Smith – 53 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Emmanuel Sanders – 47 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Deonte Harris – 31 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Marquez Callaway – 13 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Bennie Fowler – 4 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "TE.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Jared Cook – 39 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Josh Hill – 22 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Adam Trautman – 8 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "HB.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Alvin Kamara – 41 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Latavius Murray – 16 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Ty Montgomery – 6 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Total – 60 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Las Vegas Raiders.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "WR.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Henry Ruggs III – 49 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Bryan Edwards – 49 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Hunter Renfrow – 40 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Zay Jones – 18 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Nelson Agholor – 15 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "TE.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Darren Waller – 74 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Foster Moreau – 32 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Jason Witten – 26 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "HB.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Josh Jacobs – 53 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Jalen Richard – 17 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Devontae Booker – 11 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Total – 80 snaps.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Winner: TE Darren Waller, Las Vegas Raiders.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Waller was the recipient of 16 of the Raiders' 38 targets, leading to an impressive 12-catch, 103-yard, one-touchdown game. It was a career-high for him in targets, which is especially impressive given how much Las Vegas ran the ball. While other top-tier fantasy tight ends are either facing injury or not seeing enough playing time or targets, Waller is one of the few early-drafted tight ends to be paying off through two weeks.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Loser: WR Henry Ruggs III, Las Vegas Raiders.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Ruggs had a fairly rough game, with just one catch on three targets for 4 yards. He was questionable coming into the game, but even without the injury, it seemed as though the Raiders were more committed to having their backup wide receivers see more playing time. Both Zay Jones and Nelson Agholor saw a higher percentage of snaps compared to last week.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Waiver Wire Target: WR Tre' Quan Smith, New Orleans Saints.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Fantasy owners were hesitant to pick up Smith after Thomas went down with an injury — and for good reason. He had been the Saints' No. 2 wide receiver over the last two seasons, but prior to tonight's game, he had surpassed 60 yards receiving just twice in 30 games, and both of those games came in Smith's rookie year of 2018.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Smith was Brees' most effective target tonight, with five catches on seven targets for 86 yards. He also led the Saints wide receivers in snaps while Emmanuel Sanders was held to only one catch.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Sell High: TE Jared Cook, New Orleans Saints.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Cook's fantasy owners were likely satisfied with his performance thanks to his touchdown catch, but that was one of two catches in the game, and both of his backup tight ends ended up with more yards than him. While a two-catch performance might not necessarily be a high, this was supposed to be one of Cook's most favorable matchups, according to our strength of schedule tool. The Saints have the fifth-most-difficult tight end schedule for the rest of the season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]
