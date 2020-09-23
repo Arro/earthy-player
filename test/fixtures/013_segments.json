@@ -1,0 +1,173 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "Week 3 early spread picks for the 2020 NFL season.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Eric Eager and George Chahrouri on Monday, September 21st 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Week 2 was … interesting. Every team that has won a game so far this week was favored at some point (with the Rams, who closed at +2 against the Eagles, the only underdog to win outright so far). We were 1-2 in printed picks, with our New York Giants/Miami Dolphins teaser hitting and the Kansas City Chiefs and Washington Football Team not getting us to the window. We won our pick of the week for the second time in as many tries this season, with the Dolphins and Chiefs getting us home (despite, for the second straight week, one of the teams not covering their unteased line).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "We’ll again do three picks for Week 3, which we discussed on the PFF Forecast after Sunday Night Football.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Chicago Bears at Atlanta Falcons (-3).",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Point (Eric Eager): The Falcons got a lot of sharp action going into Sunday, with the number eventually getting to +3 — one we wouldn't have bet on. When Atlanta took a 39-24 lead halfway through the fourth quarter, it had about a 94% chance to win the game and go 1-1 for the third straight year. Instead, the Falcons got it to an onside kick situation (about a 98% chance to win) and treated it like a bunt down the third base line that they were waiting to go foul.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Alas, like with the Cincinnati Bengals below, this is a bridge too far. The Bears were nothing short of awful for three quarters in Detroit and another two quarters against the Giants. While the Falcons are not a very good team, they aren't one of the league's worst — a claim that both Detroit and New York can make. If Matt Ryan produces his season averages in Week 3 (361.5 yards and three touchdowns) against the Bears at home, it will be very difficult for Mitchell Trubisky and the Bears to keep up, even against a defense as bad as Atlanta’s.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Counterpoint (George Chahrouri): Rewatch the Dallas game, and then try to bet on the Falcons. Watch at your own risk, though.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Tennessee Titans (-1.5) at Minnesota Vikings.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Point (GC): The Minnesota Vikings just so happen to have the worst offense (passing and overall) in the first three quarters of games in 2020. Cousins — who excels in garbage time, hence the omission of the fourth quarter — has produced a 31% uncatchable pass rate in the first three quarters, which ranks third-worst in the NFL this season. The Titans are not one of the worst teams in the NFL, and for that reason, they should have no issue disposing of the Vikings' hapless defense and one-receiver offense.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Counterpoint (EE): Look, I hate this version of the Vikings more than basically everyone else. However, I get a bit nervous about road favorites, especially after what Tennessee did in Week 1 against Denver on the road — where Stephen Gostkowski missed four kicks, a trend that he continued into Week 2 with a missed extra point against Gardner Minshew and the Jacksonville Jaguars.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This would be the first non-Week 17 game in which the Vikings are underdogs at home since Week 8 of 2018 against the New Orleans Saints (a game where we liked New Orleans at -0, and it closed at -2.5). And after two weeks of the Vikings being the worst passing team in terms of expected points added in the first three quarters of games, it’s likely warranted. That said, the Titans have made two second-year quarterbacks look pretty good in the past two weeks, allowing 555 yards and four touchdowns, and could be the anecdote that Kirk Cousins needs to get back on track.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Cincinnati Bengals (+6.5) at Philadelphia Eagles.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Point (EE): There’s a formula for success for Cincinnati, and it’s to get Joe Burrow into empty sets and have him throw to A.J. Green and Tyler Boyd:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-prove-48000.wav",
+    "type": "sound_effect",
+    "what": "tweet_replacment"
+  },
+  {
+    "text": "Philadelphia, without captain Malcolm Jenkins, has struggled when pressed on the back end of the defense, allowing almost 10 yards per pass attempt to Jared Goff and the Los Angeles Rams at home in Week 2. Four Rams receivers notched at least 40 yards, and tight end Tyler Higbee hauled in three touchdowns.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "On the other side of the ball, there’s likely an overreaction to the Bengals' inability to stop Cleveland's rushing attack in Week 2 — they allowed over 200 yards collectively to Nick Chubb and Kareem Hunt. This number moved from a look-ahead of 5.5 on Friday to the current number of 6.5, despite the substantial warts inherent in this Philly outfit (including that they are -28 in point differential), which is a bridge too far for me. Give me Joey B and the points.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Counterpoint (GC): Joe Burrow is getting beat up. The Bengals' offensive line continues to underwhelm, and as a result, the team has allowed pressure on 39% of pass plays. If Burrow is to survive, that figure would have to come down a decent bit. The only problem is that the Eagles have exactly the type of defense to exacerbate this issue, boasting a great defensive line.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Eagles' defense is still getting pressure on 41% of pass plays, good for third in the NFL. A strong showing from Fletcher Cox and company could render the Bengals' offense useless — that is, unless Joe Burrow can have a say with the quick passing attack.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]
