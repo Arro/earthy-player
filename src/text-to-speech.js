@@ -79,7 +79,7 @@ export default async function ({ segments, slug, working_directory }) {
   )
   await writeFile(list_filename, filelist, "utf-8")
 
-  await spawn(
+  return await spawn(
     `/usr/local/bin/ffmpeg`,
     ["-f", "concat", "-safe", 0, "-i", list_filename, "-y", untracked_filename],
     { encoding: "utf-8", maxBuffer: 1000 * 1024 }

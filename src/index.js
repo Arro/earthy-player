@@ -1,12 +1,12 @@
-import main from "./text-to-speech"
+import textToSpeech from "./text-to-speech"
 import condense from "./condense"
+import _htmlToSegments from "./html-to-segments"
 
-export default async function ({
-  segments,
-  slug,
-  working_directory,
-  max_chars
-}) {
+export async function htmlToSegments(args) {
+  return await _htmlToSegments(args)
+}
+
+export async function main({ segments, slug, working_directory, max_chars }) {
   const condensed = condense({ segments, max_chars })
-  await main({ segments: condensed, slug, working_directory })
+  return await textToSpeech({ segments: condensed, slug, working_directory })
 }
