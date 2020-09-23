@@ -210,3 +210,39 @@ test("with a table", async (t) => {
 
   t.deepEqual(segments, solution)
 })
+
+test("with a tweet", async (t) => {
+  const html = await fsPromises.readFile(
+    path.resolve("./test/fixtures/012_pff_early.html"),
+    "utf-8"
+  )
+  const {
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir
+  } = t.context
+
+  const segments = await htmlToSegments({
+    html,
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir
+  })
+
+  await fsPromises.writeFile(
+    path.resolve(`${os.homedir()}/Downloads/013_segments.json`),
+    JSON.stringify(segments, null, 2),
+    "utf-8"
+  )
+  let solution = await fsPromises.readFile(
+    path.resolve(`./test/fixtures/013_segments.json`),
+    "utf-8"
+  )
+  solution = JSON.parse(solution)
+
+  t.deepEqual(segments, solution)
+})

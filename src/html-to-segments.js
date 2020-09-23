@@ -94,6 +94,7 @@ export default async function (args = {}) {
         class_name: element.className,
         discard_if_found,
         sound_effects,
+        sound_effects_dir,
         voices
       })
     }

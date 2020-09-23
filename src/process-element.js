@@ -1,9 +1,12 @@
+import path from "path"
+
 export default function ({
   text,
   type,
   class_name = "",
   discard_if_found,
   sound_effects,
+  sound_effects_dir,
   voices
 }) {
   if (text === "") {
@@ -19,7 +22,9 @@ export default function ({
   if (type === "blockquote" && class_name === "twitter-tweet") {
     return [
       {
-        filename: sound_effects?.tweet_replacement,
+        filename: path.resolve(
+          `${sound_effects_dir}/${sound_effects?.tweet_replacement}`
+        ),
         type: "sound_effect",
         what: "tweet_replacment"
       }
@@ -28,7 +33,9 @@ export default function ({
   if (type === "div") {
     return [
       {
-        filename: sound_effects?.unknown_replacement,
+        filename: path.resolve(
+          `${sound_effects_dir}/${sound_effects?.unknown_replacement}`
+        ),
         type: "sound_effect",
         what: "unknown_replacment"
       }
