@@ -1,0 +1,1140 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "Grading all 32 first-round picks after Week 2 of the 2020 NFL season.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Sam Monson on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Two weeks of NFL action are officially in the books, so there is no better time to check in on each team's first-round rookies. This week, we saw a few more debutants and several “welcome to the NFL” moments for the crop of players that represent the future of the NFL.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 1: quarterback joe burrow, cincinnati bengals.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 66.7.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Joe Burrow has been thrown into the fire through his first two NFL games, and he has looked incredibly poised. That’s not to say that he has been mistake-free, but it’s clear to see that the stage is not too big for the Number 1 overall pick; he has even looked capable of executing in disadvantageous passing situations.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Against the Browns, he dropped back to pass 64 times and still emerged without throwing an interception. Burrow’s PFF grade has been solid, if unspectacular, but his potential to be so much more than that has been obvious in both games so far. If the Bengals can protect him up front, they will move quickly in the right direction.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 2: edge rusher chase young, washington football team.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 81.1.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Young wasn't quite as dominant as his Week 1 outing against the Eagles, but he at least showed that his debut was no fluke. Kyler Murray held the ball for less than 2.5 seconds on 60% of his dropbacks, but Young still notched another four total pressures to go with the four he had last week.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The grades differ because not all pressures are created equal, and he was adding fumbles to the mix at the end of plays against the Eagles. Underrated in the excitement about Young as a legitimate pass-rusher right out of the gate is how solid he has been against the run, posting grades above 70.0 in that facet in Weeks 1 and 2.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 3: cornerback jeffrey okudah, detroit lions.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 28.6.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Put in a blender by Davante Adams for his NFL debut, Okudah received a true “welcome to the NFL” moment at the hands of one of the game’s best route-runners. Okudah surrendered seven catches for 121 yards, 51 of which came after the catch, on 10 targets.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Adams only did some of that damage, with Marquez Valdes-Scantling and Allen Lazard also beating him for catches. While Okudah certainly lapsed with some rookie mistakes, this is as hard as cornerback assignments get. To draw that as your debut task at this level is incredibly harsh. It's a tough lesson, but Okudah’s grade won’t stay this low for long.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 4: offensive tackle andrew thomas, new york giants.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 56.0.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "You could be forgiven for thinking Thomas' below-average grade this week was a result of Khalil Mack taking the rookie to task, but the majority of his losses didn’t come at the hands of Mack. The Chicago All-Pro did beat him for a hurry and another clean pass-rush win, but the majority of the damage came against Robert Quinn, with some of the Bears' interior players causing Thomas some problems in the run game.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It hasn’t been a tremendously encouraging start for Thomas, but on the other hand, he has been up against some pretty fierce competition for his first two weeks of NFL football and just about kept his head above water.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 5: quarterback tua tagovailoa, miami dolphins.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: N/A.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Tua Tagovailoa is healthy, but he has yet to win the starting job from Ryan Fitzpatrick.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 6: quarterback justin herbert, los angeles chargers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 56.9.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "A last-minute shock switch saw Herbert start this week against the Chiefs when Tyrod Taylor reaggravated a rib injury in pre-game warmups. And Herbert ended up having a very Herbert game — one in which he showed incredible arm talent and big-play ability, but also one in which he left a frustrating number of plays on the table.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "His lone touchdown pass was one of the throws of the season so far, and he had another big-time throw later in the game. However, he also had a turnover-worthy pass and four clean misses. All told, though, he had the Chargers in position to win the game, and at no point was the moment ever too big for him. This was an extremely encouraging debut against the defending champions.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 7: defensive interior derrick brown, carolina panthers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 29.9.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Derrick Brown’s debut was ugly, and his second swing at it didn’t go a whole lot better this week against the Tampa Bay Buccaneers. Though he graded better against the run this week, he offset that improvement with penalties, being flagged twice in the game.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "As a pass-rusher, he has registered just one hurry across two games and 50 pass-rushing snaps. Brown was one of the surest things in the draft in terms of universal acclaim, but he has had an inauspicious start to his NFL career against some formidable NFL interior linemen.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 8: linebacker isaiah simmons, arizona cardinals.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 28.4.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Isaiah Simmons was lit up in Week 1 by the San Francisco 49ers even though he didn’t have a huge role on defense. He played 18 snaps in that game but was still responsible for two touchdowns and multiple big plays.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This week, he saw just seven snaps on defense — four of which came on defense — and managed to avoid becoming a part of somebody else’s highlight reel. Simmons is adjusting to the NFL in a completely new role on defense, and that adjustment will evidently take some time.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 9: cornerback c.j. henderson, jacksonville jaguars.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 80.3.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "C.J. Henderson was one of the stars of Week 1 at any position, and while the chances of him repeating that kind of game-changing performance were slim, his coverage this week was still impressive despite lacking the splash plays.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Tasked with covering Week 1 breakout performer Corey Davis, Henderson limited him to two catches for 26 yards, albeit one going for a touchdown. He had a pass breakup and recorded five tackles and an assist in the game, adding to the encouraging start to his NFL career.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 10: offensive tackle jedrick wills jr., cleveland browns.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 66.4.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "It was another solid performance from Cleveland’s left tackle in a game that saw the entire team get back on track. Wills didn't face the toughest of competition against the Bengals on Thursday night, but he surrendered just one hurry across 24 pass-blocking snaps; he has allowed three total across his first two games of action.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "At this level, he already looks like a significant upgrade over what has been there since Joe Thomas retired, and there should be plenty more to come as he develops throughout his rookie year.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 11: offensive tackle mekhi becton, new york jets.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 79.7.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Despite coming out of his debut with an injury, Mekhi Becton played against the 49ers in Week 2 and had another impressive debut. His life was made significantly easier when the 49ers lost Nick Bosa to a torn ACL just 11 snaps into the game, but Becton blocked what was in front of him and surrendered only two hurries across 37 pass-blocking snaps.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He has now allowed just four total pressures across his first two games en route to strong run-blocking grades, making him arguably the most impressive rookie offensive lineman so far this season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 12: wide receiver henry ruggs iii, las vegas raiders.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 57.2.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Henry Ruggs the third saw a reduced role, or at least a reduced impact, from what Week 1 hinted at. Against a better defense in the form of the Saints, Ruggs had only one catch for four yards. He had five targets, two of which were nullified by defensive penalties, and his speed and quickness is clearly a threat to defenses at any given moment.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 13: offensive tackle tristan wirfs, tampa bay buccaneers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 76.4.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Tristan Wirfs earned a 61.5 overall PFF grade in his debut, but that was going up against All-Pro Cameron Jordan on most of his snaps. Freed from that nightmare assignment in Week 2, he put forth a performance that earned an 86.0 overall PFF grade.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He was dominant as a run blocker and had his second straight game without surrendering a sack, allowing just two hurries across 38 pass-blocking snaps. The Bucs set out to solidify their line and protect Tom Brady this offseason, and Wirfs has already looked like an outstanding pick.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 14: defensive interior javon kinlaw, san francisco 49ers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 64.6.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "As impressive as Javon Kinlaw’s debut was, he faced tighter splits between offensive linemen in Week 2 and fared worse. He matched his Week 1 total with two hurries, this time on 25 pass-rushing snaps, but it was the run game where he struggled comparatively.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "While he was consistently penetrating and causing disruption last week, he was far more anonymous this week. Several Jets linemen moved him at the point of attack. Overall, this was a step back for Kinlaw after an impressive showing a week ago.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 15: wide receiver jerry jeudy, denver broncos.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 63.6.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Last week, Jerry Jeudy had to carry the torch for the Broncos' receivers while Courtland Sutton sat out due to injury. Sutton was back this week, but Jeudy lost his quarterback as Drew Lock went down with a shoulder injury. He saw seven more targets, catching four of them for 62 yards and breaking three tackles after the catch.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He added another drop to his tally this week, but his ability to get open is clear every time he runs a route. The concern with Jeudy in the coming weeks will be whether he can succeed with Jeff Driskel at the helm as Lock recovers.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 16: cornerback a.j. terrell, atlanta falcons.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 63.4.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "As alarming as Week 1 was for A.J. Terrell and the rest of the Falcons' defense, we at least saw a better performance from the first-round rookie against Dallas — even as the rest of the unit continues to struggle overall.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Terrell was thrown at three times, allowing just two catches for seven yards. He started and played every snap on defense, but it was Darqueze Dennard and Isaiah Oliver who saw the majority of the Dallas passing attack, with the pair combining for 21 targets while Terrell went largely untested.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 17: wide receiver ceedee lamb, dallas cowboys.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 62.3.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "CeeDee Lamb played all but 14 snaps in the Cowboys’ dramatic comeback win against the Falcons — and only seven fewer snaps than Amari Cooper and Michael Gallup, the two starting receivers ahead of him on the depth chart.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He caught six of the eight passes thrown his way and led the team with 106 receiving yards, 58 of which he picked up after the catch. Lamb looks like a legitimate playmaker within this offense and should be a huge part of the unit's high-scoring affairs all season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 18: offensive tackle austin jackson, miami dolphins.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 47.9.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Austin Jackson has now had back-to-back outings where he struggled to contain the opposing pass-rushers coming at him, but this time, his losses actually resulted in pressure on the quarterback. He was beaten for five hurries across 54 pass-blocking snaps in Week 2.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Jackson had three more losses that didn’t get a chance to become pressure and was responsible for three tackles in the run game by losing his block, with one of those tackles resulting in a stuff at the line of scrimmage.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 19: cornerback damon arnette, las vegas raiders.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 57.5.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Damon Arnette’s second NFL game was aided by Michael Thomas‘ absence and Drew Brees‘ seeming inability to attack down the field or even at the deep intermediate level anymore. Arnette was thrown at four times, and though he gave up a catch every time, those receptions went for just 41 yards and brought up a first down only 50% of the time.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "A missed tackle didn’t help his overall grade, but this was still a solid outing against a team that is making things unusually easy for opposing defenses through two games.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 20: edge rusher k’lavon chaisson, jacksonville jaguars.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 65.3.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "K’Lavon Chaisson notched the first sack of his NFL career this week, but it was the only pressure he had on 15 pass-rushing snaps as he played far less this week than in his NFL debut. Against the Colts, he was on the field for 46 snaps while the Colts kept Jacksonville in nickel personnel packages for 85.1% of their snaps.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This week, Tennessee presented a very different challenge, and the Jaguars were in sub-packages far less often (54.8% nickel), which diminished Chaisson’s opportunities. His sack was an impressive play, however, so getting him on the field more will likely be at the forefront of the coaching staff’s mind this week.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 21: wide receiver jalen reagor, philadelphia eagles.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 54.4.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "With Carson Wentz unable to put the ball in the same area code as his receivers for most of his passes so far this season (at 40.7%, currently has the lowest on-target ball location rate in the NFL), Jalen Reagor hasn’t had much opportunity to thrive.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This week, Reagor caught all four passes thrown his way, but they went for a total of 41 yards — and that doesn’t count a dropped pass on a nullified play that dragged his grade down. The talent is certainly there, but the Eagles' offense as a whole is struggling.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 22: wide receiver justin jefferson, minnesota vikings.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 60.3.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "With Kirk Cousins and the Vikings' offense struggling, Justin Jefferson had little chance to make an impact in Week 2 against the Colts. He saw caught all three passes that came his way, gaining 44 yards and moving the chains twice.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "That was an improvement over his debut a week ago, not least because he didn’t drop a pass this week, but he needs his quarterback to be in better control if we are going to see what kind of impact he can truly make as a secondary threat to Adam Thielen.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 23: linebacker kenneth murray, los angeles chargers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 50.9.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "For a moment, it seemed as if Kenneth Murray had made the defining play of the game with a fingertip pass breakup on a throw to Tyreek Hill late in the game on second-and-20 with the Chiefs still trailing by three.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "As it turned out, Patrick Mahomes scrambled for 21 yards and move the chains on the very next play, but it was good to see Murray put something in the win column on an individual level after struggling a little before that play. His biggest negative was a missed tackle on a scrambling Mahomes, but he also gave up a couple of plays in coverage that resulted in Kansas City first downs.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 24: og cesar ruiz, new orleans saints.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 74.4.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Cesar Ruiz made his debut on Monday Night Football in the Saints’ upset loss in Las Vegas, but it consisted of just six snaps in relief at right guard. He earned a positive grade on those six snaps, with his best play being a second-level block on Raiders linebacker Nicholas Morrow. Ruiz also played special teams on the kick teams.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 25: wide receiver brandon aiyuk, san francisco 49ers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 69.2.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Brandon Aiyuk made his debut this week for the 49ers after working his way back from a hamstring injury suffered in training camp. Jimmy Garoppolo went down injured, and the 49ers were controlling the game against a lackluster Jets side, so receiving opportunities were limited.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Aiyuk still caught two of the three passes sent his way for 21 yards and a pair of first downs, breaking a tackle along the way.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 26: quarterback jordan love, green bay packers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: N/A.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Did not play as the third quarterback on the depth chart.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 27: linebacker jordyn brooks, seattle seahawks.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 64.5.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Jordyn Brooks played one more snap this week than he did in his Week 1 debut, and he was part of the Seattle defense desperately trying to scheme some kind of pressure on the quarterback late in the game with nobody winning one on one up front.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Brooks rushed the passer five times but didn’t generate any pressure. He saw only one snap as a run defender, midway through the third quarter, and while he flowed quickly to the football and was in good position at the point of attack, the play was made before it ever got as far as him.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 28: linebacker patrick queen, baltimore ravens.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 42.0.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Few players are getting themselves involved in as many plays as Ravens rookie linebacker Patrick Queen, but not all of them have been good for the defense. Queen was lucky on a couple of occasions where Deshaun Watson missed open receivers into his coverage. And he allowed 38 yards on four catches despite those misses.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "His best facet of play this week came as a pass-rusher, where he had four total pressures, a nullified sack and an 80.9 PFF grade, but he was unblocked on all of those plays, with four coming on pursuits of Watson from the pocket. Queen is playing at 100 miles per hour right now and will likely see his PFF grade jump significantly once he settles down.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 29: offensive tackle isaiah wilson, tennessee titans.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: N/A.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Did not play.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 30: cornerback noah igbinoghene, miami dolphins.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 31.9.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Byron Jones going down hurt after just four snaps left Noah Igbinoghene covering Stefon Diggs in press-man coverage for most of the afternoon, and that went about as you would imagine. Diggs was targeted 10 times with Igbinoghene in coverage, catching six of them for 139 yards and a touchdown.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Igbinoghene also gave up a score on the one target thrown toward Gabriel Davis when he was in primary coverage, and his afternoon could have been even worse but for a pair of drops from Diggs. That’s as tough an assignment as a cornerback can draw, so it was somewhat inevitable that it went poorly.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 31: cornerback jeff gladney, minnesota vikings.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 48.5.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Initially beaten out for the starting job in training camp by third-round rookie Cameron Dantzler, Jeff Gladney got a chance to try his hand at starting with Dantzler injured this week. He played 60 of a possible 70 snaps on defense and gave up catches on six of the eight targets he faced.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Five different Colts receivers at three different positions beat him for a catch, and Zach Pascal got him for a touchdown, as well. Gladney isn’t alone, with the entire Vikings defense reeling right now, but this wasn’t a start to remember for the rookie.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "pick Number 32: running back clyde edwards-helaire, kansas city chiefs.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "2020 overall grade: 71.7.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Edwards-Helaire played a similar number of snaps this week as he did in his debut, but he was deployed in a dramatically different way. A week ago, he had 25 carries for 138 yards but only one target in the pass game. This week, he had just 10 carries for 3.8 yards as the Chiefs' offensive line struggled for parity, but he caught six of the seven passes thrown his way — albeit for only 32 yards.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This was obviously a back-down-to-earth moment after such a dominant debut, but he still earned more snaps than all the other Chiefs running backs combined in the game and is clearly the team’s Number 1 option out of the backfield.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]

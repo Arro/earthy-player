@@ -64,7 +64,8 @@ test.beforeEach(async (t) => {
     "Premium Article",
     "Subscribe now",
     "Sign Up",
-    "ELITE subscribers"
+    "ELITE subscribers",
+    "PFF's advanced statistics"
   ]
 
   t.context.sound_effects_dir = `${os.homedir()}/Dropbox/Audio/Sounds`
@@ -327,7 +328,7 @@ test("with an ordered list", async (t) => {
   t.deepEqual(segments, solution)
 })
 
-test("more complicated quoties", async (t) => {
+test("more complicated quotes", async (t) => {
   const html = await fsPromises.readFile(
     path.resolve("./test/fixtures/016_pff_takeaways.html"),
     "utf-8"
@@ -358,6 +359,44 @@ test("more complicated quoties", async (t) => {
   )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/017_segments.json`),
+    "utf-8"
+  )
+  solution = JSON.parse(solution)
+
+  t.deepEqual(segments, solution)
+})
+
+test("vocab in headings", async (t) => {
+  const html = await fsPromises.readFile(
+    path.resolve("./test/fixtures/018_pff_grading.html"),
+    "utf-8"
+  )
+  const {
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir,
+    vocab
+  } = t.context
+
+  const segments = await htmlToSegments({
+    html,
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir,
+    vocab
+  })
+
+  await fsPromises.writeFile(
+    path.resolve(`${os.homedir()}/Downloads/019_segments.json`),
+    JSON.stringify(segments, null, 2),
+    "utf-8"
+  )
+  let solution = await fsPromises.readFile(
+    path.resolve(`./test/fixtures/019_segments.json`),
     "utf-8"
   )
   solution = JSON.parse(solution)

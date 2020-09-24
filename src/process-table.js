@@ -16,11 +16,8 @@ export default function ({ html, voices, vocab = {} }) {
 
       for (let word_from in vocab) {
         const word_to = vocab[word_from]
-        if (text == word_from) {
-          text = word_to
-        } else {
-          text = text.replaceAll(` ${word_from} `, ` ${word_to} `)
-        }
+        const re = RegExp(String.raw`(^|\s)${word_from}(\s|$)`, "g")
+        text = text.replaceAll(re, `$1${word_to}$2`)
       }
 
       if (!/[.!?;:,\\]$/.test(text)) {

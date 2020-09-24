@@ -91,6 +91,7 @@ export default function ({
   let prev
   return_value = return_value.map((segment) => {
     let starts_as_all_caps = segment.text === segment.text.toUpperCase()
+
     if (prev?.what === "quote") {
       const has_dash = /^[-—]\s/.exec(segment.text)
       if (has_dash) {
@@ -100,7 +101,9 @@ export default function ({
 
     for (let word_from in vocab) {
       const word_to = vocab[word_from]
-      segment.text = segment.text.replaceAll(` ${word_from} `, ` ${word_to} `)
+
+      const re = RegExp(String.raw`(^|\s)${word_from}(\s|$)`, "g")
+      segment.text = segment.text.replaceAll(re, `$1${word_to}$2`)
     }
 
     if (segment.what === "heading" && starts_as_all_caps) {
