@@ -1,0 +1,259 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "Justin Herbert did more than enough in Week 2 to be the Chargers' starter moving forward.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Michael Renner on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Los Angeles Chargers head coach Anthony Lynn ensured there was no doubt about who will helm his offense in Week 3 —.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "If [Tyrod Taylor] is 100 percent ready to go, he’s our starter,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "he said in the Week 2 postgame press conference.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "As such, there will be no quarterback competition this week in Los Angeles. While first-round pick Justin Herbert was impressive enough in his debut to take the Super Bowl champion Kansas City Chiefs to overtime in an emergency start, it wasn’t enough to usurp the incumbent — but it should’ve been.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "There are different schools of thought on how to best develop a young quarterback. Most people would agree that the more quality reps, the better.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Quality.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "is the key word there. There are a number of reasons why a team wouldn’t start a rookie first-round pick. The main ones, however, can be boiled down to these three:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Number 1.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "The rookie isn’t yet comfortable with the offense/speed of the NFL or is changing mechanics.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Number 2.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "The offensive line isn't good enough to protect the rookie or will make him lose confidence.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Number 3.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "The current starter is far better on a possible playoff/Super Bowl team.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Numbers 1 and 2 are scary when developing young quarterbacks — and we’ll get to them later — because instead of having the reps being learning moments, they could easily lead to bad habits. The first two reasons aren’t Lynn's line of thinking for keeping Herbert on the sideline, however. It sounds like the head coach firmly believes in Number 3.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In his press conference Monday, Lynn said,",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "There’s a lot we didn’t get done with Justin on the field yesterday. He’s a backup for a reason.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "My response to that would be that there’s also a reason why Taylor has been a backup each of the past two seasons, as well.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Taylor has looked like a completely different quarterback with and without offensive coordinator Greg Roman — similar to Colin Kaepernick. In 18 games under Roman, Taylor averaged 8.0 yards per attempt and generated a 99.4 passer rating. Since then, he’s averaged 6.5 yards per attempt and had an 84.8 passer rating.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The biggest selling point for Taylor is his mobility (although Herbert is no slouch himself in that regard). The problem is, that wasn’t even emphasized in the Chargers' offense in Week 1, as Taylor had only three designed carries against the Bengals. Herbert’s 311 passing yards in his debut topped all but one of Taylor's 47 career starts in the NFL. The argument for Taylor’s prowess at the helm simply doesn’t hold too much weight.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "That’s because what we saw from Herbert against the Chiefs was beyond encouraging. His calmness was far and away what stood out. This was not a rookie overwhelmed by the speed of the NFL game. There’s no greater indication of that than his performance under pressure. While his disastrous rolling-left, throwing-right interception — a cardinal sin at the quarterback position — came when forced out of the pocket via pressure, Herbert also went 7 of 9 for 120 yards when pressured on the day.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "And even that interception was far from a panic throw. It was simply one he could likely get away with at Oregon because of his big arm, but he'll have to learn that it's a no-no in the NFL. That lack of panic was a constant in his performance, as only two of his 13 pressured dropbacks went for sacks.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The special throws littered on his Oregon tape were also there in his debut Sunday. His touchdown pass was one a quarterback simply can’t make without a howitzer of an arm. Herbert had to decide in the blink of an eye which way the Cover 3 corner was leaning toward while splitting two vertical routes, and he chose perfectly.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-prove-48000.wav",
+    "type": "sound_effect",
+    "what": "tweet_replacment"
+  },
+  {
+    "text": "Even that throw paled in comparison to the dime he dropped to Keenan Allen right after halftime. He uncorked a laser with Taco Charlton bearing down on him after Hunter Henry was late out of his stance at the snap.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-prove-48000.wav",
+    "type": "sound_effect",
+    "what": "tweet_replacment"
+  },
+  {
+    "text": "Herbert easily could have eaten a sack there, and no one would have blamed him. He could have deemed the touchdown throw too risky with the corner sitting in front, ready to pick off anything underthrown. But he didn’t. He let it rip. When a quarterback is playing with that kind of confidence early in their career, you let them learn on the fly.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "While I admittedly wasn’t high on Herbert coming out — he was the 30th-ranked player on the PFF draft board — the Chargers should still want to figure out what they have in their first-round quarterback as soon as possible. With his command of Los Angeles' offense, playing him right now will only help development — not hurt it. When that’s the case, you’re only hurting the long-term future of the franchise by sitting the sixth overall pick for what would be middling, short-term gains with Tyrod Taylor at quarterback.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]

@@ -47,7 +47,8 @@ test.beforeEach(async (t) => {
       "h4",
       "h5",
       "h6",
-      "ul>li",
+      "ul",
+      "ol",
       "blockquote",
       "div",
       "table"
@@ -62,7 +63,8 @@ test.beforeEach(async (t) => {
     "Subscribe to PFF",
     "Premium Article",
     "Subscribe now",
-    "Sign Up"
+    "Sign Up",
+    "ELITE subscribers"
   ]
 
   t.context.sound_effects_dir = `${os.homedir()}/Dropbox/Audio/Sounds`
@@ -70,7 +72,8 @@ test.beforeEach(async (t) => {
   t.context.sound_effects = {
     start: "moldy-trace-48000.wav",
     tweet_replacement: "moldy-prove-48000.wav",
-    unknown_replacement: "nappy-begin-48000.wav"
+    unknown_replacement: "nappy-begin-48000.wav",
+    list_item_marker: "lying-match-48000.wav"
   }
 })
 
@@ -240,6 +243,42 @@ test("with a tweet", async (t) => {
   )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/013_segments.json`),
+    "utf-8"
+  )
+  solution = JSON.parse(solution)
+
+  t.deepEqual(segments, solution)
+})
+
+test("with an ordered list", async (t) => {
+  const html = await fsPromises.readFile(
+    path.resolve("./test/fixtures/014_pff_herbert.html"),
+    "utf-8"
+  )
+  const {
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir
+  } = t.context
+
+  const segments = await htmlToSegments({
+    html,
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir
+  })
+
+  await fsPromises.writeFile(
+    path.resolve(`${os.homedir()}/Downloads/015_segments.json`),
+    JSON.stringify(segments, null, 2),
+    "utf-8"
+  )
+  let solution = await fsPromises.readFile(
+    path.resolve(`./test/fixtures/015_segments.json`),
     "utf-8"
   )
   solution = JSON.parse(solution)

@@ -3,6 +3,7 @@ import path from "path"
 import moment from "moment"
 import processElement from "./process-element"
 import processTable from "./process-table"
+import processList from "./process-list"
 
 export default async function (args = {}) {
   let {
@@ -86,6 +87,14 @@ export default async function (args = {}) {
       pElements = processTable({
         html: element.innerHTML,
         voices
+      })
+    } else if (type === "ol" || type === "ul") {
+      pElements = processList({
+        html: element.innerHTML,
+        type,
+        voices,
+        sound_effects,
+        sound_effects_dir
       })
     } else {
       pElements = processElement({

@@ -41,6 +41,7 @@ export default function ({
       }
     ]
   }
+
   const element_to_what = {
     h1: "heading",
     h2: "heading",
@@ -97,6 +98,7 @@ export default function ({
         segment.text = segment.text.substring(has_dash[0].length)
       }
     }
+    segment.text = segment.text.replaceAll(/No(s?)\.\s(\d+)/gi, "Number$1 $2")
     prev = segment
     return segment
   })
