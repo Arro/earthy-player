@@ -49,7 +49,7 @@
     "speed": 1
   },
   {
-    "text": "1. EDGE CHASE YOUNG, WASHINGTON FOOTBALL TEAM.",
+    "text": "1. edge rusher chase young, washington football team.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -85,7 +85,7 @@
     "speed": 1
   },
   {
-    "text": "T-2. CB JAYLON JOHNSON, CHICAGO BEARS.",
+    "text": "t-2. cornerback jaylon johnson, chicago bears.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -112,7 +112,7 @@
     "speed": 1
   },
   {
-    "text": "T-2. CB C.J. HENDERSON, JACKSONVILLE JAGUARS.",
+    "text": "t-2. cornerback c.j. henderson, jacksonville jaguars.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -139,7 +139,7 @@
     "speed": 1
   },
   {
-    "text": "4. OT MEKHI BECTON, NEW YORK JETS.",
+    "text": "4. offensive tackle mekhi becton, new york jets.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -166,7 +166,7 @@
     "speed": 1
   },
   {
-    "text": "5. DI JORDAN ELLIOTT, CLEVELAND BROWNS.",
+    "text": "5. defensive interior jordan elliott, cleveland browns.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -193,7 +193,7 @@
     "speed": 1
   },
   {
-    "text": "6. G MICHAEL ONWENU, NEW ENGLAND PATRIOTS.",
+    "text": "6. guard michael onwenu, new england patriots.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -211,7 +211,7 @@
     "speed": 1
   },
   {
-    "text": "7. G DAMIEN LEWIS, SEATTLE SEAHAWKS.",
+    "text": "7. guard damien lewis, seattle seahawks.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -238,7 +238,7 @@
     "speed": 1
   },
   {
-    "text": "8. S ANTOINE WINFIELD JR., TAMPA BAY BUCCANEERS.",
+    "text": "8. safety antoine winfield jr., tampa bay buccaneers.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -265,7 +265,7 @@
     "speed": 1
   },
   {
-    "text": "9. T TRISTAN WIRFS, TAMPA BAY BUCCANEERS.",
+    "text": "9. tackle tristan wirfs, tampa bay buccaneers.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -283,7 +283,7 @@
     "speed": 1
   },
   {
-    "text": "10. RB CLYDE EDWARDS-HELAIRE, KANSAS CITY CHIEFS.",
+    "text": "10. running back clyde edwards-helaire, kansas city chiefs.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",

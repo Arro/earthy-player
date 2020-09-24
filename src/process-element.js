@@ -7,7 +7,8 @@ export default function ({
   discard_if_found,
   sound_effects,
   sound_effects_dir,
-  voices
+  voices,
+  vocab = {}
 }) {
   if (text === "") {
     return [null]
@@ -89,16 +90,29 @@ export default function ({
 
   let prev
   return_value = return_value.map((segment) => {
-    if (!/[.!?;:,\\]$/.test(segment.text)) {
-      segment.text += "."
-    }
+    let starts_as_all_caps = segment.text === segment.text.toUpperCase()
     if (prev?.what === "quote") {
       const has_dash = /^[-—]\s/.exec(segment.text)
       if (has_dash) {
         segment.text = segment.text.substring(has_dash[0].length)
       }
     }
+
+    for (let word_from in vocab) {
+      const word_to = vocab[word_from]
+      segment.text = segment.text.replaceAll(` ${word_from} `, ` ${word_to} `)
+    }
+
+    if (segment.what === "heading" && starts_as_all_caps) {
+      segment.text = segment.text.toLowerCase()
+    }
+
     segment.text = segment.text.replaceAll(/No(s?)\.\s(\d+)/gi, "Number$1 $2")
+
+    if (!/[.!?;:,\\]$/.test(segment.text)) {
+      segment.text += "."
+    }
+
     prev = segment
     return segment
   })

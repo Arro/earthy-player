@@ -75,6 +75,37 @@ test.beforeEach(async (t) => {
     unknown_replacement: "nappy-begin-48000.wav",
     list_item_marker: "lying-match-48000.wav"
   }
+
+  t.context.vocab = {
+    C: "center",
+    CB: "cornerback",
+    DB: "defensive back",
+    DE: "defensive end",
+    DI: "defensive interior",
+    DL: "defensive lineman",
+    DT: "defensive tackle",
+    EDGE: "edge rusher",
+    FB: "fullback",
+    FS: "free safety",
+    G: "guard",
+    HB: "halfback",
+    K: "kicker",
+    LB: "linebacker",
+    LS: "long snapper",
+    OT: "offensive tackle",
+    OL: "offensive lineman",
+    NT: "nose tackle",
+    P: "punter",
+    QB: "quarterback",
+    RB: "running back",
+    S: "safety",
+    SS: "strong safety",
+    T: "tackle",
+    TE: "tight end",
+    WR: "wide receiver",
+    II: "the second",
+    III: "the third"
+  }
 })
 
 test("html not provided", async (t) => {
@@ -116,7 +147,8 @@ test("standard call", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   } = t.context
 
   const segments = await htmlToSegments({
@@ -125,7 +157,8 @@ test("standard call", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   })
 
   await fsPromises.writeFile(
@@ -152,7 +185,8 @@ test("another call", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   } = t.context
 
   const segments = await htmlToSegments({
@@ -161,7 +195,8 @@ test("another call", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   })
 
   await fsPromises.writeFile(
@@ -188,7 +223,8 @@ test("with a table", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   } = t.context
 
   const segments = await htmlToSegments({
@@ -197,7 +233,8 @@ test("with a table", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   })
 
   await fsPromises.writeFile(
@@ -224,7 +261,8 @@ test("with a tweet", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   } = t.context
 
   const segments = await htmlToSegments({
@@ -233,7 +271,8 @@ test("with a tweet", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   })
 
   await fsPromises.writeFile(
@@ -260,7 +299,8 @@ test("with an ordered list", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   } = t.context
 
   const segments = await htmlToSegments({
@@ -269,7 +309,8 @@ test("with an ordered list", async (t) => {
     discard_if_found,
     voices,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab
   })
 
   await fsPromises.writeFile(

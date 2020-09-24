@@ -67,7 +67,7 @@
     "speed": 1.23
   },
   {
-    "text": "WR.",
+    "text": "wide receiver.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -121,7 +121,7 @@
     "speed": 1.23
   },
   {
-    "text": "TE.",
+    "text": "tight end.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -157,7 +157,7 @@
     "speed": 1.23
   },
   {
-    "text": "HB.",
+    "text": "halfback.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -211,7 +211,7 @@
     "speed": 1.23
   },
   {
-    "text": "WR.",
+    "text": "wide receiver.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -220,7 +220,7 @@
     "speed": 1.23
   },
   {
-    "text": "Henry Ruggs III – 49 snaps.",
+    "text": "Henry Ruggs the third – 49 snaps.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -265,7 +265,7 @@
     "speed": 1.23
   },
   {
-    "text": "TE.",
+    "text": "tight end.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -301,7 +301,7 @@
     "speed": 1.23
   },
   {
-    "text": "HB.",
+    "text": "halfback.",
     "what": "list_item",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-C",
@@ -346,7 +346,7 @@
     "speed": 1.23
   },
   {
-    "text": "Winner: TE Darren Waller, Las Vegas Raiders.",
+    "text": "Winner: tight end Darren Waller, Las Vegas Raiders.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -364,7 +364,7 @@
     "speed": 1
   },
   {
-    "text": "Loser: WR Henry Ruggs III, Las Vegas Raiders.",
+    "text": "Loser: wide receiver Henry Ruggs III, Las Vegas Raiders.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -382,7 +382,7 @@
     "speed": 1
   },
   {
-    "text": "Waiver Wire Target: WR Tre' Quan Smith, New Orleans Saints.",
+    "text": "Waiver Wire Target: wide receiver Tre' Quan Smith, New Orleans Saints.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",
@@ -409,7 +409,7 @@
     "speed": 1
   },
   {
-    "text": "Sell High: TE Jared Cook, New Orleans Saints.",
+    "text": "Sell High: tight end Jared Cook, New Orleans Saints.",
     "what": "heading",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-A",

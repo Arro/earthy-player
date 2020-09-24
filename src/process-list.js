@@ -6,7 +6,8 @@ export default function ({
   type,
   voices,
   sound_effects,
-  sound_effects_dir
+  sound_effects_dir,
+  vocab
 }) {
   const what = "list_item"
   html = `<html><body><${type}>${html}</${type}></body></html>`
@@ -32,6 +33,16 @@ export default function ({
       })
     }
     let text = list_item.textContent
+
+    for (let word_from in vocab) {
+      const word_to = vocab[word_from]
+      if (text == word_from) {
+        text = word_to
+      } else {
+        text = text.replaceAll(` ${word_from} `, ` ${word_to} `)
+      }
+    }
+
     if (!/[.!?;:,\\]$/.test(text)) {
       text += "."
     }

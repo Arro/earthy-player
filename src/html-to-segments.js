@@ -12,7 +12,8 @@ export default async function (args = {}) {
     sound_effects,
     sound_effects_dir,
     voices,
-    discard_if_found = []
+    discard_if_found = [],
+    vocab = {}
   } = args
   if (!html?.length) {
     throw new Error("HTML not provided")
@@ -86,7 +87,8 @@ export default async function (args = {}) {
     if (type === "table") {
       pElements = processTable({
         html: element.innerHTML,
-        voices
+        voices,
+        vocab
       })
     } else if (type === "ol" || type === "ul") {
       pElements = processList({
@@ -94,7 +96,8 @@ export default async function (args = {}) {
         type,
         voices,
         sound_effects,
-        sound_effects_dir
+        sound_effects_dir,
+        vocab
       })
     } else {
       pElements = processElement({
@@ -104,7 +107,8 @@ export default async function (args = {}) {
         discard_if_found,
         sound_effects,
         sound_effects_dir,
-        voices
+        voices,
+        vocab
       })
     }
     for (const pElement of pElements) {
