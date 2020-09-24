@@ -1,0 +1,258 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "NFL Week 2 MNF: Five takeaways from the Las Vegas Raiders' 34-24 win over the New Orleans Saints.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Anthony Treash on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "The Las Vegas Raiders looked like they had already won the night with the debut of Allegiant Stadium before a snap of football was played. Nevertheless, a game commenced to determine the true outcome. This matchup between the two most conservative quarterbacks in the NFL turned out to be a great one, despite just two combined deep pass attempts for the game — neither of which were completed.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Ultimately, Jon Gruden’s Raiders christened their new home with a win, pulling off the upset over Drew Brees and the New Orleans Saints. Using PFF’s advanced database and play-by-play grading, here are five key takeaways from the Raiders' 34-24 win over the Saints to cap off Week 2 of the 2020 NFL season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "drew brees is no longer that same elite quarterback of the past.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Brees closed out the 2019 season with one of his worst stretches of play in the PFF era. He failed to produce a PFF grade above 65.0 in his final three games, which was just the second time since 2006 he had failed to reach that mark in three straight games (2008 was the other instance).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In Week 1 against Tampa Bay, the 41-year-old quarterback looked even worse. Brees earned a 57.5 PFF grade for the game and completed just two of seven passes that were thrown 10-plus yards downfield. And of those seven throws, none were deemed accurate by our ball-charting process; the two completions were catchable but inaccurate throws, forcing the receiver to adjust.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This was a big game for Brees to try and prove that Father Time isn’t catching up to him, but his performance was no better. He struggled once again to throw the ball downfield, recording a turnover-worthy throw on one of his nine pass attempts that traveled more than 10 yards downfield. And of his five completions on such throws, four were to a receiver who was deemed open (i.e., more than a couple of steps of separation) and all five were to a receiver with at least a step of separation.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He threw the ball six times on second and third down with at least 10 yards to gain, and five of the six passes were short of the sticks — including two checkdowns on second-and 26 and second-and-31 while the Saints were losing in the third quarter.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Through Week 2, Brees is the NFL’s lowest-graded passer on throws of 10-plus yards downfield. Over 65% of his passing yards have come after the catch, the highest rate by nearly 5 percentage points. Brees also has produced the lowest average depth of target (5.2 yards; only one other quarterback is below 6.5).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It’s pretty clear that Brees is avoiding throwing downfield at all costs, and when he does, he looks nothing like his past self. His once pinpoint accuracy is no longer there, and his decision-making has been vastly different for the worse. Brees just does not look comfortable, and it could be signaling the beginning of the end for the veteran’s Hall of Fame career.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "can we all come to agreement to stop taking darren waller for granted?",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "It's no secret that Raiders tight end Darren Waller had himself a night against the Saints — he was targeted on 45.7% of his routes, he averaged 2.94 yards per route run and he ended the game with a 91.4 receiving grade. It was the second-best game of his career from a grading perspective, but Waller should have been in the public eye as one of the NFL's best tight ends even before this game. After all, he did earn an 86.8 receiving grade in 2019, fifth-best at the position. I would go as far as calling him the third-best tight end in the NFL behind George Kittle and Travis Kelce.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Waller is an incredible athlete and looks more like a wide receiver than a tight end. That was on full display last night, as he won both as an inline tight end and when he lined up at receiver. He also forced a couple of broken tackles on his 12 catches and went a perfect 3-for-3 on contested targets.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Whether he is running his patented speed-out or a crosser like the one above, Waller is a hard man to stop. At this rate, I wouldn't be surprised if Waller ends up as the most productive tight end of the 2020 season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "derek carr was the same old derek carr — he didn't do anything exciting, but he executed exactly what was asked of him.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Derek Carr received a lot of criticism this offseason, with doubters calling him everything from overrated to incapable of doing anything deep downfield or when his team's back is against the wall. While some of this analysis is partially true — he is one of the most conservative quarterbacks in the NFL, and he's not really known for his ability to drag his team out of the fire — he executed Jon Gruden's offense precisely the way he needed to last night against the Saints.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "There was a play near the end of the first quarter where Carr had a missed opportunity for a huge play. He had multiple receivers open deep downfield but held onto the ball and instead took a sack:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This caused the “Carr is overrated” hive to come out in full force, but the Raiders still maintained an efficient passing attack throughout the game. Las Vegas finished the game with 0.45 EPA per pass, the sixth-best of Week 2. They are third in that metric over the first two weeks combined.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Carr earned a 63.9 passing grade for the game, though, which was 25th in Week 2. In other words, he did exactly what was asked of him. He didn't have a single turnover-worthy play, and he delivered a catchable ball when the team needed him to.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Carr had nine pass attempts on third down (excluding one throwaway at the end of the half) — he uncorked a catchable pass on every single one and moved the chains on all nine of those attempts. Carr didn't have any of those “exciting” moments — and he failed to connect on a single deep ball — but he executed Gruden's offense just well enough to give Vegas the victory.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "janoris jenkins played well for the second straight week… until the pass interference.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Janoris Jenkins kicked off his ninth year in the NFL with a great game, producing a top-three PFF grade at the position in Week 1 and taking an interception off Tom Brady to the house. Against Las Vegas last night, Jenkins once again was sharp to start the game and looked to have the best start of any season in his career. He produced a 76.5 coverage grade through the first three quarters of action, allowing just one first down on 33 coverage snaps and forcing a couple of incompletions.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Then disaster struck. With the Saints trailing by seven with two minutes left in the fourth quarter and the Raiders sitting in their own territory at third-and-5, Jenkins had a play that effectively lost New Orleans the game. Carr tried to hit Henry Ruggs the third with a deep ball, but Jenkins got needlessly physical and committed defensive pass interference on a throw that wasn’t really a lock to be caught.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Saints' defense as a whole played poorly, but Jenkins was really the only one in the secondary to string together reliable play and was one of the key reasons this was only a one-score game entering the fourth. We should give him credit, but that DPI obviously cost New Orleans the game and made that “best start to any season of his career” vanish into thin air.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "don’t panic with henry ruggs iii.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Other than a 45-yard catch in Week 1 — which he should thank the Panthers' lowly coverage unit for giving him — Ruggs hasn’t made an immediate impact for the Raiders like some probably had hoped. Last night, Ruggs saw more matchups against Jenkins than anyone in the Saints' secondary, but whether it was him, Marshon Lattimore or Ceedy Duce, the rookie wideout had no success. Ruggs was targeted on only three of his 26 routes and produced just 0.15 yards per route run (second-lowest of Week 2 among wide receivers with 25 routes). Ruggs hasn’t put up the type of highlight-reel route that creates ample separation, but he has shown that he can get behind defenses with his speed. That's what scared Jenkins into the DPI mentioned above.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "I don’t have to tell Raiders fans not to panic with Ruggs, but there are people out there criticizing his play thus far — I wouldn’t be quick to do so. He did produce an explosive play of 15-plus yards on 38% of his targets at Alabama in 2019, the highest in college football. It is, of course, a whole new ball game at the NFL level, but patience is key and it’s only a matter of time before we see Ruggs create explosive plays.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]

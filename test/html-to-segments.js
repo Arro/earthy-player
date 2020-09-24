@@ -326,3 +326,41 @@ test("with an ordered list", async (t) => {
 
   t.deepEqual(segments, solution)
 })
+
+test("more complicated quoties", async (t) => {
+  const html = await fsPromises.readFile(
+    path.resolve("./test/fixtures/016_pff_takeaways.html"),
+    "utf-8"
+  )
+  const {
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir,
+    vocab
+  } = t.context
+
+  const segments = await htmlToSegments({
+    html,
+    selectors,
+    discard_if_found,
+    voices,
+    sound_effects,
+    sound_effects_dir,
+    vocab
+  })
+
+  await fsPromises.writeFile(
+    path.resolve(`${os.homedir()}/Downloads/017_segments.json`),
+    JSON.stringify(segments, null, 2),
+    "utf-8"
+  )
+  let solution = await fsPromises.readFile(
+    path.resolve(`./test/fixtures/017_segments.json`),
+    "utf-8"
+  )
+  solution = JSON.parse(solution)
+
+  t.deepEqual(segments, solution)
+})
