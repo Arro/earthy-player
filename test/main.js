@@ -3,7 +3,7 @@ import fs from "fs"
 import path from "path"
 import nock from "nock"
 
-import condense from "../src/condense.js"
+import condenseSegments from "../src/condense-segments.js"
 import main from "../src/text-to-speech.js"
 
 const { readFile } = fs.promises
@@ -15,7 +15,7 @@ test("condense malazan", async (t) => {
   )
   segments = JSON.parse(segments)
 
-  const condensed = await condense({ segments })
+  const condensed = await condenseSegments({ segments })
 
   t.is(condensed.length, 3)
 })
@@ -27,7 +27,7 @@ test("condense monocle", async (t) => {
   )
   segments = JSON.parse(segments)
 
-  const condensed = await condense({ segments, max_chars: 2000 })
+  const condensed = await condenseSegments({ segments, max_chars: 2000 })
 
   t.is(condensed.length, 2)
 })
