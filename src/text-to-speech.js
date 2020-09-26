@@ -5,7 +5,12 @@ import { spawn } from "promisify-child-process"
 
 const { writeFile } = fs.promises
 
-export default async function ({ segments, slug, working_directory }) {
+export default async function ({
+  segments,
+  slug,
+  working_directory,
+  ffmpeg_path = "/usr/local/bin/ffmpeg"
+}) {
   if (!segments) {
     throw new Error("Parameter 'segments' not provided. See README for format.")
   }
@@ -24,7 +29,6 @@ export default async function ({ segments, slug, working_directory }) {
   }
 
   const client = new textToSpeech.TextToSpeechClient()
-  const ffmpeg_path = process.env.ffmpeg_path || "/usr/local/bin/ffmpeg"
 
   let filelist = ""
 
@@ -81,7 +85,7 @@ export default async function ({ segments, slug, working_directory }) {
   await writeFile(list_filename, filelist, "utf-8")
 
   return await spawn(
-    `/usr/local/bin/ffmpeg`,
+    ffmpeg_path,
     ["-f", "concat", "-safe", 0, "-i", list_filename, "-y", untracked_filename],
     { encoding: "utf-8", maxBuffer: 1000 * 1024 }
   )

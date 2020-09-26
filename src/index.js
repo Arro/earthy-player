@@ -24,6 +24,6 @@ export async function addChapterMetadata({
   })
 }
 
-export async function main({ segments, slug, working_directory }) {
-  return await textToSpeech({ segments, slug, working_directory })
+export async function main(args) {
+  return await textToSpeech(args)
 }
