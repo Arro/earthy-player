@@ -27,6 +27,7 @@ export default async function ({
   if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
     throw new Error("Can't find google credentials.  See README.")
   }
+  console.log(ffmpeg_path)
 
   const client = new textToSpeech.TextToSpeechClient()
 
