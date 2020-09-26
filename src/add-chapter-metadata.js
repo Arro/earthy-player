@@ -46,10 +46,11 @@ export default async function ({
   const description = chapters
     .map((c) => {
       const duration = moment.duration(c.start, "ms")
+      let hours = `${duration.hours() < 10 ? "0" : ""}${duration.hours()}`
       let minutes = `${duration.minutes() < 10 ? "0" : ""}${duration.minutes()}`
       let seconds = `${duration.seconds() < 10 ? "0" : ""}${duration.seconds()}`
 
-      return `${minutes}:${seconds} -- ${c.title}`
+      return `${hours}:${minutes}:${seconds} -- ${c.title}`
     })
     .join("\n\n")
 

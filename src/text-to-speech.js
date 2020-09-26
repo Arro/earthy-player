@@ -24,6 +24,7 @@ export default async function ({ segments, slug, working_directory }) {
   }
 
   const client = new textToSpeech.TextToSpeechClient()
+  const ffmpeg_path = process.env.ffmpeg_path || "/usr/local/bin/ffmpeg"
 
   let filelist = ""
 
@@ -51,7 +52,7 @@ export default async function ({ segments, slug, working_directory }) {
 
     const wav_filename = path.resolve(`${working_directory}/${slug}-${i}.wav`)
     await spawn(
-      `/usr/local/bin/ffmpeg`,
+      ffmpeg_path,
       [
         "-i",
         filename,
