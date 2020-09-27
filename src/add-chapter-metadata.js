@@ -3,7 +3,6 @@ import { spawn } from "promisify-child-process"
 import moment from "moment"
 import path from "path"
 import { promises as fsPromises } from "fs"
-import { curry } from "lodash"
 
 export default async function ({
   segments,
@@ -11,37 +10,21 @@ export default async function ({
   working_directory,
   artist = "earthy-player"
 }) {
-  let ms_passed = 0
-  //let chapters = [initMetadata(slug)]
   let chapters = []
-  let passed_here_once = false
 
-  let addChapter = (title, start, end) => {
-    chapters.push({ title, start, end })
-  }
-  let curried = curry(addChapter)
-
+  let chapterStart = 0
+  let chapterEnd = 0
   for (const [i, segment] of segments.entries()) {
-    if (segment.type === "sound_effect") {
-      const duration = await getAudioDuration(segment.filename)
-      ms_passed += duration
-      continue
+    let { what, text, filename } = segment
+    if (!filename)
+      filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
+    if (what === "title") {
+      chapters.push({ text, start: chapterStart, end: chapterEnd })
+      chapterEnd = chapterStart = chapterEnd + 1
+    } else {
+      chapterEnd += await getAudioDuration(filename)
     }
-
-    if (segment.what === "title") {
-      if (passed_here_once) {
-        curried(ms_passed)
-        curried = curry(addChapter)
-      }
-      curried = curried(segment.text)(ms_passed)
-      passed_here_once = true
-    }
-
-    const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
-    const duration = await getAudioDuration(filename)
-    ms_passed += duration
   }
-  curried(ms_passed)
 
   const description = chapters
     .map((c) => {
@@ -54,10 +37,10 @@ export default async function ({
     })
     .join("\n\n")
 
-  chapters = chapters.map(({ start, end, title }) => {
+  let raw_chapters = chapters.map(({ start, end, title }) => {
     return `[CHAPTER]\nTIMEBASE=1/1000\nSTART=${start}\nEND=${end}\ntitle=${title}`
   })
-  chapters = [
+  raw_chapters = [
     `;FFMETADATA1\ntitle=${slug}\nartist=${artist}`,
     ...chapters
   ].join("\n")
@@ -65,7 +48,7 @@ export default async function ({
   const chapter_filename = path.resolve(
     `${working_directory}/${slug}-chapters.txt`
   )
-  await fsPromises.writeFile(chapter_filename, chapters, "utf-8")
+  await fsPromises.writeFile(chapter_filename, raw_chapters, "utf-8")
 
   const description_filename = path.resolve(
     `${working_directory}/${slug}-description.txt`
@@ -91,4 +74,6 @@ export default async function ({
     ],
     { encoding: "utf-8", maxBuffer: 200 * 1024 }
   )
+
+  return chapters
 }

@@ -2,7 +2,6 @@ import { spawn } from "promisify-child-process"
 import moment from "moment"
 
 export async function getAudioDuration(filename) {
-  console.log(filename)
   const probe = spawn(`/usr/local/bin/ffprobe`, ["-i", filename], {
     encoding: "utf-8",
     maxBuffer: "200 * 1024"
