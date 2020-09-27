@@ -43,7 +43,10 @@ export default async function ({
     }
 
     const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
-    const duration = await getAudioDuration(filename)
+    const duration = await getAudioDuration({
+      filename,
+      ffprobe_path
+    })
     ms_passed += duration
   }
   curried(ms_passed)
