@@ -1,8 +1,11 @@
 import { spawn } from "promisify-child-process"
 import moment from "moment"
 
-export async function getAudioDuration(filename) {
-  const probe = spawn(`/usr/local/bin/ffprobe`, ["-i", filename], {
+export async function getAudioDuration({
+  filename,
+  ffprobe_path = "/usr/local/bin/ffprobe"
+}) {
+  const probe = spawn(ffprobe_path, ["-i", filename], {
     encoding: "utf-8",
     maxBuffer: "200 * 1024"
   })

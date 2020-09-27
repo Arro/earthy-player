@@ -9,6 +9,8 @@ export default async function ({
   segments,
   slug,
   working_directory,
+  ffmpeg_path = "/usr/local/bin/ffmpeg",
+  ffprobe_path = "/usr/local/bin/ffprobe",
   artist = "earthy-player"
 }) {
   let ms_passed = 0
@@ -23,7 +25,10 @@ export default async function ({
 
   for (const [i, segment] of segments.entries()) {
     if (segment.type === "sound_effect") {
-      const duration = await getAudioDuration(segment.filename)
+      const duration = await getAudioDuration({
+        filename: segment.filename,
+        ffprobe_path
+      })
       ms_passed += duration
       continue
     }
@@ -76,7 +81,7 @@ export default async function ({
   )
   const output_filename = path.resolve(`${working_directory}/${slug}.mp3`)
   await spawn(
-    `/usr/local/bin/ffmpeg`,
+    ffmpeg_path,
     [
       "-i",
       untracked_filename,
