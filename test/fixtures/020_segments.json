@@ -1,0 +1,352 @@
+[
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "College Football Betting: Early look at CFB Week 4 based on PFF's predictive models.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Ben Brown on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "College football has finally returned. After a few weeks of partial slates and a trickle of Power Five schools, we finally have 35 college football games kicking off between Thursday and Saturday.<break time=\"1s\"/>Thirteen teams in the top 25 of our Elo rankings are playing this weekend, and we finally have our first matchup between two top-25 teams coming this Saturday. Nothing is more exciting than a weekend filled with football, as things finally seem as though they have returned to normal.<break time=\"1s\"/>To begin, let's get an understanding of the slate-level uncertainty by utilizing a measure called Shannon entropy (information theory). This theory is used to quantify information occurring in an event and a variable — entropy — calculated using probability. By taking this approach, we can quantify how predictable a certain game or slate of games is by taking the probability assigned by the betting markets through moneyline probabilities.<break time=\"1s\"/>Week 4 brings us the highest level of uncertainty we have had so far in the 2020 season. It sits just below the mean we have for the past six seasons of all college football slates that involve at least eight games.<break time=\"1s\"/>Historically speaking, Week 4 is when we start to see a significant increase in uncertainty, as we head into the conference schedule for most college football teams. The first few weeks are made up of non-conference cupcake matchups, but since we glossed over that part in 2020, we are diving headfirst into the madness of college football.<break time=\"1s\"/>Last week didn't go quite as planned from a written picks perspective. We finished 1-2 after targeting unders in what immediately felt like the wrong approach, given the lack of defense in Week 3. However, PFF's predictive model — NCAA Greenline — once again redeemed the written plays by producing +4.9 units against the closing line for any bet that had greater than a 0% edge. We now sit at 49-46-1 on written plays over the past two college football seasons.<break time=\"1s\"/>We have plenty of quality opportunities as we try to identify the best bets to make for college football in Week 4.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "West Virginia @ Oklahoma State.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Oklahoma State clawed its way to a 16-7 victory over Tulsa in Week 3 but failed to cover the 24-point pregame spread. It was not a particularly impressive performance from the Cowboys, though, as they didn't lead until the fourth quarter.<break time=\"1s\"/>The big takeaway from this game was the injury to quarterback Spencer Sanders, who didn't make it out of the first quarter after suffering a high ankle sprain. Ethan Bullock posted a 44.0 passing grade on 18 dropbacks in relief. After coming into the matchup ranked fifth in the Big-12 in our opponent-adjusted offensive rankings, the Cowboys' offense sputtered to a negative EPA per play figure on both rushing and passing downs last week.<break time=\"1s\"/>West Virginia is coming off a bye week after routing Eastern Kentucky in Week 2. The offseason pivot to Jarret Doege at quarterback is a decision that warrants praise, as the young passer posted a 93.3 passing grade on 26 attempts in the contest to go along with an 80.8% adjusted completion percentage.<break time=\"1s\"/>Eastern Kentucky is incomparable to Oklahoma State's sixth-ranked defense in the Big 12, but it does showcase the ability of the West Virginia offense. This is a situation that feels almost too good to be true. The better quarterback and defense facing off against a backup quarterback while getting over a touchdown is a spot that doesn't come around often. If the cash and ticket percentages continue to land heavily on the Mountaineers, then we could see this line move all the way to 7. Anything before that number looks like the best bet on the board for this Saturday.<break time=\"1s\"/>Pick: West Virginia +8.5.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Georgia Tech @ Syracuse.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Georgia Tech is reeling after an embarrassing home loss last week. It has been a “swingy” start to the season for the Yellow Jackets, who started with an upset victory on the road before their performance last week brought them back to reality. They are the worst team in the ACC, according to our Elo rankings, with Syracuse sitting two spots ahead at 12th overall.<break time=\"1s\"/>Both teams are poor offensively and have generated negative EPA on both passing and rushing attempts to start the season.<break time=\"1s\"/>Tommy DeVito hasn't particularly impressed to start the season, but his 67.6 passing grade is 17 points better than that of Jeff Sims. Sims has more interceptions than touchdowns to start the season, while his 54.5% accuracy rate sits seventh among quarterbacks in the ACC.<break time=\"1s\"/>This is another situation where we are getting the better quarterback — and the better team — at a greater-than-a-touchdown spread. I am taking the points every time in this opportunity, with the only real risk being the possibility that the market is onto something that our predictive model hasn't taken into account.<break time=\"1s\"/>Pick: Syracuse +7.5.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Kansas @ Baylor.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Kansas is stuck at the bottom of the Big 12, according to our Elo rankings. They have already been blown out at home as 4.5-point favorites to a Group of 5 school, and they now take on the third-best team in the Big 12 as 16-point road dogs.<break time=\"1s\"/>Baylor returns the second-best defense in the conference but has holes to fill at numerous offensive skill positions. We have them ranked eighth in our opponent-adjusted offensive grades, with Kansas bringing up the rear in this category in the Big 12.<break time=\"1s\"/>We should see a slow-paced, low-scoring affair if the spread is an accurate reflection of the game script, while the quality of defense should far outpace the ability of these offenses in their current states.<break time=\"1s\"/>Baylor has a revamped coaching staff from their 2019 season, but the link between Dave Aranda and Matt Rhule seems apparent. Both find their backgrounds on the defensive side of the ball and have found success focusing on that area — last year, Baylor ranked 73rd in total offensive plays, as they looked to slow the pace of play down to win ball games with their defense. This expectation should continue in 2020, especially in their first matchup of the season with a new head coach.<break time=\"1s\"/>The current total sits right above the two key numbers in college football — 58 is the seventh-most-likely total for a game to end on, and 59 is the ninth-most-likely. We see a 2.5% probability of a game landing on either of these numbers, and we don't expect to see line movement given this support.<break time=\"1s\"/>The 59.5 offers 2.6% value, according to our predictive models, which makes it one of the best bets to target on the Saturday slate of college football.<break time=\"1s\"/>Pick: Under 59.5.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "Eager: The only thing that can save the Minnesota Vikings is a trade for QB Jameis Winston.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Eric Eager on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "The Minnesota Vikings fell to 0-2 Sunday with an embarrassing loss to an Indianapolis Colts team that last week lost to the Jacksonville Jaguars, a team lined at 4.5 wins by bettors to start the season.<break time=\"1s\"/>Quarterback Kirk Cousins followed up a decent second half against the Green Bay Packers in Week 1 — where he was second in terms of “accuracy plus” passes, per our charting data — with the worst statistical performance by a Vikings quarterback since Brad Johnson in 2006, throwing the second-highest percentage of passes charted as “uncatchable and inaccurate” while throwing three interceptions.<break time=\"1s\"/>Unlike other weaker teams such as the New York Jets, New York Giants, Miami Dolphins and Jacksonville Jaguars, the Vikings are in dire straits with what they believe is their veteran answer at the most important position in pro sports — Cousins.<break time=\"1s\"/>The bet that the Vikings made when they acquired the former Washington quarterback was that their defense would be a good enough down payment from which the offense could work and that a receiving duo of Stefon Diggs and Adam Thielen could elevate Cousins more than it did Case Keenum, Sam Bradford and Teddy Bridgewater.<break time=\"1s\"/>For two years, the Vikings have mostly disappointed, going 18-13-1 during the regular season and 1-1 in the playoffs. Cousins has performed well at times, spending a month in 2019 as the league's highest-graded quarterback, but he has mostly been the leader of a middling offense for the purple.<break time=\"1s\"/>After three starting cornerbacks, two stalwart defensive linemen and Cousins' best receiver in Diggs were all shown the door prior to the 2020 season, that middling offense needed to improve in 2020. But through two weeks, the Vikings are the league's worst team in terms of throwing the football in the first three quarters, dropping almost half of an expected point each time they do so. Now, it's been reported that linebacker Anthony Barr is out for the remainder of the season with a torn pectoral, adding to a M.A.S.H. group on defense that already included their year-to-year sack leader, Danielle Hunter.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-prove-48000.wav",
+    "type": "sound_effect",
+    "what": "tweet_replacment"
+  },
+  {
+    "text": "So, the Vikings have a very high likelihood of being bad for the first time since 2013, a year in which they led the league in points allowed, found out for good that former first-round pick Christian Ponder was not good enough to take them to where they wanted to go and learned that they needed a new direction at head coach.<break time=\"1s\"/>With no young quarterback waiting in the wings at the time, Minnesota acquired a former Tampa Bay Buccaneers quarterback by the name of Josh Freeman and started him less than two weeks later. While his performance was one of the worst displays of quarterbacking in the history of the team — he earned a 31.7 passing grade and threw for just 190 yards on 53 attempts — it at least turned a stone of curiosity for the team. Mediocre knowns are inferior to unknowns when times are rough for a football team.<break time=\"1s\"/>Hence, I think the Vikings should figure out a way to kick the tires on another former first-round pick of the Tampa Bay Buccaneers.<break time=\"1s\"/>The Vikings should trade for Jameis Winston.<break time=\"1s\"/>Winston is currently the second- or third-string quarterback for the New Orleans Saints (I can never tell, since Taysom Hill is technically a quarterback, Sean Payton seems to think Hill has potential, Hill makes a lot more money but Winston dresses for games, which most Number 3s don't do).<break time=\"1s\"/>Winston is making roughly $3 million, which, given the Vikings' current cap situation, is one of the few solid veteran influxes that they can actually afford. Winston led the NFL a season ago in passing yards, but also interceptions, while finishing fifth in the NFL in raw yards per pass attempt 8.2 (Cousins finished last year at 8.1).<break time=\"1s\"/>While he is mistake-prone, Winston is one of the best quarterbacks in the league at generating positively graded throws, besting even the likes of Russell Wilson a season ago in that metric. Winston's average depth of target was second only to Matthew Stafford's, and his usage of the middle of the field is an analytics person's dream:<break time=\"1s\"/>Some of this is obviously Bruce Arians' scheme, as we've seen Tom Brady throw more downfield through two games in Tampa than he did in New England, but Winston has had success in these high-value areas above expectation:<break time=\"1s\"/>In Minnesota, Jameis would be asked to do some more quarterback-friendly things like play action (Cousins used play action on 31.4% of dropbacks in 2019 while Winston used it on just 17.7%, last among qualifying quarterbacks). The average route he'd be asked to throw would be a little shorter, but not prohibitively so:<break time=\"1s\"/>He would go from two great receivers in Tampa to one in Minnesota in Adam Thielen, but Winston took the Bucs to 9-7 in 2016 with only Mike Evans as a wide receiver with more than 85 targets, so it would not be completely foreign to him.<break time=\"1s\"/>Before Arians came along, Winston was also relatively proficient at getting tight ends involved, and in Irv Smith Jr. and Kyle Rudolph, the Vikings have a solid stable to work from there.<break time=\"1s\"/>Look, this is not a cure for what ails the Vikings, but it's one of the few ways they can salvage something out of a 2020 season in which they are not likely to be very good.<break time=\"1s\"/>Cousins, head coach Mike Zimmer and general manager Rick Spielman were all given three-year extensions before the season, which theoretically comes with some security. However, Vikings' owner Zygi Wilf fired Brad Childress a mere 10 games into a contract extension in 2010, meaning that the precedent exists for him to find a scapegoat if things continue to go south in 2020. It makes sense for Zimmer and Spielman to make Cousins that scapegoat rather than themselves.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Vikings have draft capital to work with, with multiple third-round, fourth-round, fifth-round and sixth-round picks in 2021. The Saints, on the other hand, are eventually going to be in a transitional phase where they need to get younger and could use one or more of those picks.<break time=\"1s\"/>Winston isn't perfect, as his league-leading number of turnover-worthy plays in 2019 will attest, but he has the high variance in his game that could make the Vikings entertaining again, and that's really all people can ask for right now.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "NFL Rookie Rankings: 10 highest-graded rookies through Week 2.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "By Anthony Treash on Tuesday, September 22nd 2020.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Now that the members of the 2020 rookie class have two weeks of NFL action under their belts, we are starting to get an idea of those who are going to stick around on this list week in and week out.<break time=\"1s\"/>There are three new entrants on this list, and just one player remained in the same spot, so there was quite a bit of shuffling here this week. Here are the 10 highest-graded rookies in the NFL through Week 2 of the 2020 NFL season.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "1. edge rusher chase young, washington football team.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Young has been as good as advertised so far. He has earned an 81.1 PFF grade through two weeks of action, eighth among 84 qualifying edge defenders. In addition, the 2020 second overall pick has produced four run stops (tied for fifth) and eight total pressures (tied for seventh).<break time=\"1s\"/>This past week, Young matched up with the NFL's sixth-highest-paid left tackle, D.J. Humphries, for nine pass rushes, and he came away with multiple wins.<break time=\"1s\"/>Next week will likely present a far more difficult matchup for Young, as he is set to go up against the Cleveland Browns and their stout tackles Jack Conklin (assuming he's healthy) and Jedrick Wills Jr. On top of that, he won't see many true pass-rush opportunities, given Kevin Stefanski's play-action-heavy offense.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "t-2. cornerback jaylon johnson, chicago bears.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "We learned that Johnson's Week 1 was no fluke, as the rookie has been one of the stickiest outside cornerbacks in the league over the first two weeks. Johnson has seen 11 targets in his two games when lined up on the outside, and he has been in close coverage on eight of those passes. Of those eight, he's allowed just one to be caught while forcing four incompletions. He's allowed only five catches from 12 total targets in coverage so far, giving up just 79 yards and a passer rating of 64.2.<break time=\"1s\"/>Next week will be a true test of Johnson's NFL makeup, as the Bears will travel to Atlanta to take on the Falcons, where he and Kyle Fuller have to go toe-to-toe with one of the best wide receiver duos in the NFL in Julio Jones and Calvin Ridley. Jones is coming off a bit of a down week, but Ridley is looking like the biggest breakout of the 2020 season — he's toasted the Seattle and Dallas secondaries, earning the highest PFF grade at the position through Week 2. Johnson versus Ridley will be one of the most interesting matchups to watch in Week 3.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "t-2. cornerback c.j. henderson, jacksonville jaguars.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Henderson wasn't able to match his dominant Week 1 performance, but he still played an all-around solid game. He did give up a 9-yard touchdown to Corey Davis, but that was just one of the two catches allowed all game against Tennessee.<break time=\"1s\"/>Henderson also added another forced incompletion to his stat sheet, bringing his total to five to lead all outside cornerbacks. Overall, he's produced an 80.3 PFF grade, tying four the fourth-best (along with Johnson) at the position. He won't have nearly as difficult a matchup as Johnson will next week, but it still won't be easy given that he will face off against DeVante Parker, who made a habit of winning against single coverage deep downfield in 2019.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "4. offensive tackle mekhi becton, new york jets.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Becton came back down to earth a little bit in pass protection in Week 2, as he gave up two pressures on 10 true pass sets against the 49ers, but he's still been impressive overall as a rookie. His 72.6 pass-block grade ranks 27th among 62 qualifying tackles after two weeks, but his work in the run game is what is standing out so far. These types of blocks (below) in the run game are something we routinely saw from him at Louisville and will likely continue to see in the NFL.<break time=\"1s\"/>Becton still does have a lot to prove in pass protection, though. This past week was supposed to be a tough matchup for him, but multiple injuries to the San Francisco line pitted him against Kerry Hyder and Kentavius Street. Next week should be a tougher test as he faces the Colts and Justin Houston, who has yet to produce as he did in 2018 and 2019 (just four pressures on 48 pass rushes).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "5. defensive interior jordan elliott, cleveland browns.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Elliott hasn't had too many dominant reps in his two weeks, but he has been consistent and has yet to make any bad mistakes. Elliott has earned a 78.2 PFF grade so far, 10th among all interior defensive linemen. And while Elliott has notched just one pressure, he has also won on 13% of his reps, which is a rate that cracks the top 25 at the position.<break time=\"1s\"/>It's a similar story against the run. Elliott has no run stops — or even tackles — but he still ninth in run-defense grade because (a). he has yet to be sealed out of a gap and has yet to miss a tackle, and (b). he has had multiple defeated blocks that have caused some disruption for the ball carrier.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "6. guard michael onwenu, new england patriots.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Onwenu has been used extensively in jumbo packages with the new-look Patriots offense and has been impactful when given the opportunity. Onwenu has earned a grade above 70.0 as both a pass-protector and run-blocker en route to a 78.0 PFF overall grade. And while he's not likely to see any actual reps at guard with Joe Thuney and Shaq Mason still on the roster, he's thriving in this new role.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "7. guard damien lewis, seattle seahawks.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "There isn't an offensive lineman in the entire NFL with a bigger discrepancy between performance in pass protection compared to performance in the run game than Seattle's Damien Lewis.<break time=\"1s\"/>Lewis has produced a 36.6 pass-blocking grade and allowed seven total pressures in his two starts at right guard for Seattle. But as a run-blocker, Lewis has earned a 91.1 grade that is currently the third-best at the position. Lewis has produced a 77.9 PFF overall grade, which is good enough to rank third among right guards and land him a spot on this list.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "8. safety antoine winfield jr., tampa bay buccaneers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Winfield was out there making plays for the Buccaneers defense for the second straight week. After making a clutch pass breakup in the end zone in Week 1, Winfield had this strip-sack on Teddy Bridgewater in Week 2:<break time=\"1s\"/>He wasn't going to accept leaving that blitz without putting a hand on Bridgewater, and he came up with the big forced fumble. On top of that, Winfield's top-tier tackling ability was on full display, as he registered a tackle on 14.5% of his defensive snaps without a single miss (10 total tackles). Tampa faces a depleted Denver offense next week, and I wouldn't be surprised to see the rookie Winfield take advantage of that and make more impactful plays.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "9. tackle tristan wirfs, tampa bay buccaneers.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Wirfs makes his debut in our highest-graded rookie rankings after turning in an 86.0 PFF grade in Week 2, which trailed only Lane Johnson for the best among right tackles. Wirfs finished the day with a 90.6 run-blocking grade and had multiple big-time blocks with no clear loss. And while he allowed a couple of pressures in pass protection, he was still a lot better than he was in Week 1, as he raised his grade in that facet from 64.7 to 75.2.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "10. running back clyde edwards-helaire, kansas city chiefs.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "After not catching a single pass in Week 1, Edwards-Helaire finally got pumped some targets in Week 2. While there wasn't much damage done there (no first downs on six catches), the LSU product at least caught all of his catchable targets and did have an impressive contested snag downfield that was ultimately negated by a holding penalty.<break time=\"1s\"/>Edwards-Helaire only had one 10-plus-yard gain on 10 carries in the run game, but it was business as usual when it came to shedding tackles. In fact, he forced four missed tackles on those 10 attempts, bringing his season broken tackles per attempt total to 0.31 — the second-best in the NFL.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]
