@@ -1,4 +1,4 @@
-import path from "path"
+import url from "url"
 
 export default function ({
   text,
@@ -23,8 +23,9 @@ export default function ({
   if (type === "blockquote" && class_name === "twitter-tweet") {
     return [
       {
-        filename: path.resolve(
-          `${sound_effects_dir}/${sound_effects?.tweet_replacement}`
+        filename: url.resolve(
+          sound_effects_dir,
+          sound_effects?.tweet_replacement
         ),
         type: "sound_effect",
         what: "tweet_replacment"
@@ -34,8 +35,9 @@ export default function ({
   if (type === "div") {
     return [
       {
-        filename: path.resolve(
-          `${sound_effects_dir}/${sound_effects?.unknown_replacement}`
+        filename: url.resolve(
+          sound_effects_dir,
+          sound_effects?.unknown_replacement
         ),
         type: "sound_effect",
         what: "unknown_replacment"

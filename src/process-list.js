@@ -1,5 +1,5 @@
 import { JSDOM } from "jsdom"
-import path from "path"
+import url from "url"
 
 export default function ({
   html,
@@ -25,8 +25,9 @@ export default function ({
       })
     } else {
       return_val.push({
-        filename: path.resolve(
-          `${sound_effects_dir}/${sound_effects?.list_item_marker}`
+        filename: url.resolve(
+          sound_effects_dir,
+          sound_effects?.list_item_marker
         ),
         type: "sound_effect",
         what: "list_item_marker"

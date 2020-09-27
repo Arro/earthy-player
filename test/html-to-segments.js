@@ -68,13 +68,13 @@ test.beforeEach(async (t) => {
     "PFF's advanced statistics"
   ]
 
-  t.context.sound_effects_dir = `${os.homedir()}/Dropbox/Audio/Sounds`
+  t.context.sound_effects_dir = `https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/`
 
   t.context.sound_effects = {
-    start: "moldy-trace-48000.wav",
-    tweet_replacement: "moldy-prove-48000.wav",
-    unknown_replacement: "nappy-begin-48000.wav",
-    list_item_marker: "lying-match-48000.wav"
+    start: "moldy-trace.wav",
+    tweet_replacement: "moldy-prove.wav",
+    unknown_replacement: "nappy-begin.wav",
+    list_item_marker: "lying-match.wav"
   }
 
   t.context.vocab = {

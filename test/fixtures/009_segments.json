@@ -1,6 +1,6 @@
 [
   {
-    "filename": "/Users/phil/Dropbox/Audio/Sounds/moldy-trace-48000.wav",
+    "filename": "https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/moldy-trace.wav",
     "type": "sound_effect",
     "what": "start_of_article"
   },

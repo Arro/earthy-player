@@ -1,5 +1,5 @@
 import { JSDOM } from "jsdom"
-import path from "path"
+import url from "url"
 import moment from "moment"
 import processElement from "./process-element"
 import processTable from "./process-table"
@@ -41,7 +41,7 @@ export default async function (args = {}) {
   let segments = []
 
   segments.push({
-    filename: path.join(sound_effects_dir, sound_effects?.start),
+    filename: url.resolve(sound_effects_dir, sound_effects?.start),
     type: "sound_effect",
     what: "start_of_article"
   })
