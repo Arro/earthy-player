@@ -12,17 +12,17 @@ export default async function ({
 }) {
   let chapters = []
 
-  let chapterStart = 0
-  let chapterEnd = 0
+  let start = 0
+  let end = 0
   for (const [i, segment] of segments.entries()) {
     let { what, text, filename } = segment
     if (!filename)
       filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
     if (what === "title") {
-      chapters.push({ text, start: chapterStart, end: chapterEnd })
-      chapterEnd = chapterStart = chapterEnd + 1
+      chapters.push({ text, start, end })
+      end = start = end + 1
     } else {
-      chapterEnd += await getAudioDuration(filename)
+      end += await getAudioDuration(filename)
     }
   }
 
