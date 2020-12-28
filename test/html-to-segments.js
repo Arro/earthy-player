@@ -1,6 +1,5 @@
 import test from "ava"
 import path from "path"
-import os from "os"
 
 import { promises as fsPromises } from "fs"
 import htmlToSegments from "../src/html-to-segments"
@@ -162,11 +161,6 @@ test("standard call", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/003_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/003_segments.json`),
     "utf-8"
@@ -200,11 +194,6 @@ test("another call", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/009_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/009_segments.json`),
     "utf-8"
@@ -238,11 +227,6 @@ test("with a table", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/011_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/011_segments.json`),
     "utf-8"
@@ -276,11 +260,6 @@ test("with a tweet", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/013_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/013_segments.json`),
     "utf-8"
@@ -314,11 +293,6 @@ test("with an ordered list", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/015_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/015_segments.json`),
     "utf-8"
@@ -352,11 +326,6 @@ test("more complicated quotes", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/017_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/017_segments.json`),
     "utf-8"
@@ -390,11 +359,6 @@ test("vocab in headings", async (t) => {
     vocab
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/019_segments.json`),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
   let solution = await fsPromises.readFile(
     path.resolve(`./test/fixtures/019_segments.json`),
     "utf-8"

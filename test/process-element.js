@@ -1,5 +1,4 @@
 import test from "ava"
-import os from "os"
 import path from "path"
 import { JSDOM } from "jsdom"
 
@@ -71,12 +70,6 @@ test("blockquote", async (t) => {
     voices
   })
 
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/005_pff_blockquote_segments.json`),
-    JSON.stringify(pElements, null, 2),
-    "utf-8"
-  )
-
   let solution = await fsPromises.readFile(
     path.resolve("./test/fixtures/005_pff_blockquote_segments.json"),
     "utf-8"
@@ -104,12 +97,6 @@ test("blockquote multi", async (t) => {
     sound_effects,
     voices
   })
-
-  await fsPromises.writeFile(
-    path.resolve(`${os.homedir()}/Downloads/007_multi_quote_segments.json`),
-    JSON.stringify(pElements, null, 2),
-    "utf-8"
-  )
 
   let solution = await fsPromises.readFile(
     path.resolve("./test/fixtures/007_multi_quote_segments.json"),
