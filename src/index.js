@@ -9,11 +9,9 @@ export async function htmlToSegments(args) {
 export async function condenseSegments(args) {
   return await _condenseSegments(args)
 }
-
-export async function addChapterMetadata(args) {
-  return await _addChapterMetadata(args)
-}
-
 export async function textToSpeech(args) {
   return await _textToSpeech(args)
+}
+export async function addChapterMetadata(args) {
+  return await _addChapterMetadata(args)
 }

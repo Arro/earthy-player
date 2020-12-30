@@ -1,7 +1,7 @@
 import test from "ava"
 import path from "path"
 
-import { promises as fsPromises } from "fs"
+import fs from "fs-extra"
 import htmlToSegments from "../src/html-to-segments"
 
 test.beforeEach(async (t) => {
@@ -114,7 +114,7 @@ test("html not provided", async (t) => {
 })
 
 test("selectors not provided", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/002_pff.html"),
     "utf-8"
   )
@@ -124,7 +124,7 @@ test("selectors not provided", async (t) => {
 })
 
 test("sound effects not provided", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/002_pff.html"),
     "utf-8"
   )
@@ -138,7 +138,7 @@ test("sound effects not provided", async (t) => {
 })
 
 test("standard call", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/002_pff.html"),
     "utf-8"
   )
@@ -161,7 +161,7 @@ test("standard call", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/003_segments.json`),
     "utf-8"
   )
@@ -171,7 +171,7 @@ test("standard call", async (t) => {
 })
 
 test("another call", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/008_pff_rookie_rankings.html"),
     "utf-8"
   )
@@ -194,7 +194,7 @@ test("another call", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/009_segments.json`),
     "utf-8"
   )
@@ -204,7 +204,7 @@ test("another call", async (t) => {
 })
 
 test("with a table", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/010_pff_fantasy.html"),
     "utf-8"
   )
@@ -227,7 +227,7 @@ test("with a table", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/011_segments.json`),
     "utf-8"
   )
@@ -237,7 +237,7 @@ test("with a table", async (t) => {
 })
 
 test("with a tweet", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/012_pff_early.html"),
     "utf-8"
   )
@@ -260,7 +260,7 @@ test("with a tweet", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/013_segments.json`),
     "utf-8"
   )
@@ -270,7 +270,7 @@ test("with a tweet", async (t) => {
 })
 
 test("with an ordered list", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/014_pff_herbert.html"),
     "utf-8"
   )
@@ -293,7 +293,7 @@ test("with an ordered list", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/015_segments.json`),
     "utf-8"
   )
@@ -303,7 +303,7 @@ test("with an ordered list", async (t) => {
 })
 
 test("more complicated quotes", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/016_pff_takeaways.html"),
     "utf-8"
   )
@@ -326,7 +326,7 @@ test("more complicated quotes", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/017_segments.json`),
     "utf-8"
   )
@@ -336,7 +336,7 @@ test("more complicated quotes", async (t) => {
 })
 
 test("vocab in headings", async (t) => {
-  const html = await fsPromises.readFile(
+  const html = await fs.readFile(
     path.resolve("./test/fixtures/018_pff_grading.html"),
     "utf-8"
   )
@@ -359,7 +359,7 @@ test("vocab in headings", async (t) => {
     vocab
   })
 
-  let solution = await fsPromises.readFile(
+  let solution = await fs.readFile(
     path.resolve(`./test/fixtures/019_segments.json`),
     "utf-8"
   )
