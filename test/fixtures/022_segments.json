@@ -1,0 +1,69 @@
+[
+  {
+    "filename": "https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/moldy-trace.wav",
+    "type": "sound_effect",
+    "what": "start_of_article"
+  },
+  {
+    "text": "Cat Seemed Perfectly Content Right Up Until Point He Bolted Out Of Room.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "Published on Thursday, August 15th, 2013.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "SOMERSET, NJ—Twenty-eight-year-old Jason Wagner confirmed Tuesday that his cat, Pepper, seemed totally relaxed and content up until the moment he jumped from the living room couch onto the floor and darted out of the living room.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "For 15 minutes he was purring, sitting on my lap—asleep even—but, just like that, it all changed,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Wagner said of his cat’s abrupt, 180-degree mood shift.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "One moment, you think he could lie there the entire day, and the next he’s on some sort of impromptu search-and-destroy mission.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "At press time, Pepper had reportedly walked calmly back into the room, leapt onto the couch, and lain down as if nothing had happened.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]

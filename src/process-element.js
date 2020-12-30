@@ -61,9 +61,11 @@ export default function ({
 
   let return_value = []
 
+  text = text.replaceAll(/[“”]/g, `"`)
+
   let has_quote
   do {
-    has_quote = /“.+[.,]”|".+[.,]"/.exec(text)
+    has_quote = /(")(?:(?=(\\?))\2.)*?[,.]\1/.exec(text)
     if (has_quote) {
       if (has_quote.index > 0) {
         return_value.push({
