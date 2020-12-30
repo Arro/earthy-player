@@ -35,13 +35,21 @@ Also:
 1. There are other potential headaches this repo may alleviate, and I will add them to this list
    later.
 
-## Quickstart
+## Quick Start
 
 You'll need to create a [Google Cloud](https://cloud.google.com/) API key. You can use
 [this article](https://cloud.google.com/docs/authentication/getting-started) as instructions, but
 the important part is that you end up with a file at `~/.google-api-credentials.json`. You'll need
 to create a project within their console, and then enable the "Cloud Text-to-Speech API" on that
 project.
+
+Let's say you want to convert
+[this arcticle](https://local.theonion.com/cat-seemed-perfectly-content-right-up-until-point-he-bo-1819575397)
+to speech. Your code might look like this:
+
+```
+// todo add code
+```
 
 ## Run the tests
 
