@@ -45,7 +45,13 @@ project.
 
 Let's say you want to convert
 [this arcticle](https://local.theonion.com/cat-seemed-perfectly-content-right-up-until-point-he-bo-1819575397)
-to speech. Your code might look like this:
+to speech. Start with:
+
+```
+npm install earthy-player
+```
+
+Your code might look like this:
 
 ```
 // todo add code

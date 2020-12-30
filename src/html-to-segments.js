@@ -4,6 +4,7 @@ import moment from "moment"
 import processElement from "./process-element"
 import processTable from "./process-table"
 import processList from "./process-list"
+import default_voices from "./default-voices"
 
 export default async function (args = {}) {
   let {
@@ -11,7 +12,7 @@ export default async function (args = {}) {
     selectors,
     sound_effects,
     sound_effects_dir,
-    voices,
+    voices = default_voices,
     discard_if_found = [],
     vocab = {}
   } = args
@@ -23,9 +24,6 @@ export default async function (args = {}) {
   }
   if (!sound_effects || !sound_effects_dir) {
     throw new Error("Sound effects or sound effects directory not provided")
-  }
-  if (!voices) {
-    throw new Error("Voices not provided")
   }
 
   html = new JSDOM(html)
@@ -68,11 +66,16 @@ export default async function (args = {}) {
     .getAttribute("content")
 
   article_date = moment(article_date, selectors?.date_format).format(
-    "dddd, MMMM Do YYYY"
+    "dddd, MMMM Do, YYYY"
   )
 
+  let by_line = `Published on ${article_date}.`
+  if (article_by) {
+    by_line = `By ${article_by} on ${article_date}.`
+  }
+
   segments.push({
-    text: `By ${article_by} on ${article_date}.`,
+    text: by_line,
     voice_name: `en-GB-Wavenet-B`,
     language_code: `en-GB`,
     pitch: -5,
