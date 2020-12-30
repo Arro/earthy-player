@@ -18,12 +18,22 @@ I've tried various text-to-speech APIs, and Google Cloud's is the best I've foun
 sort of machine-learning magic, and as a result, the output sounds extremely life-like. Far more
 similar to a real human voice than AWS' equivalent offering ("Polly"), for example.
 
-So I find myself writing various packages to convert HTML to an audio file I can listen to. This is
-an open-source package all of my projects can import from. It can do the following things:
+So I find myself writing various packages to convert HTML to an audio file I can listen to.
+Therefore, I wanted to make an npm package from which all of my _other_ projects can import. It can
+do the following things:
 
 1. Take an html file and break it apart into "segments". This means putting pauses in the places
    where pauses should go, adding sound effects as desired, and cleaning up various abbreviations.
+1. Display this "segments" file to you in a pleasant way (status: "still needs doing")
 1. Take this "segments" file from the previous step and create a wav and/or mp3 file.
+1. Add chapter metadata to the wav/mp3 file (status: "implemented but buggy")
+
+Also:
+
+1. The Google API will not work if you give it too much text at a time. This repo abstracts away
+   that problem for you, chunking it into separate requests.
+1. There are other potential headaches this repo may alleviate, and I will add them to this list
+   later.
 
 ## Quickstart
 
@@ -32,3 +42,10 @@ You'll need to create a [Google Cloud](https://cloud.google.com/) API key. You c
 the important part is that you end up with a file at `~/.google-api-credentials.json`. You'll need
 to create a project within their console, and then enable the "Cloud Text-to-Speech API" on that
 project.
+
+## Run the tests
+
+These are the commands:
+
+1. `npm run test` to run the tests. This repo uses `ava` for testing.
+1. `npm run tdd` to run the test with "--watch" enabled.
