@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.1.29",
+  "version": "0.1.30",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "npx ava",

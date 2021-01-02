@@ -22,7 +22,16 @@
     "what": "author-and-date"
   },
   {
-    "text": "SOMERSET, NJ—Twenty-eight-year-old Jason Wagner confirmed Tuesday that his cat, Pepper, seemed totally relaxed and content up until the moment he jumped from the living room couch onto the floor and darted out of the living room.",
+    "text": "somerset, new jersey.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Twenty-eight-year-old Jason Wagner confirmed Tuesday that his cat, Pepper, seemed totally relaxed and content up until the moment he jumped from the living room couch onto the floor and darted out of the living room.",
     "what": "paragraph",
     "type": "speech",
     "voice_name": "en-GB-Wavenet-B",

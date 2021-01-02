@@ -61,6 +61,18 @@ export default function ({
 
   let return_value = []
 
+  let starts_with_location = /^[A-Z]+, [A-Z]+—/.exec(text)
+
+  if (starts_with_location?.[0]?.length) {
+    return_value.push({
+      text: text.substring(0, starts_with_location[0].length - 1),
+      what: "heading",
+      ...voices.heading
+    })
+    text = text.substring(starts_with_location[0].length)
+  }
+
+  // replacing fancy quotes with regular ones to make regex simpler
   text = text.replaceAll(/[“”]/g, `"`)
 
   let has_quote

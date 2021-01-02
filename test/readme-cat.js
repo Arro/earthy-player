@@ -35,7 +35,10 @@ test("cat article", async (t) => {
     html,
     selectors,
     sound_effects,
-    sound_effects_dir
+    sound_effects_dir,
+    vocab: {
+      NJ: "New Jersey"
+    }
   })
 
   /*
