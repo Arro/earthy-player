@@ -79,9 +79,7 @@ export default async function ({
   }
 
   const list_filename = path.resolve(`${working_directory}/${slug}-list.txt`)
-  const untracked_filename = path.resolve(
-    `${working_directory}/${slug}-untracked.mp3`
-  )
+  const untracked_filename = path.resolve(`${working_directory}/${slug}.mp3`)
   await writeFile(list_filename, filelist, "utf-8")
 
   return await spawn(
