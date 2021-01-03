@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "npx ava",
@@ -11,7 +11,7 @@
     "text to speech"
   ],
   "main": "dist/index.js",
-  "description": "a util for combining text to speech",
+  "description": "Intelligently convert HTML to audio.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arro/earthy-player.git"

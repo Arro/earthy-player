@@ -2,20 +2,20 @@
 
 <img src="https://repository-images.githubusercontent.com/287707812/2242f100-4a9f-11eb-92b5-aa7d76758c55" width=300/>
 
-Start with html, end up with mp3 files you can listen to.
+###Intelligently convert HTML to audio.
 
 ## Motivation
 
-I've never been a fast reader. Given a choice between a physical book and an audiobook of the same
-content, I'll reach for the latter, 100 times out of 100. Whenever theres a long piece of text I am
-required to read, I always look for an audio option. While these options are expanding in recent
-years, the vast majority of prose online does not allow you to listen to it.
+I've never been a fast reader. When I'm given a choice between a physical book, and an audiobook of
+the same content, I'll reach for the latter 100 times out of 100. Whenever theres a long piece of
+text I am required to read, I always look for an audio option first. While these options are
+expanding in recent years, the vast majority of online prose does not allow for listening.
 
 You can use your device's in-built accessibility tools to do text-to-speech. You can ask Siri "read
 this article" and it **sometimes** works. But even when it does, this is far from ideal.
 
 I've tried various text-to-speech APIs, and Google Cloud's is the best I've found. They use some
-sort of machine-learning magic, and as a result, the output sounds extremely life-like. Far more
+sort of machine-learning magic, and as a result, the output sounds extremely lifelike. Far more
 similar to a real human voice than AWS' equivalent offering ("Polly"), for example.
 
 So I find myself writing various packages to convert HTML to an audio file I can listen to.
@@ -42,6 +42,8 @@ You'll need to create a [Google Cloud](https://cloud.google.com/) API key. You c
 the important part is that you end up with a file at `~/.google-api-credentials.json`. You'll need
 to create a project within their console, and then enable the "Cloud Text-to-Speech API" on that
 project.
+
+You'll also need `ffmpeg` installed. Install this with `brew install ffmpeg` or similar.
 
 Let's say you want to convert
 [this arcticle](https://local.theonion.com/cat-seemed-perfectly-content-right-up-until-point-he-bo-1819575397)
