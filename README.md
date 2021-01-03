@@ -7,9 +7,9 @@
 ## Motivation
 
 I've never been a fast reader. When I'm given a choice between a physical book, and an audiobook of
-the same content, I'll reach for the latter... 100 times out of 100. Whenever theres a long piece of
-text I am required to read, I always look for an audio option first. While these options are
-expanding in recent years, the vast majority of online prose does not allow for listening.
+the same content, I'll reach for the latter... 100 times out of 100. Whenever there's a long piece
+of text I need to read, I always look for an audio option first. While these options are expanding
+in recent years, the vast majority of online prose does not allow for listening.
 
 You can use your device's in-built accessibility tools to do text-to-speech. You can ask Siri "read
 this article" and it **sometimes** works. But even when it does, this is far from ideal.
