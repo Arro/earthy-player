@@ -7,7 +7,7 @@
 ## Motivation
 
 I've never been a fast reader. When I'm given a choice between a physical book, and an audiobook of
-the same content, I'll reach for the latter 100 times out of 100. Whenever theres a long piece of
+the same content, I'll reach for the latter... 100 times out of 100. Whenever theres a long piece of
 text I am required to read, I always look for an audio option first. While these options are
 expanding in recent years, the vast majority of online prose does not allow for listening.
 
@@ -19,8 +19,12 @@ sort of machine-learning magic, and as a result, the output sounds extremely lif
 similar to a real human voice than AWS' equivalent offering ("Polly"), for example.
 
 So I find myself writing various packages to convert HTML to an audio file I can listen to.
-Therefore, I wanted to make an npm package from which all of my _other_ projects can import. It can
-do the following things:
+Therefore, I wanted to make an npm package from which all of my _other_ projects can import. This is
+that project.
+
+## What It Does
+
+It can do the following things:
 
 1. Take an html file and break it apart into "segments". This means putting pauses in the places
    where pauses should go, adding sound effects as desired, and cleaning up various abbreviations.
