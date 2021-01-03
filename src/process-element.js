@@ -20,7 +20,12 @@ export default function ({
     }
   }
 
-  if (type === "blockquote" && class_name === "twitter-tweet") {
+  if (
+    type === "blockquote" &&
+    class_name === "twitter-tweet" &&
+    sound_effects?.tweet_replacement &&
+    sound_effects_dir
+  ) {
     return [
       {
         filename: url.resolve(
@@ -32,7 +37,11 @@ export default function ({
       }
     ]
   }
-  if (type === "div") {
+  if (
+    type === "div" &&
+    sound_effects?.unknown_replacement &&
+    sound_effects_dir
+  ) {
     return [
       {
         filename: url.resolve(

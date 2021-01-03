@@ -54,7 +54,28 @@ export default async function ({
     const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
     await writeFile(filename, response.audioContent, "binary")
 
-    filelist += `file '${filename}'\n`
+    const wav_filename = path.resolve(`${working_directory}/${slug}-${i}.wav`)
+    await spawn(
+      ffmpeg_path,
+      [
+        "-i",
+        filename,
+        "-vn",
+        "-acodec",
+        "pcm_s16le",
+        "-ar",
+        "48000",
+        "-y",
+        "-ac",
+        "2",
+        "-strict",
+        "-2",
+        wav_filename
+      ],
+      { encoding: "utf-8", maxBuffer: 200 * 1024 }
+    )
+
+    filelist += `file '${wav_filename}'\n`
   }
 
   const list_filename = path.resolve(`${working_directory}/${slug}-list.txt`)

@@ -123,20 +123,6 @@ test("selectors not provided", async (t) => {
   t.is(error.message, "Selectors not provided")
 })
 
-test("sound effects not provided", async (t) => {
-  const html = await fs.readFile(
-    path.resolve("./test/fixtures/002_pff.html"),
-    "utf-8"
-  )
-  const error = await t.throwsAsync(
-    htmlToSegments({
-      html,
-      selectors: t.context.selectors
-    })
-  )
-  t.is(error.message, "Sound effects or sound effects directory not provided")
-})
-
 test("standard call", async (t) => {
   const html = await fs.readFile(
     path.resolve("./test/fixtures/002_pff.html"),

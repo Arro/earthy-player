@@ -1,5 +1,6 @@
 import { JSDOM } from "jsdom"
 import url from "url"
+import path from "path"
 import moment from "moment"
 import processElement from "./process-element"
 import processTable from "./process-table"
@@ -22,9 +23,6 @@ export default async function (args = {}) {
   if (!selectors) {
     throw new Error("Selectors not provided")
   }
-  if (!sound_effects || !sound_effects_dir) {
-    throw new Error("Sound effects or sound effects directory not provided")
-  }
 
   html = new JSDOM(html)
 
@@ -38,11 +36,20 @@ export default async function (args = {}) {
 
   let segments = []
 
-  segments.push({
-    filename: url.resolve(sound_effects_dir, sound_effects?.start),
-    type: "sound_effect",
-    what: "start_of_article"
-  })
+  if (sound_effects_dir && sound_effects?.start) {
+    let filename
+    if (/^http/.test(sound_effects_dir)) {
+      filename = url.resolve(sound_effects_dir, sound_effects?.start)
+    } else {
+      filename = path.join(sound_effects_dir, sound_effects?.start)
+    }
+
+    segments.push({
+      filename,
+      type: "sound_effect",
+      what: "start_of_article"
+    })
+  }
 
   const article_title = html.window.document
     .querySelector(selectors?.title)

@@ -1,10 +1,5 @@
 [
   {
-    "filename": "https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/moldy-trace.wav",
-    "type": "sound_effect",
-    "what": "start_of_article"
-  },
-  {
     "text": "Cat Seemed Perfectly Content Right Up Until Point He Bolted Out Of Room.",
     "language_code": "en-GB",
     "pitch": -5,

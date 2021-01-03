@@ -12,15 +12,6 @@ test.beforeEach(async (t) => {
     by: "meta[name='author']",
     date: "meta[name='publish-date']"
   }
-
-  t.context.sound_effects_dir = `https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/`
-
-  t.context.sound_effects = {
-    start: "moldy-trace.wav",
-    tweet_replacement: "moldy-prove.wav",
-    unknown_replacement: "nappy-begin.wav",
-    list_item_marker: "lying-match.wav"
-  }
 })
 
 test("cat article", async (t) => {
@@ -29,13 +20,11 @@ test("cat article", async (t) => {
     "utf-8"
   )
 
-  const { selectors, sound_effects, sound_effects_dir } = t.context
+  const { selectors } = t.context
 
   const segments = await htmlToSegments({
     html,
     selectors,
-    sound_effects,
-    sound_effects_dir,
     vocab: {
       NJ: "New Jersey"
     }
