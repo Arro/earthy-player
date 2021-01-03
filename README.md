@@ -15,8 +15,8 @@ You can use your device's in-built accessibility tools to do text-to-speech. You
 this article" and it **sometimes** works. But even when it does, this is far from ideal.
 
 I've tried various text-to-speech APIs, and Google Cloud's is the best I've found. They use some
-sort of machine-learning magic, and as a result, the output sounds extremely lifelike. Far more
-similar to a real human voice than AWS' equivalent offering ("Polly"), for example.
+sort of machine-learning magic, and as a result, the output sounds extremely lifelike. This is far
+more similar to a real human voice than AWS' equivalent offering ("Polly"), for example.
 
 So I find myself writing various packages to convert HTML to an audio file I can listen to.
 Therefore, I wanted to make an npm package from which all of my _other_ projects can import. This is
@@ -26,11 +26,10 @@ that project.
 
 It can do the following things:
 
-1. Take an html file and break it apart into "segments". This means putting pauses in the places
-   where pauses should go, adding sound effects as desired, and cleaning up various abbreviations.
-1. Display this "segments" file to you in a pleasant way (status: "still needs doing")
-1. Take this "segments" file from the previous step and create a wav and/or mp3 file.
-1. Add chapter metadata to the wav/mp3 file (status: "implemented but buggy")
+1. Take an HTML file and pull out the actual content of the article.
+1. Break this text apart into "segments". This means putting pauses in the places where pauses
+   should go, adding sound effects as desired, and cleaning up various abbreviations.
+1. Take this "segments" file from the previous step and create an mp3 file.
 
 Also:
 
@@ -50,7 +49,7 @@ project.
 You'll also need `ffmpeg` installed. Install this with `brew install ffmpeg` or similar.
 
 Let's say you want to convert
-[this arcticle](https://local.theonion.com/cat-seemed-perfectly-content-right-up-until-point-he-bo-1819575397)
+[this article](https://local.theonion.com/cat-seemed-perfectly-content-right-up-until-point-he-bo-1819575397)
 to speech. First clone this repo:
 
 `git clone https://github.com/Arro/earthy-player.git`
