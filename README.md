@@ -4,6 +4,8 @@
 
 ### Intelligently convert HTML to audio.
 
+<img src="https://circleci.com/gh/Arro/earthy-player.svg" width=200/>
+
 ## Motivation
 
 I've never been a fast reader. When I'm given a choice between a physical book, and an audiobook of
