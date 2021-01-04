@@ -4,7 +4,7 @@
 
 ### Intelligently convert HTML to audio.
 
-<img src="https://circleci.com/gh/Arro/earthy-player.svg?style=svg" width=200/>
+![CircleCI](https://circleci.com/gh/Arro/earthy-player.svg?style=badge)](https://circleci.com/gh/Arro/earthy-player)
 
 ## Motivation
 
