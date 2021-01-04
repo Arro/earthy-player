@@ -72,9 +72,9 @@ export default async function (args = {}) {
     .querySelector(selectors?.date)
     .getAttribute("content")
 
-  article_date = moment(article_date, selectors?.date_format).format(
-    "dddd, MMMM Do, YYYY"
-  )
+  article_date = moment(article_date, selectors?.date_format)
+    .utcOffset(-5)
+    .format("dddd, MMMM Do, YYYY")
 
   let by_line = `Published on ${article_date}.`
   if (article_by) {
