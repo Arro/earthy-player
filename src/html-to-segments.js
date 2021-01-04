@@ -1,7 +1,7 @@
 import { JSDOM } from "jsdom"
 import url from "url"
 import path from "path"
-import moment from "moment"
+import moment from "moment-timezone"
 import processElement from "./process-element"
 import processTable from "./process-table"
 import processList from "./process-list"
@@ -72,8 +72,8 @@ export default async function (args = {}) {
     .querySelector(selectors?.date)
     .getAttribute("content")
 
-  article_date = moment(article_date, selectors?.date_format)
-    .utcOffset(-5)
+  article_date = moment
+    .tz(article_date, selectors?.date_format, "America/New_York")
     .format("dddd, MMMM Do, YYYY")
 
   let by_line = `Published on ${article_date}.`

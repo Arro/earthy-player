@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "npx ava",
@@ -26,6 +26,7 @@
     "fs-extra": "^9.0.1",
     "jsdom": "^16.4.0",
     "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
     "promisify-child-process": "^4.1.1"
   },
   "devDependencies": {
