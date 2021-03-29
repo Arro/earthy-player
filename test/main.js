@@ -1,7 +1,6 @@
 import test from "ava"
 import fs from "fs"
 import path from "path"
-import nock from "nock"
 
 import condenseSegments from "../src/condense-segments.js"
 import textToSpeech from "../src/text-to-speech.js"

@@ -51,9 +51,13 @@ export default async function (args = {}) {
     })
   }
 
-  const article_title = html.window.document
-    .querySelector(selectors?.title)
-    .getAttribute("content")
+  let article_title = html.window.document.querySelector(selectors?.title)
+
+  if (article_title.nodeName == "meta") {
+    article_title = article_title.getAttribute("content")
+  } else {
+    article_title = article_title.textContent.trim()
+  }
 
   segments.push({
     text: `${article_title}.`,
