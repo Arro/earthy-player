@@ -1,8 +1,9 @@
 {
   "name": "earthy-player",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli.js",
+    "cli": "babel-node src/cli.js",
     "test": "npx ava",
     "tdd": "npx ava --watch"
   },
@@ -27,7 +28,8 @@
     "jsdom": "^16.5.2",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
-    "promisify-child-process": "^4.1.1"
+    "promisify-child-process": "^4.1.1",
+    "terminal-kit": "^2.0.7"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
