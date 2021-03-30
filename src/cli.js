@@ -2,6 +2,17 @@
 import { terminal as term } from "terminal-kit"
 import packageJson from "../package.json"
 import path from "path"
+import selectorWalkthrough from "./cli-selector-walkthrough"
+import urlFetch from "./cli-url-fetch"
+
+const menu_key_bindings = {
+  UP: "previous",
+  DOWN: "next",
+  k: "previous",
+  j: "next",
+  ENTER: "submit"
+}
+
 ;(async function () {
   term.on("key", function (name) {
     if (name === "CTRL_C") {
@@ -29,7 +40,7 @@ import path from "path"
   )
   term("\n\n")
 
-  await term.white(`How do you want to procede?`)
+  await term(`How do you want to procede?`)
   term("\n")
   const menu_items = [
     "Start with a webpage url",
@@ -39,15 +50,17 @@ import path from "path"
   ]
 
   const choice = await term.singleColumnMenu(menu_items, {
-    keyBindings: {
-      UP: "previous",
-      DOWN: "next",
-      k: "previous",
-      j: "next",
-      ENTER: "submit"
-    }
+    keyBindings: menu_key_bindings
   }).promise
+  term("\n")
 
-  console.log(choice)
+  if (choice.selectedIndex === 0) {
+    const html = await urlFetch(term)
+    term("\n")
+
+    await selectorWalkthrough(term, html, menu_key_bindings)
+
+    term("\n")
+  }
   process.exit()
 })()

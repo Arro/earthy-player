@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.2.11",
+  "version": "0.2.12",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli.js",
     "cli": "babel-node src/cli.js",
@@ -22,6 +22,7 @@
     "@babel/preset-env": "^7.13.12",
     "@babel/runtime": "^7.13.10",
     "@google-cloud/text-to-speech": "^3.1.3",
+    "axios": "^0.21.1",
     "core-js": "^3.9.1",
     "dotenv": "^8.2.0",
     "fs-extra": "^9.1.0",
