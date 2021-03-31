@@ -1,9 +1,9 @@
 {
   "name": "earthy-player",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "scripts": {
-    "build": "babel src --out-dir dist && chmod +x dist/cli.js",
-    "cli": "babel-node src/cli.js",
+    "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
+    "cli": "babel-node src/cli/index.js",
     "test": "npx ava",
     "tdd": "npx ava --watch"
   },
@@ -57,6 +57,6 @@
     ]
   },
   "bin": {
-    "earthy": "dist/cli.js"
+    "earthy": "dist/cli/index.js"
   }
 }

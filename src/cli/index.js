@@ -1,18 +1,10 @@
 #!/usr/bin/env node
 import { terminal as term } from "terminal-kit"
-import packageJson from "../package.json"
+import packageJson from "../../package.json"
 import path from "path"
-import selectorWalkthrough from "./cli-selector-walkthrough"
-import urlFetch from "./cli-url-fetch"
-
-const menu_key_bindings = {
-  UP: "previous",
-  DOWN: "next",
-  k: "previous",
-  j: "next",
-  ENTER: "submit"
-}
-
+import selectorWalkthrough from "./selector-walkthrough"
+import urlFetch from "./url-fetch"
+import paginatedMenu from "./paginated-menu.js"
 ;(async function () {
   term.on("key", function (name) {
     if (name === "CTRL_C") {
@@ -20,7 +12,8 @@ const menu_key_bindings = {
     }
   })
   const logo_url = path.join(
-    "__dirname",
+    __dirname,
+    "..",
     "..",
     "public",
     "img",
@@ -43,22 +36,33 @@ const menu_key_bindings = {
   await term(`How do you want to procede?`)
   term("\n")
   const menu_items = [
-    "Start with a webpage url",
-    "Start with an earthy-player config file",
-    "Verify my API keys are set up correctly",
-    "Quit"
+    {
+      name: "Start with a webpage url",
+      command: "by_url"
+    },
+    {
+      name: "Start with an earthy-player config file",
+      command: "by_config"
+    },
+    {
+      name: "Verify my API keys are set up correctly",
+      command: "verify"
+    },
+    {
+      name: "Quit",
+      command: "quit"
+    }
   ]
 
-  const choice = await term.singleColumnMenu(menu_items, {
-    keyBindings: menu_key_bindings
-  }).promise
+  const choice = await paginatedMenu(menu_items, (m) => m.name)
+
   term("\n")
 
-  if (choice.selectedIndex === 0) {
-    const html = await urlFetch(term)
+  if (choice.command === "by_url") {
+    const html = await urlFetch()
     term("\n")
 
-    await selectorWalkthrough(term, html, menu_key_bindings)
+    await selectorWalkthrough(html)
 
     term("\n")
   }
