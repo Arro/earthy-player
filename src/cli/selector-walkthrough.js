@@ -1,59 +1,44 @@
 import { terminal as term } from "terminal-kit"
 import paginatedMenu from "./paginated-menu.js"
 import getAllMetas from "./get-all-metas.js"
+import getSelectorByText from "./get-selector-by-text.js"
 import { JSDOM } from "jsdom"
 
 export default async function (html) {
-  html = new JSDOM(html)
+  const document = new JSDOM(html)?.window?.document
 
-  const metas = await getAllMetas(html.window.document)
+  const metas = getAllMetas(document)
 
   term("\n")
   await term(`Which one of these is the best title?`)
   term("\n")
 
   const title_choice = await paginatedMenu(metas, (m) => m.content)
+  const title_selector = title_choice.prop
+    ? `meta[prop=${title_choice.prop}]`
+    : `meta[name=${title_choice.name}]`
 
   term("\n")
   await term(`Which one of these is the best description?`)
   term("\n")
 
   const desc_choice = await paginatedMenu(metas, (m) => m.content)
+  const desc_selector = desc_choice.prop
+    ? `meta[prop=${desc_choice.prop}]`
+    : `meta[name=${desc_choice.name}]`
 
-  var all_class_names = []
-  var all_elements = html.window.document.querySelectorAll("*")
+  term("\n")
+  await term(`Copy and paste the author's name as you see in on the website:`)
+  term("\n")
 
-  for (let i = 0; i < all_elements.length; i++) {
-    var classes = all_elements[i].className.toString().split(/\s+/)
-    for (let j = 0; j < classes.length; j++) {
-      let cls = classes[j]
-      if (cls && all_class_names.indexOf(cls) === -1) all_class_names.push(cls)
-    }
-  }
+  const author_name = await term.inputField().promise
+  term("\n")
 
-  const elements = []
-  for (const class_name of all_class_names) {
-    let text
-    try {
-      text = html.window.document.querySelector(`.${class_name}`).textContent
-    } catch (e) {
-      continue
-    }
-    // console.log(text)
-    if (text.length > 100 || text.length < 3) {
-      continue
-    }
-    elements.push({
-      text,
-      class_name
-    })
-  }
+  const author_selector = getSelectorByText(document, author_name)
 
-  const author_choice = await paginatedMenu(elements, (m) => m.text)
-
-  console.log(title_choice)
-  console.log(desc_choice)
-  console.log(author_choice)
+  console.log(title_selector)
+  console.log(author_selector)
+  console.log(desc_selector)
 
   return
 }

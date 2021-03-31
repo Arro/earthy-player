@@ -17,7 +17,7 @@ const invalid_meta_props = [
   "og:type"
 ]
 
-export default async function (document) {
+export default function (document) {
   let raw_metas = document.querySelectorAll("meta")
 
   let metas = []
