@@ -40,5 +40,18 @@ export default async function (html) {
   console.log(author_selector)
   console.log(desc_selector)
 
+  /* 
+  let publish_date = metas.find((m) => {
+    return m.name === "publish_date"
+  })
+  if (!publish_date) { }
+  */
+  term("\n")
+  await term(`Copy and paste the article date as you see in on the website:`)
+  term("\n")
+  const date_string = await term.inputField().promise
+  const date_selector = getSelectorByText(document, date_string)
+  console.log(date_selector)
+
   return
 }

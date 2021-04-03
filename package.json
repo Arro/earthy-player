@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
     "cli": "babel-node src/cli/index.js",
@@ -50,7 +50,8 @@
       "test/main.js",
       "test/html-to-segments.js",
       "test/process-element.js",
-      "test/readme-cat.js"
+      "test/readme-cat.js",
+      "test/island.js"
     ],
     "require": [
       "@babel/register"
