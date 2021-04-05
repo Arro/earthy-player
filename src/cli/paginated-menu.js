@@ -26,7 +26,14 @@ export default async function (options, contentFunc, clear_first = false) {
     const start_index = page * per_page
     const end_index = (page + 1) * per_page
 
-    let choices = options.slice(start_index, end_index).map(contentFunc)
+    let choices = options
+      .slice(start_index, end_index)
+      .map(contentFunc)
+      .map((content) => {
+        return content.length > term.width - 3
+          ? content.slice(0, 3) + "..."
+          : content
+      })
     let has_prev_option = false
     let has_next_option = false
     if (page > 0) {

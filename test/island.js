@@ -4,6 +4,7 @@ import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
 import getSelectorByText from "../src/cli/get-selector-by-text"
+import readSchemaNet from "../src/cli/read-schema-net"
 
 test("get selector by text: author", async (t) => {
   const html = await fs.readFile(
@@ -34,4 +35,23 @@ test("get selector by text: date", async (t) => {
     result,
     "body > #__next > .container > .main-content > div > .observer > .observer__content > .article > .article__longform__masthead > .article__header > .article__header__dek-contributions > .article__header__datebar > .article__header__datebar__date--original"
   )
+})
+
+test("schema.net reading", async (t) => {
+  const html = await fs.readFile(
+    path.resolve("./test/fixtures/023_island.html"),
+    "utf-8"
+  )
+
+  const document = new JSDOM(html)?.window?.document
+  const schema = readSchemaNet(document)
+
+  const schema_solution = JSON.parse(
+    await fs.readFile(
+      path.resolve("./test/fixtures/024_island_schema.json"),
+      "utf-8"
+    )
+  )
+
+  t.deepEqual(schema, schema_solution)
 })

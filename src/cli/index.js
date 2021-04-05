@@ -33,6 +33,8 @@ import paginatedMenu from "./paginated-menu.js"
   )
   term("\n\n")
 
+  console.log(term.height)
+
   await term(`How do you want to procede?`)
   term("\n")
   const menu_items = [
