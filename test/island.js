@@ -55,3 +55,18 @@ test("schema.net reading", async (t) => {
 
   t.deepEqual(schema, schema_solution)
 })
+
+test("get selector by text: text", async (t) => {
+  const html = await fs.readFile(
+    path.resolve("./test/fixtures/023_island.html"),
+    "utf-8"
+  )
+
+  const document = new JSDOM(html)?.window?.document
+
+  const result = getSelectorByText(document, "In 1966, a group of six")
+  t.is(
+    result,
+    "body > #__next > .container > .main-content > div > .observer > .observer__content > .article > .article__longform__content > .article__body-components.article__body-components--longform > .long-form__body-group > .abc__textblock.size--article"
+  )
+})

@@ -1,6 +1,17 @@
 export default function (document, text) {
   let active_element = document.querySelector("body")
-  let types = ["div", "span", "a", "li", "ul", "ol", "main", "nav", "header"]
+  let types = [
+    "div",
+    "span",
+    "a",
+    "li",
+    "ul",
+    "ol",
+    "main",
+    "nav",
+    "header",
+    "article"
+  ]
   let selector = "body"
   while (active_element) {
     const children = Array.from(active_element.children).filter((el) => {

@@ -1,5 +1,6 @@
 export default function (document) {
-  const schema = Array.from(
+  let schema
+  let raw_schema = Array.from(
     document.querySelectorAll("script[type='application/ld+json']")
   )
     .map((t) => {
@@ -15,13 +16,20 @@ export default function (document) {
     })
 
   if (
-    schema?.["@type"] === "NewsArticle" ||
-    schema?.["@type"] === "BlogPosting"
+    raw_schema?.["@type"] === "NewsArticle" ||
+    raw_schema?.["@type"] === "BlogPosting"
   ) {
-    return schema
+    schema = raw_schema
+  } else {
+    schema = raw_schema?.["@graph"]?.find((g) => {
+      return g?.["@type"] === "NewsArticle"
+    })
   }
 
-  return schema?.["@graph"]?.find((g) => {
-    return g?.["@type"] === "NewsArticle"
-  })
+  return {
+    title: schema?.headline,
+    desc: schema?.description,
+    date: schema?.datePublished,
+    author: schema?.author?.name || schema?.author?.[0].name
+  }
 }

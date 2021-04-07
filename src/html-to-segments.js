@@ -6,6 +6,9 @@ import processElement from "./process-element"
 import processTable from "./process-table"
 import processList from "./process-list"
 import default_voices from "./default-voices"
+import default_top_level_types from "./default-top-level-types"
+import readSchemaNet from "./cli/read-schema-net"
+import isElementGrandparent from "./is-element-grandparent"
 
 export default async function (args = {}) {
   let {
@@ -24,7 +27,12 @@ export default async function (args = {}) {
     throw new Error("Selectors not provided")
   }
 
+  if (!selectors.top_level_types) {
+    selectors.top_level_types = default_top_level_types
+  }
+
   html = new JSDOM(html)
+  const schema = readSchemaNet(html.window.document)
 
   let top_level_types = selectors?.top_level_types.map((type) => {
     return `${selectors?.parent} > ${type}`
@@ -51,16 +59,31 @@ export default async function (args = {}) {
     })
   }
 
-  let article_title = html.window.document.querySelector(selectors?.title)
+  let content = {}
 
-  if (article_title.nodeName == "meta") {
-    article_title = article_title.getAttribute("content")
-  } else {
-    article_title = article_title.textContent.trim()
+  for (const part of ["title", "desc", "author", "date"]) {
+    if (schema[part]) {
+      content[part] = schema[part]
+    } else {
+      content[part] = html.window.document.querySelector(selectors?.[part])
+
+      if (content[part]?.nodeName == "meta") {
+        content[part] = content[part]?.getAttribute("content")
+      } else {
+        content[part] = content[part]?.textContent
+      }
+    }
+    content[part] = content[part]?.trim()
+
+    if (part === "date") {
+      content[part] = moment
+        .tz(content[part], "America/New_York")
+        .format("dddd, MMMM Do, YYYY")
+    }
   }
 
   segments.push({
-    text: `${article_title}.`,
+    text: `${content["title"]}.`,
     language_code: `en-GB`,
     pitch: -5,
     speed: 1,
@@ -68,21 +91,20 @@ export default async function (args = {}) {
     what: "title"
   })
 
-  const article_by = html.window.document
-    .querySelector(selectors?.by)
-    .getAttribute("content")
+  if (content["desc"]) {
+    segments.push({
+      text: content["desc"],
+      language_code: `en-GB`,
+      pitch: -5,
+      speed: 1,
+      type: "speech",
+      what: "desc"
+    })
+  }
 
-  let article_date = html.window.document
-    .querySelector(selectors?.date)
-    .getAttribute("content")
-
-  article_date = moment
-    .tz(article_date, selectors?.date_format, "America/New_York")
-    .format("dddd, MMMM Do, YYYY")
-
-  let by_line = `Published on ${article_date}.`
-  if (article_by) {
-    by_line = `By ${article_by} on ${article_date}.`
+  let by_line = `Published on ${content["date"]}.`
+  if (content["author"]) {
+    by_line = `Published by ${content["author"]} on ${content["date"]}.`
   }
 
   segments.push({
@@ -97,7 +119,7 @@ export default async function (args = {}) {
 
   for (const element of article_elements) {
     const type = element.nodeName?.toLowerCase()
-    let pElements
+    let pElements = []
     if (type === "table") {
       pElements = processTable({
         html: element.innerHTML,
@@ -114,16 +136,18 @@ export default async function (args = {}) {
         vocab
       })
     } else {
-      pElements = processElement({
-        text: element.textContent.trim(),
-        type,
-        class_name: element.className,
-        discard_if_found,
-        sound_effects,
-        sound_effects_dir,
-        voices,
-        vocab
-      })
+      if (!isElementGrandparent(element)) {
+        pElements = processElement({
+          text: element.textContent.trim(),
+          type,
+          class_name: element.className,
+          discard_if_found,
+          sound_effects,
+          sound_effects_dir,
+          voices,
+          vocab
+        })
+      }
     }
     for (const pElement of pElements) {
       if (pElement) {

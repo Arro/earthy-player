@@ -24,14 +24,16 @@ export default function ({
         ...voices.heading
       })
     } else {
-      return_val.push({
-        filename: url.resolve(
-          sound_effects_dir,
-          sound_effects?.list_item_marker
-        ),
-        type: "sound_effect",
-        what: "list_item_marker"
-      })
+      if (sound_effects_dir) {
+        return_val.push({
+          filename: url.resolve(
+            sound_effects_dir,
+            sound_effects?.list_item_marker
+          ),
+          type: "sound_effect",
+          what: "list_item_marker"
+        })
+      }
     }
     let text = list_item.textContent
 

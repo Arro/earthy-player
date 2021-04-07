@@ -1,34 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.icij.org/investigations/panama-papers/five-years-later-panama-papers-still-having-a-big-impact/"
-  },
-  "url": "https://www.icij.org/investigations/panama-papers/five-years-later-panama-papers-still-having-a-big-impact/",
-  "headline": "Five years later, Panama Papers still having a big impact",
-  "datePublished": "2021-04-03T07:03:55-04:00",
-  "dateModified": "2021-04-03T13:46:23-04:00",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://www.icij.org/#organization",
-    "name": "International Consortium of Investigative Journalists",
-    "logo": { "@type": "ImageObject", "url": "", "width": 600, "height": 60 }
-  },
-  "articleSection": "Inside ICIJ",
-  "keywords": "Accountability, Collaborative Journalism, Corruption, Daphne Caruana Galizia, Impact, Investigative journalism, Offshore finance, Offshore secrecy, Panama Papers, Press freedom, US Panama Papers case",
-  "description": "ICIJ’s massive cross-border investigation remains an influence — and a catchphrase — in politics, business, academia and pop culture, half a decade on.\r\n",
-  "author": {
-    "@type": "Person",
-    "name": "Will Fitzgibbon",
-    "url": "https://www.icij.org/journalists/will-fitzgibbon/",
-    "description": "Will Fitzgibbon is a senior ICIJ reporter. He is also ICIJ's Africa and Middle East partnership coordinator.\r\n\r\nWill joined ICIJ in 2014 and coordinated the Fatal Extraction investigation that examined the impact of Australian mining companies in Africa. It remains one of the largest pan-African collaborations of journalists. Will has reported on ICIJ projects, including West Africa Leaks, Paradise Papers and Panama Papers. He coordinates ICIJ's partnerships with journalists in Africa and the Middle East.\r\n\r\nBefore coming to Washington, he worked at The Bureau of Investigative Journalism (TBIJ) in London where his work on politics, the finance industry and housing appeared in The Guardian and The Observer. He studied at the London School of Economics, Sciences-Po Paris and The Australian National University.",
-    "image": {
-      "@type": "ImageObject",
-      "url": "https://secure.gravatar.com/avatar/bf8d7258a388b84a2bfe073ef0f2af3a?s=96&d=https%3A%2F%2Fs3.amazonaws.com%2Fwww-s3-1.icij.org%2Ficij%2Fdefault_icij_avatar.png&r=g",
-      "height": 96,
-      "width": 96
-    },
-    "sameAs": ["https://twitter.com/WillFitzgibbon"]
-  }
+  "title": "Five years later, Panama Papers still having a big impact",
+  "date": "2021-04-03T07:03:55-04:00",
+  "desc": "ICIJ’s massive cross-border investigation remains an influence — and a catchphrase — in politics, business, academia and pop culture, half a decade on.\r\n",
+  "author": "Will Fitzgibbon"
 }
