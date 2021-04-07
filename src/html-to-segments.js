@@ -9,13 +9,17 @@ import default_voices from "./default-voices"
 import default_top_level_types from "./default-top-level-types"
 import readSchemaNet from "./cli/read-schema-net"
 import isElementGrandparent from "./is-element-grandparent"
+import doesElementContainScript from "./does-element-contain-script"
+import getSelectorByText from "./cli/get-selector-by-text"
 
 export default async function (args = {}) {
   let {
     html,
-    selectors,
+    selectors = {},
     sound_effects,
     sound_effects_dir,
+    first_para,
+    second_para,
     voices = default_voices,
     discard_if_found = [],
     vocab = {}
@@ -23,20 +27,30 @@ export default async function (args = {}) {
   if (!html?.length) {
     throw new Error("HTML not provided")
   }
-  if (!selectors) {
-    throw new Error("Selectors not provided")
-  }
 
   if (!selectors.top_level_types) {
     selectors.top_level_types = default_top_level_types
   }
 
   html = new JSDOM(html)
-  const schema = readSchemaNet(html.window.document)
+  const document = html.window.document
+  const schema = readSchemaNet(document)
 
-  let top_level_types = selectors?.top_level_types.map((type) => {
-    return `${selectors?.parent} > ${type}`
-  })
+  let top_level_types = []
+  if (first_para && second_para) {
+    let first_para_selector = getSelectorByText(document, first_para)
+    let second_para_selector = getSelectorByText(document, second_para)
+    if (first_para_selector !== second_para_selector) {
+      throw new Error("Can't figure out paragraph")
+    }
+    top_level_types = selectors?.top_level_types.map((type) => {
+      return `${first_para_selector} > ${type}`
+    })
+  } else {
+    top_level_types = selectors?.top_level_types.map((type) => {
+      return `${selectors?.parent} > ${type}`
+    })
+  }
 
   const article_elements = html.window.document.querySelectorAll(
     top_level_types.join(",")
@@ -136,7 +150,10 @@ export default async function (args = {}) {
         vocab
       })
     } else {
-      if (!isElementGrandparent(element)) {
+      if (
+        !isElementGrandparent(element) &&
+        !doesElementContainScript(element)
+      ) {
         pElements = processElement({
           text: element.textContent.trim(),
           type,

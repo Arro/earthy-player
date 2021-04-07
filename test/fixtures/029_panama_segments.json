@@ -1,0 +1,972 @@
+[
+  {
+    "text": "Five years later, Panama Papers still having a big impact.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "ICIJ’s massive cross-border investigation remains an influence — and a catchphrase — in politics, business, academia and pop culture, half a decade on.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published by Will Fitzgibbon on Saturday, April 3rd, 2021.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Five years ago today, the International Consortium of Investigative Journalists and more than 100 media partners around the globe began publishing an investigation that would become a byword for exposing financial chicanery and political corruption: The Panama Papers.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Citizens hit the streets in protest. They threw bananas and yogurt in Iceland and rocks in Pakistan. Governments fell. Authorities launched hundreds of tax probes and criminal investigations.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This is an earthquake,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "CNN columnist Frida Ghitis said at the time.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The aftershocks will continue for months, even years to come.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "She was right.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Half a decade later, the Panama Papers’ revelations about how the offshore financial system enables greed and treachery continue to roil political and economic systems worldwide.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In just the past month alone, more than 300 news articles in 14 languages referenced the Panama Papers as authorities continue to pursue investigations and push for reforms, a search of the Nexis news database shows.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Among the Panama Papers-related developments in the month of March:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In Malta, authorities charged Keith Schembri, former Prime Minister Joseph Muscat’s chief of staff, with money laundering and fraud as a result of an investigation sparked in part by the Panama Papers — and a court heard more testimony about the car-bomb assassination of Daphne Caruana Galizia, a Maltese journalist who used evidence from the trove of documents in her exposés of high-ranking government officials.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "In Peru, Rafael López Aliaga, a presidential candidate came up empty in his push to get a court to halt a continuing investigation of his role in a Panama Papers-related money laundering case.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "In Denmark, the country’s tax minister cited the Panama Papers to justify hiring hundreds of new employees to bolster the fight against tax fraud.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "In the U.S., prosecutors revealed the third guilty plea in a tax fraud case that came to light through the Panama Papers and lawmakers cited the Panama Papers to support the push to enact two landmark pieces of legislation now before Congress — the Stop Tax Haven Abuse Act and the For the People Act, a voting rights bill that’s being called “the boldest democracy reform since Watergate.”.",
+    "what": "list_item",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-C",
+    "language_code": "en-GB",
+    "pitch": -3.6,
+    "speed": 1.23
+  },
+  {
+    "text": "Beyond individual countries, the Panama Papers has become a global touchstone of the debate around corruption, financial crime and inequality. It is cited in parliaments and courthouses and movie studios.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Just as Watergate became both a landmark in the history of journalism and a shorthand for political tricksterism, the Pulitzer Prize-winning Panama Papers investigation has inspired many journalists to embrace a new kind of leading-edge journalism — and its alliterative name has come to serve as a shorthand for financial perfidy by the globe’s ruling elite.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "On a personal level, there was a before and after Panama Papers in my journalism career,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "said Mariel Fitz Patrick, an Argentine journalist who worked on the investigation. She was shocked by the number of journalists around the planet — more than 370 from 76 news organizations — who worked in secret on the project for more than a year. In Argentina, she told ICIJ recently,",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "that experience would mark a new path for us in the way we do journalism and in our future investigations.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In the broader world, actor Meryl Streep, who starred in the Netflix movie.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Laundromat,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "heads a growing list of popular culture stars who have brought the shadowy mechanics of offshore-enabled financial crime into homes and common parlance through works that reference the Panama Papers — cartoons, films, quiz shows such as.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Jeopardy!\" and National Public Radio’s \"Wait, Wait, Don’t Tell Me\" and television series such as \"Billions\" and \"Last Week Tonight with John Oliver.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Financial experts, meanwhile, continue to fret over the risks of.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "another Panama Papers\" or whether a \"new Panama Papers\" is needed to keep up the fight against dirty money. An anti-corruption consultant advised in December: \"High net worth individuals need to take certain proactive steps to avoid being lumped together with Yakuza crime bosses and kleptocrats in the aftermath of the next Panama Papers-type scandal.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Panama Papers’ revelations also continue to resonate for transparency advocates around the world, according to Lakshmi Kumar, policy director at Global Financial Integrity, a U.S.-headquartered research and advocacy group.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The crimes and case studies unearthed by the media partnership’s investigation have provided colorful, easy-to-explain fodder for groups like hers that work to persuade government authorities to embrace tougher standards for financial accountability and transparency.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Panama Papers woke everyone up,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Kumar said in an interview this week.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It was the first big thing that everyone remembers … Even five years down the road, those examples that the Panama Papers revealed are just as relevant. They haven’t gone out of fashion.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "A massive leak.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "ICIJ and its partners began publishing their explosive Panama Papers disclosures at 2 p.m. U.S. Eastern Time on April 3, 2016.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "ICIJ, McClatchy, the Miami Herald, German daily Süddeutsche Zeitung and other media partners spent more than a year sifting through 11.5 million leaked files to expose offshore holdings of current and former world leaders and more than 100 other politicians and public officials across the globe.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The files, which Süddeutsche Zeitung obtained and shared with ICIJ and other partners, came from Mossack Fonseca, a little-known but powerful law firm based in Panama with branches in Hong Kong, Zurich and dozens of other places.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The law firm’s leaked internal files contained information on 214,488 offshore entities connected to people in more than 200 countries and territories. The data included emails, financial spreadsheets, passports and corporate records revealing the secret owners of bank accounts and companies in 21 outposts in the offshore system, from Nevada to the British Virgin Islands to Singapore.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It was, in short, a treasure trove for investigative reporters — and for anyone interested in knowing how the rich and famous, and corrupt and criminal, play with their money offshore. Former South African President Thabo Mbeki called the revelations.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "a massive blow to financial secrecy.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "\"Panama Papers\" quickly became the Number 1 trending item on Twitter worldwide. In the first several weeks, 72 stories and data products produced by ICIJ were visited more than 80 million times by people in more than 200 countries and territories. Media partners’ stories reached an audience that numbered in the hundreds of millions across digital, print and broadcast.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "A cartoon in the New Yorker magazine showed a businessman, looking out of the window of his office with his young heir at his side, surveying the smokestacks and office towers of his empire:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Son, somebody soon this will all be exposed in the Panama Papers.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "A Sunday edition of the iconic American newspaper comic Doonesbury showed a high-ranking official from the fictitious nation of \"Berzerkistan\" learning that he’d been exposed in the Panama Papers as having salted away $1.835 billion offshore. \"SO THAT’S WHERE I PUT IT!\" he exclaims.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Some real-life politicians lost their jobs — even their freedom.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Iceland’s prime minister, Sigmundur David Gunnlaugsson, resigned following nationwide protests after revelations that he and his wife owned a company in the British Virgin Islands. Politicians in Mongolia, Spain and beyond also fell.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In 2017, Pakistan’s Supreme Court removed from office the country’s longest-serving prime minister, Nawaz Sharif, as result of the Panama Papers’ revelations about his family’s properties overseas. A year later he was sentenced in the case to 10 years in prison on corruption charges and fined $10.6 million.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Follow the money.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "From Day 1 of the Panama Papers, governments around the world traced whatever previously hidden dollars, euros, yen and other currencies they could. Countries have recouped more than $1.36 billion in unpaid taxes, fines and penalties as a result of inquiries sparked by the Panama Papers, according to ICIJ’s latest tally.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In the last two years, ten countries, including Australia, Belgium, Denmark, Germany and Italy reported recovering more than $185 million in new money as a result of Panama Papers-inspired investigations. Norway, for the first time, disclosed that it has clawed back almost $34 million. Hundreds of tax probes against individuals and companies remain open, according to reporting gathered by ICIJ and its partners.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Parliaments — embarrassed by the revelations or seeking to harness public outrage to plug fiscal holes in budgets drained by tax evasion — have enacted new laws.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The government of Panama, which initially denounced the Panama Papers as a campaign to.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "distort the facts and tarnish the reputation of the country,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "ultimately signed a multilateral convention to share foreign taxpayers’ information with other nations. New Zealand tightened its trust laws to prevent further abuses by foreigners attracted by the country’s once pristine reputation. Since then, the number of so-called foreign trusts in New Zealand has plummeted 75%.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In the United Kingdom, members of parliament repeatedly referenced the Panama Papers when passing legislation in 2017 that created the country’s first criminal offense for lawyers who do not report clients’ tax evasion. Last September, Ghana’s registrar general said that the Panama Papers was instrumental in his government passing a new law that required owners of companies in Ghana to identify themselves. Ghana is now one of 81 countries to approve such laws — more than double the number since 2018.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In the U.S., the Panama Papers helped persuade Congress to write and pass the Corporate Transparency Act, which requires owners of U.S. companies to disclose their identities to the Treasury Department. The legislation, the biggest revision of American anti-money laundering controls since the post-9/11 Patriot Act, was signed into law in January.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Gary Kalman, the head of Transparency International in the U.S. who lobbied for the bill, said that the Panama Papers and the so-called \"Emma Watson Effect\" were especially useful.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "For years, opponents of ownership registries argued that celebrities, millionaires and other high-profile citizens needed anonymous companies to avoid the paparazzi — or even kidnappers. The example of Watson, the Harry Potter film star who the Panama Papers revealed owned an offshore company for what her representatives said were.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "privacy reasons,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "helped Kalman give legislators a concrete example of why registries posed no risk to law-abiding citizens.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Under the new U.S. law, Kalman said, celebrities or high profile people would be confidentially revealed to the U.S. government, but their names would not be publicly available.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Bottom line, if you are not doing anything illegal, there is really no reason to fear a beneficial ownership directory,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "he said.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Not everyone was happy with the new law.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Some will say that this all started in 2016 when a Panamanian law firm made headlines,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "a Forbes contributor wrote in January, complaining that the new law had \"killed off Incognito Mode\" in the world of business. \"The information in these documents was so scandalous that ordinarily boring legal documents took on a snappy moniker: ‘the Panama Papers.’\".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The moniker has also become a catchword beyond the realm of politics and government.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Panama Papers have been referenced in thousands of academic papers, including articles such as \"Speaking Truth to Power: Twitter Reactions to the Panama Papers\" in the Journal of Business Ethics and \"Structural studies of the global networks exposed in the Panama Papers\" in Applied Network Science.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Panama Papers even pops up in an August 2016 article in the European Journal of Political Theory titled \"Aristotle and the problem of oligarchic harm\" and in a 2018 review, in an organizational studies journal, that explores the \"speculative anthropology\" of novelist David Foster Wallace.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "At least a dozen books have been published about the Panama Papers — including one by Frederik Obermaier and Bastian Obermayer, the German journalists who obtained the leaked data, and another  by former ICIJ journalist Jake Bernstein,",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Secrecy World,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "which became the inspiration for filmmaker Steven Soderbergh’s movie,",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The Laundromat,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "starring Streep, Gary Oldman and Antonio Banderas.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "At the movie’s September 2019 premiere at the Venice International Film Festival, Streep said the film sought to use humor to tell a \"very dark, black-hearted joke — a joke that’s being played on all of us\" by the clients and operatives of the offshore world.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Global journalism.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "The Panama Papers continues to be cheered, too, as a pathbreaking model for international reporting and collaborative journalism.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Jóhannes Kr. Kristjánsson, an Icelandic journalist who did the digging within and outside the document trove that brought down his country’s prime minister, spent almost a year working in his apartment, unable to tell anyone else in his small nation what he was doing.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He says his in-laws.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "really thought I was just a lousy bum or something, not working on anything.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In his lonely striving, he leaned on the support of \"great journalists all around the world\" — project partners who were also secretly sleuthing through the same document set. Some remain his close friends five years later.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "One regret with the project is he never got a chance to taste the ice cream flavor — Wintris — that a local shop in Reykjavík named after the offshore company secretly controlled, the Panama Papers showed, by the prime minister and his wife.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Kristjánsson believes the kind of global collaboration among journalists that made the Panama Papers investigation possible is a crucial weapon in the defense of democracy.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "I think it is fair to say that the Panama Papers project introduced cross-border journalism to the world,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Kristjánsson told ICIJ this week.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It is a really powerful tool when journalists in many countries work together on the same story and publish at the same time. This is extremely important for journalists in countries where human rights and press freedom are violated.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Fitz Patrick, one of five Argentine journalists who initially worked on the Panama Papers, said the project inspired her to continue to delve into issues related to money laundering and international financial crimes. And, she said, it inspired the Argentine reportng partners to continue to work across the lines of news outlets’ traditional rivalries — treating each other as allies instead of adversaries.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Working with a competing media company? That was unthinkable until that moment in Argentina,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Fitz Patrick said.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "A 2018 article in the International Journal of Communication said that the Panama Papers and ICIJ’s next offshore secrecy investigation — the Paradise Papers — have helped show the way to a new kind of international reporting that wrestles with an increasingly complex and networked world.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Traditionally, the article notes, international journalism has been \"foreign correspondence\" which brings back home, to a domestic audience, news from far-away lands about elections, trains crashes and other one-off events.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In contrast, the piece says, ICIJ’s \"global network journalism\" goes beyond the \"traditional national comfort zone\" by bringing together journalists from around the planet to deeply analyze and expose murky transnational systems like the offshore world.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This kind of reporting is vital in an era when dirty money can move halfway around the world with the click of a computer key, and offshore operatives are adept at hiding wealth behind Russian doll-like configurations of front men, shell companies and trusts.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "My reporting on the Panama Papers and other subsequent leaks has made me realise how broken the international system is,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "said Jacob Borg, a Maltese journalist who has been shoved and insulted while reporting on what he calls the \"mafia-like tentacles exposed by the Panama Papers\" in his small European country.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Last month — 59 months after the Panama Papers investigation was released — Maltese authorities charged Keith Schembri, the powerful chief of staff to the country’s prime minister from 2013 to 2019, with fraud and money laundering. The Panama Papers revealed that Schembri owned two secretive offshore companies. He resigned in 2019 after police questioned him during a probe into the murder of Maltese journalist, Daphne Caruana Galizia, who had earlier connected Schembri’s offshore dealings to corruption.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Whilst dirty money flows easily across borders, it often takes local authorities weeks, months and years to catch up and gather information about these illicit flows,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Borg said.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Collaborative journalism has proven to be a lot more efficient.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Sean McGoey contributed reporting to this story.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]

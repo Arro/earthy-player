@@ -52,11 +52,16 @@ test("html to segments", async (t) => {
 
   const result = await htmlToSegments({
     html,
-    selectors: {
-      parent:
-        "body > #icijorg > div > .main > .wrap.container > .row > .col-12 > .full-article-format > .post-body.justify-content-center.row > .post-content.col-12.col-md-10.col-lg-7"
-    }
+    first_para: "the International Consortium of Investigative Journalists",
+    second_para: "Citizens hit the streets in protest"
   })
 
-  t.is(result, true)
+  const solution = JSON.parse(
+    await fs.readFile(
+      path.resolve("./test/fixtures/029_panama_segments.json"),
+      "utf-8"
+    )
+  )
+
+  t.deepEqual(result, solution)
 })

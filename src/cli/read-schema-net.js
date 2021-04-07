@@ -30,6 +30,6 @@ export default function (document) {
     title: schema?.headline,
     desc: schema?.description,
     date: schema?.datePublished,
-    author: schema?.author?.name || schema?.author?.[0].name
+    author: schema?.author?.name || schema?.author?.[0]?.name
   }
 }
