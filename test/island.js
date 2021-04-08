@@ -3,8 +3,8 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getSelectorByText from "../src/cli/get-selector-by-text"
-import readSchemaNet from "../src/cli/read-schema-net"
+import getSelectorByText from "../src/get-selector-by-text"
+import getMetadata from "../src/get-metadata"
 
 test("get selector by text: author", async (t) => {
   const html = await fs.readFile(
@@ -37,14 +37,14 @@ test("get selector by text: date", async (t) => {
   )
 })
 
-test("schema.net reading", async (t) => {
+test("get metadata", async (t) => {
   const html = await fs.readFile(
     path.resolve("./test/fixtures/023_island.html"),
     "utf-8"
   )
 
   const document = new JSDOM(html)?.window?.document
-  const schema = readSchemaNet(document)
+  const schema = getMetadata(document)
 
   const schema_solution = JSON.parse(
     await fs.readFile(

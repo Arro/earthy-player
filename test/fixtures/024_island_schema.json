@@ -1,23 +1,6 @@
 {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.vice.com/en/article/4adky9/shipwrecked-on-uninhabited-desert-island"
-  },
-  "headline": "I Spent 15 Months Shipwrecked on an Uninhabited Island",
-  "image": [
-    "https://video-images.vice.com/articles/6062d03859801d00938972b6/lede/1617088854477-shipwreckedislandvice.jpeg?crop=1xw:0.6267xh;0xw,0.254xh&resize=1200:*"
-  ],
-  "datePublished": "2021-03-30T23:00:01.534Z",
-  "dateModified": "2021-03-30T23:00:01.534Z",
-  "author": { "@type": "Person", "name": "Julian Morgans" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "VICE",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://vice-web-statics-cdn.vice.com/images/vice-og.png"
-    }
-  }
+  "author": "Julian Morgans",
+  "date": "Tuesday, March 30th, 2021",
+  "desc": "The story of six teenagers who stole a boat, got lost in a storm, then lived in relative harmony on a South Pacific island.",
+  "title": "I Spent 15 Months Shipwrecked on an Uninhabited Island"
 }

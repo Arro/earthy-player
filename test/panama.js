@@ -3,18 +3,18 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import readSchemaNet from "../src/cli/read-schema-net"
-import getSelectorByText from "../src/cli/get-selector-by-text"
+import getMetadata from "../src/get-metadata"
+import getSelectorByText from "../src/get-selector-by-text"
 import htmlToSegments from "../src/html-to-segments"
 
-test("schema.net reading", async (t) => {
+test("get metadata", async (t) => {
   const html = await fs.readFile(
     path.resolve("./test/fixtures/027_panama.html"),
     "utf-8"
   )
 
   const document = new JSDOM(html)?.window?.document
-  const schema = readSchemaNet(document)
+  const schema = getMetadata(document)
 
   const schema_solution = JSON.parse(
     await fs.readFile(
@@ -24,6 +24,26 @@ test("schema.net reading", async (t) => {
   )
 
   t.deepEqual(schema, schema_solution)
+})
+
+test("get metadata with force_no_schema on", async (t) => {
+  const html = await fs.readFile(
+    path.resolve("./test/fixtures/027_panama.html"),
+    "utf-8"
+  )
+
+  const document = new JSDOM(html)?.window?.document
+  const schema = getMetadata(document, true)
+
+  let meta_solution = JSON.parse(
+    await fs.readFile(
+      path.resolve("./test/fixtures/030_panama_meta.json"),
+      "utf-8"
+    )
+  )
+  meta_solution.author = undefined // workaround
+
+  t.deepEqual(schema, meta_solution)
 })
 
 test("get selector by text: text", async (t) => {

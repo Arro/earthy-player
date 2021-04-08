@@ -1,51 +1,6 @@
 {
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "headline": "Alex Berenson: The Pandemic&apos;s Wrongest Man",
-  "url": "https://www.theatlantic.com/ideas/archive/2021/04/pandemics-wrongest-man/618475/",
-  "datePublished": "2021-04-01T10:00:00Z",
-  "dateModified": "2021-04-01T19:34:40Z",
-  "publisher": { "@id": "https://www.theatlantic.com/#publisher" },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.theatlantic.com/ideas/archive/2021/04/pandemics-wrongest-man/618475/"
-  },
-  "image": [
-    {
-      "@type": "ImageObject",
-      "width": {
-        "@type": "QuantitativeValue",
-        "unitCode": "E37",
-        "value": 1200
-      },
-      "height": {
-        "@type": "QuantitativeValue",
-        "unitCode": "E37",
-        "value": 900
-      },
-      "url": "https://cdn.theatlantic.com/thumbor/M5dDWIO1FUib8BOAA4eKqYwNWRo=/295x0:1620x994/1200x900/https://cdn.theatlantic.com/media/img/mt/2021/03/Atlantic_Berenson_v1/original.png"
-    },
-    {
-      "@type": "ImageObject",
-      "width": {
-        "@type": "QuantitativeValue",
-        "unitCode": "E37",
-        "value": 1600
-      },
-      "height": {
-        "@type": "QuantitativeValue",
-        "unitCode": "E37",
-        "value": 900
-      },
-      "url": "https://cdn.theatlantic.com/thumbor/VZcuvqvgk7XgfqG9gtLOeRavRmg=/74x0:1841x994/1600x900/https://cdn.theatlantic.com/media/img/mt/2021/03/Atlantic_Berenson_v1/original.png"
-    }
-  ],
-  "author": [
-    {
-      "@type": "Person",
-      "name": "Derek Thompson",
-      "sameAs": "https://www.theatlantic.com/author/derek-thompson/"
-    }
-  ],
-  "articleSection": "Ideas"
+  "title": "Alex Berenson: The Pandemic&apos;s Wrongest Man",
+  "desc": "In a crowded field of wrongness, one person stands out: Alex Berenson.",
+  "date": "Thursday, April 1st, 2021",
+  "author": "Derek Thompson"
 }
