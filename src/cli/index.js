@@ -5,9 +5,9 @@ import path from "path"
 import os from "os"
 import fs from "fs-extra"
 import dotenv from "dotenv"
-import selectorWalkthrough from "./selector-walkthrough"
 import urlFetch from "./url-fetch"
 import paginatedMenu from "./paginated-menu.js"
+import htmlToSegments from "../html-to-segments.js"
 import condenseSegments from "../condense-segments"
 import textToSpeech from "../text-to-speech"
 
@@ -36,11 +36,9 @@ dotenv.config()
   })
 
   await term.bgWhite.black(
-    `                       Version ${packageJson.version}                       `
+    `                       Version ${packageJson.version}                        `
   )
   term("\n\n")
-
-  console.log(term.height)
 
   await term(`How do you want to procede?`)
   term("\n")
@@ -71,7 +69,25 @@ dotenv.config()
     const html = await urlFetch()
     term("\n")
 
-    let all_segments = await selectorWalkthrough(html)
+    term("\n")
+    await term(`Copy and paste the first few words of the first paragraph.`)
+    term("\n")
+
+    let first_para = await term.inputField().promise
+    term("\n")
+
+    term("\n")
+    await term(`Copy and paste the first few words of the second paragraph.`)
+    term("\n")
+
+    let second_para = await term.inputField().promise
+    term("\n")
+
+    let all_segments = await htmlToSegments({
+      html,
+      first_para,
+      second_para
+    })
 
     all_segments = await condenseSegments({
       segments: all_segments,
