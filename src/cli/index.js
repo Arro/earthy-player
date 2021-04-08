@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 import { terminal as term } from "terminal-kit"
-import packageJson from "../../package.json"
+import packageJson from "packageJson"
 import path from "path"
 import os from "os"
 import fs from "fs-extra"
 import dotenv from "dotenv"
 import urlFetch from "./url-fetch"
-import paginatedMenu from "./paginated-menu.js"
-import htmlToSegments from "../html-to-segments.js"
-import condenseSegments from "../condense-segments"
-import textToSpeech from "../text-to-speech"
+import paginatedMenu from "src/cli/paginated-menu.js"
+import htmlToSegments from "src/html-to-segments.js"
+import condenseSegments from "src/condense-segments"
+import textToSpeech from "src/text-to-speech"
 
 dotenv.config()
 ;(async function () {

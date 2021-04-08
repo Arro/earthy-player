@@ -3,13 +3,13 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getMetadata from "../src/get-metadata"
-import getSelectorByText from "../src/get-selector-by-text"
-import htmlToSegments from "../src/html-to-segments"
+import getMetadata from "src/get-metadata"
+import getSelectorByText from "src/get-selector-by-text"
+import htmlToSegments from "src/html-to-segments"
 
 test("get metadata", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/027_panama.html"),
+    path.join(__dirname, "fixtures", "027_panama.html"),
     "utf-8"
   )
 
@@ -18,7 +18,7 @@ test("get metadata", async (t) => {
 
   const schema_solution = JSON.parse(
     await fs.readFile(
-      path.resolve("./test/fixtures/028_panama_schema.json"),
+      path.join(__dirname, "fixtures", "028_panama_schema.json"),
       "utf-8"
     )
   )
@@ -28,7 +28,7 @@ test("get metadata", async (t) => {
 
 test("get metadata with force_no_schema on", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/027_panama.html"),
+    path.join(__dirname, "fixtures", "027_panama.html"),
     "utf-8"
   )
 
@@ -37,7 +37,7 @@ test("get metadata with force_no_schema on", async (t) => {
 
   let meta_solution = JSON.parse(
     await fs.readFile(
-      path.resolve("./test/fixtures/030_panama_meta.json"),
+      path.join(__dirname, "fixtures", "030_panama_meta.json"),
       "utf-8"
     )
   )
@@ -48,7 +48,7 @@ test("get metadata with force_no_schema on", async (t) => {
 
 test("get selector by text: text", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/027_panama.html"),
+    path.join(__dirname, "fixtures", "027_panama.html"),
     "utf-8"
   )
 
@@ -66,7 +66,7 @@ test("get selector by text: text", async (t) => {
 
 test("html to segments", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/027_panama.html"),
+    path.join(__dirname, "fixtures", "027_panama.html"),
     "utf-8"
   )
 
@@ -78,7 +78,7 @@ test("html to segments", async (t) => {
 
   const solution = JSON.parse(
     await fs.readFile(
-      path.resolve("./test/fixtures/029_panama_segments.json"),
+      path.join(__dirname, "fixtures", "029_panama_segments.json"),
       "utf-8"
     )
   )

@@ -13,5 +13,17 @@ module.exports = {
         }
       }
     ]
+  ],
+  plugins: [
+    [
+      "module-resolver",
+      {
+        alias: {
+          test: "./test",
+          src: "./src",
+          packageJson: "./package.json"
+        }
+      }
+    ]
   ]
 }

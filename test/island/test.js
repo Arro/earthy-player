@@ -3,12 +3,12 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getSelectorByText from "../src/get-selector-by-text"
-import getMetadata from "../src/get-metadata"
+import getSelectorByText from "src/get-selector-by-text"
+import getMetadata from "src/get-metadata"
 
 test("get selector by text: author", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/023_island.html"),
+    path.join(__dirname, "fixtures", "023_island.html"),
     "utf-8"
   )
 
@@ -23,7 +23,7 @@ test("get selector by text: author", async (t) => {
 
 test("get selector by text: date", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/023_island.html"),
+    path.join(__dirname, "fixtures", "023_island.html"),
     "utf-8"
   )
 
@@ -39,7 +39,7 @@ test("get selector by text: date", async (t) => {
 
 test("get metadata", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/023_island.html"),
+    path.join(__dirname, "fixtures", "023_island.html"),
     "utf-8"
   )
 
@@ -48,7 +48,7 @@ test("get metadata", async (t) => {
 
   const schema_solution = JSON.parse(
     await fs.readFile(
-      path.resolve("./test/fixtures/024_island_schema.json"),
+      path.join(__dirname, "fixtures", "024_island_schema.json"),
       "utf-8"
     )
   )
@@ -58,7 +58,7 @@ test("get metadata", async (t) => {
 
 test("get selector by text: text", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/023_island.html"),
+    path.join(__dirname, "fixtures", "023_island.html"),
     "utf-8"
   )
 
