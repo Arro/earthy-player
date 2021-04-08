@@ -1,9 +1,7 @@
 import textToSpeech from "@google-cloud/text-to-speech"
-import fs from "fs"
+import fs from "fs-extra"
 import path from "path"
 import { spawn } from "promisify-child-process"
-
-const { writeFile } = fs.promises
 
 export default async function ({
   segments,
@@ -46,41 +44,21 @@ export default async function ({
       },
       audioConfig: {
         audioEncoding: "MP3",
+        sampleRateHertz: 44100,
         speed: segment.speed,
         pitch: segment.pitch
       }
     })
 
     const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
-    await writeFile(filename, response.audioContent, "binary")
+    await fs.writeFile(filename, response.audioContent, "binary")
 
-    const wav_filename = path.resolve(`${working_directory}/${slug}-${i}.wav`)
-    await spawn(
-      ffmpeg_path,
-      [
-        "-i",
-        filename,
-        "-vn",
-        "-acodec",
-        "pcm_s16le",
-        "-ar",
-        "48000",
-        "-y",
-        "-ac",
-        "2",
-        "-strict",
-        "-2",
-        wav_filename
-      ],
-      { encoding: "utf-8", maxBuffer: 200 * 1024 }
-    )
-
-    filelist += `file '${wav_filename}'\n`
+    filelist += `file '${filename}'\n`
   }
 
   const list_filename = path.resolve(`${working_directory}/${slug}-list.txt`)
   const untracked_filename = path.resolve(`${working_directory}/${slug}.mp3`)
-  await writeFile(list_filename, filelist, "utf-8")
+  await fs.writeFile(list_filename, filelist, "utf-8")
 
   return await spawn(
     ffmpeg_path,
