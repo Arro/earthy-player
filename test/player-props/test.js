@@ -5,6 +5,7 @@ import htmlToSegments from "src/html-to-segments"
 import pff_vocab from "test/shared/pff-vocab"
 import pff_discard from "test/shared/pff-discard"
 import voices from "test/shared/voices"
+import sound_effects from "test/shared/sound-effects"
 
 test("html to segments", async (t) => {
   const html = await fs.readFile(
@@ -19,12 +20,7 @@ test("html to segments", async (t) => {
     voices,
     sound_effects_dir:
       "https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/",
-    sound_effects: {
-      start: "moldy-trace.wav",
-      tweet_replacement: "moldy-prove.wav",
-      unknown_replacement: "nappy-begin.wav",
-      list_item_marker: "lying-match.wav"
-    },
+    sound_effects,
     discard_if_found: pff_discard,
     vocab: pff_vocab
   })
@@ -36,4 +32,14 @@ test("html to segments", async (t) => {
   solution = JSON.parse(solution)
 
   t.deepEqual(segments, solution)
+})
+
+test("html to segments, paragraphs not provided", async (t) => {
+  const html = await fs.readFile(
+    path.join(__dirname, "fixtures", "002_pff.html"),
+    "utf-8"
+  )
+  const error = await t.throwsAsync(htmlToSegments({ html }))
+
+  t.is(error.message, "Paragraphs not provided")
 })

@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
     "cli": "babel-node src/cli/index.js",
@@ -47,8 +47,17 @@
   },
   "ava": {
     "babel": true,
-    "files": [
+    "_files": [
       "test/**/test.js"
+    ],
+    "files": [
+      "test/island/test.js",
+      "test/panama/test.js",
+      "test/player-props/test.js",
+      "test/rookie-rankings/test.js",
+      "test/reactions/test.js",
+      "test/readme-cat/test.js",
+      "test/wrongest/test.js"
     ],
     "require": [
       "@babel/register"

@@ -5,7 +5,7 @@
     "what": "start_of_article"
   },
   {
-    "text": "NFL Rookie Rankings: 10 highest-graded rookies through Week 2.",
+    "text": "NFL Rookie Rankings: 10 highest-graded rookies through Week 2 | NFL News, Rankings and Statistics | PFF.",
     "language_code": "en-GB",
     "pitch": -5,
     "speed": 1,
@@ -13,7 +13,15 @@
     "what": "title"
   },
   {
-    "text": "By Anthony Treash on Tuesday, September 22nd, 2020.",
+    "text": "PFF runs through the list of the highest-graded rookies after Week 2 of the 2020 season, which includes Washington's Chase Young, Chicago's Jaylon Johnson and Kansas City's Clyde Edwards-Helaire.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published on Tuesday, September 22nd, 2020.",
     "voice_name": "en-GB-Wavenet-B",
     "language_code": "en-GB",
     "pitch": -5,
