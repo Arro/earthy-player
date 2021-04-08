@@ -7,7 +7,7 @@ import processList from "./process-list"
 import default_voices from "./default-voices"
 import default_top_level_types from "./default-top-level-types"
 import getMetadata from "./get-metadata"
-import isElementGrandparent from "./is-element-grandparent"
+import isElementGreatGrandparent from "./is-element-great-grandparent"
 import doesElementContainScript from "./does-element-contain-script"
 import getSelectorByText from "./get-selector-by-text"
 
@@ -21,6 +21,7 @@ export default async function (args = {}) {
     sound_effects,
     sound_effects_dir,
     discard_if_found = [],
+    no_desc = false,
     vocab = {}
   } = args
   if (!html?.length) {
@@ -70,7 +71,7 @@ export default async function (args = {}) {
     what: "title"
   })
 
-  if (desc) {
+  if (desc && !no_desc) {
     segments.push({
       text: desc,
       language_code: `en-GB`,
@@ -116,7 +117,7 @@ export default async function (args = {}) {
       })
     } else {
       if (
-        !isElementGrandparent(element) &&
+        !isElementGreatGrandparent(element) &&
         !doesElementContainScript(element)
       ) {
         pElements = processElement({

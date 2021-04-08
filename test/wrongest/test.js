@@ -3,11 +3,11 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getMetadata from "../src/get-metadata"
+import getMetadata from "src/get-metadata"
 
 test("get metadata", async (t) => {
   const html = await fs.readFile(
-    path.resolve("./test/fixtures/025_wrongest.html"),
+    path.join(__dirname, "fixtures", "025_wrongest.html"),
     "utf-8"
   )
 
@@ -16,7 +16,7 @@ test("get metadata", async (t) => {
 
   const schema_solution = JSON.parse(
     await fs.readFile(
-      path.resolve("./test/fixtures/026_wrongest_schema.json"),
+      path.join(__dirname, "fixtures", "026_wrongest_schema.json"),
       "utf-8"
     )
   )

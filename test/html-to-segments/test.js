@@ -2,7 +2,7 @@ import test from "ava"
 import path from "path"
 
 import fs from "fs-extra"
-import htmlToSegments from "../src/html-to-segments"
+import htmlToSegments from "src/html-to-segments"
 
 test.beforeEach(async (t) => {
   t.context.voices = {
