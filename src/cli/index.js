@@ -108,12 +108,16 @@ dotenv.config()
     const working_directory = path.join(os.tmpdir(), slug)
     await fs.mkdirp(working_directory)
 
+    term("\n\n")
+    const spinner = await term.spinner("dotSpinner")
+    term(" Converting HTML to audio...")
     await textToSpeech({
       segments: all_segments,
       slug,
       working_directory,
       ffmpeg_path: process.env.ffmpeg_path
     })
+    spinner.destroy()
 
     term("\n")
   }

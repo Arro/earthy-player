@@ -1,5 +1,5 @@
 export default function (element) {
-  return Array.from(element.children).some((child) => {
-    return child.nodeName === "SCRIPT"
-  })
+  let script_found = element.querySelector("script")
+  let image_found = element.querySelector("img")
+  return script_found != undefined || image_found != undefined
 }

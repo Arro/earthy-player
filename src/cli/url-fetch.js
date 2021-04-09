@@ -10,6 +10,10 @@ term.on("key", function (name) {
 export default async function () {
   term("What is the url you want use?\n")
   const url = await term.inputField().promise
+  term("\n\n")
+  const spinner = await term.spinner("dotSpinner")
+  term(" Fetching HTML from the url...")
   let { data: html } = await axios.get(url)
+  spinner.destroy()
   return html
 }

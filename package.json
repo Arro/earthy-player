@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
     "cli": "babel-node src/cli/index.js",
@@ -61,6 +61,7 @@
       "test/readme-cat/test.js",
       "test/rookie-rankings/test.js",
       "test/takeaways/test.js",
+      "test/weddings/test.js",
       "test/week-3/test.js",
       "test/wrongest/test.js"
     ],
