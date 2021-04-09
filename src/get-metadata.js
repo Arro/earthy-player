@@ -35,7 +35,8 @@ export default function (document, force_no_schema = false) {
     title = schema?.headline
     desc = schema?.description?.trim()
     date = schema?.datePublished
-    author = schema?.author?.name || schema?.author?.[0]?.name
+    author =
+      schema?.author?.name || schema?.author?.map((a) => a?.name).join(" and ")
   }
 
   if (!title) {
