@@ -31,13 +31,23 @@ export default async function ({
   let filelist = ""
 
   for (const [i, segment] of segments.entries()) {
+    const next_segment = segments?.[i + 1]
     if (segment.type === "sound_effect") {
       filelist += `file '${segment.filename}'\n`
       continue
     }
 
+    let pause_length = "1s"
+    if (
+      segment.what === "quote" ||
+      (next_segment?.what === "quote" && /^[a-z].*/.test(next_segment?.text))
+    ) {
+      pause_length = "0.2s"
+    }
+    let ssml = `<speak>${segment.text}<break time="${pause_length}"/></speak>`
+
     const [response] = await client.synthesizeSpeech({
-      input: { ssml: `<speak>${segment.text}<break time="1s"/></speak>` },
+      input: { ssml },
       voice: {
         languageCode: segment.language_code,
         name: segment.voice_name

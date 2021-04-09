@@ -1,0 +1,522 @@
+[
+  {
+    "text": "Mike Rowe’s New Discovery+ Show Is Big Oil-Funded Propaganda.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "I knew that Big Oil funded Six Degrees. In fact, I started watching it because I’d read it was funded by the American Petroleum Institute and Distribution Contractors Association. Still, watching this unfold on screen, I nearly fell out of my chair.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published by Dharna Noor on Friday, April 2nd, 2021.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "Reality show host Mike Rowe’s new series Six Degrees, which is currently streaming on Discovery+ and will soon air on television, begins how I expected it would: with him on screen in a t-shirt, jeans, and baseball cap, and smiling wryly. It’s classic Rowe, posturing as an avatar for the \"average\" American.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The conceit of the show is to tie seemingly unrelated events together. In the first episode, Rowe traces the history of the dating app Tinder back to the invention of the horseshoe. He explains that in the 1700s, a young blacksmith melted horseshoes to create the first iron plow, and that decades later, Australian outlaw Ned Kelly used an iron plow to create the first suit of armor. Kelly then became the subject of the world’s first feature-length film, which contributed to the rise of the movie industry. Hollywood made actress and inventor Hedy Lemarr famous. One of her inventions was a precursor to wifi, which we use to surf dating apps. Rowe describes this all circuitously, stopping along the way for jokes and whiskey shots. It’s dumb but seemingly innocuous—until you get to the end.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Six Degrees is sponsored by the oil and natural gas industry. Why? Because oil and natural gas connects everything,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Rowe says at the episode’s conclusion. He goes on to explain that Lemarr’s inventing process was funded by the fortune her boyfriend made in the oil fields.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "I knew that Big Oil funded Six Degrees—the blog Reality Blurred caught wind of the sponsorship in January. In fact, I started watching it because I’d read it was funded by the American Petroleum Institute (the oil and gas industry’s biggest trade group) and Distribution Contractors Association (a lobbying group for fossil fuel pipeline contractors). Still, watching this unfold on screen, I nearly fell out of my chair.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It turns out Rowe shouts out the oil and gas industry in some capacity in every episode. I couldn’t believe he was so up front about it. But as jarring as it was to hear him praise the industry that is largely responsible for frying the planet, this sponsorship makes sense. It fits right in with the industry’s current favorite media strategy: Reminding us that their products are used in everything.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "They want to impress upon us that they’re responsible for making a lot of the cool shit we use, starting with when you wake up in the morning and you take a hot shower, and then when you fry an egg, and then when you turn on your iPhone,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "said Kert Davies, director of Climate Investigations Center.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It’s true that across the U.S., water heaters, stoves, and electricity that keeps your phone charged largely run on fossil fuels. Yet none of it has to. We have the technology to power each of those things with clean energy. Delaying that transition would lock in catastrophic climate damage. That’s what makes Rowe’s show and other fossil fuel PR campaigns like it so insidious.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "\"If all you know about this industry, if all you see, is that that they sponsor a cool show you like, you’ll probably subconsciously think, ‘how bad could they be?’\" said Geoffrey Supran, a Harvard researcher who has studied the fossil fuel industry’s misinformation campaigns.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Davies was a little more, uh, direct:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The point of the ads is, back off, don’t fuck with us, you need us. It’s all to do with social license.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Though the blatant shilling for Big Oil on the show is shocking, it’s not surprising. Rowe has a history of pro-fossil fuel messaging, and according to tax forms obtained by Earther, his nonprofit has raked in six-figure donations from the likes of Koch Industries. (He declined to comment for this story through Discovery+, and Earther did not receive a response from his nonprofit.).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Before Six Degrees, Rowe made a name for himself as the host of Dirty Jobs‚ a show with an obvious—if shallow—appeal as an ode to the American working class, particularly if you think of the working class as exclusively white dudes in hard hats. On each episode, he worked in different thankless and sometimes gross professions, including a roadkill collector, sewer inspector, and.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "avian vomitologist,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "which is exactly what it sounds like.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This was an unlikely career path for Rowe, who before the show began was an opera singer—far from the stereotypical conception of a good ol’ rugged American dude he portrays on TV. But Dirty Jobs gave him a certain credibility as an advocate for forgotten workers.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In 2008, Rowe launched mikeroweWORKS, a nonprofit promoting vocational training for blue-collar jobs. The organization provides scholarships for job training programs in fields including automotive technology, HVAC, manufacturing, and diesel technology, which in itself isn’t a bad thing. But the foundation is premised on the idea that the reason people are struggling to find good-paying work in these sectors is because of a skills gap for those in blue-collar fields—a thoroughly debunked myth pushed by industry leaders to make workers feel underqualified for positions, which research suggests helped companies to put more conditions on their job listings and offer lower rates of pay. mikeroweWORKS also fails to grapple with the reality that amid the worsening climate crisis, many of these fields will have to undergo major changes (and in the case of diesel, at least, be fully phased out).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In the years since starting his nonprofit, Rowe started a parallel media career as a pundit, frequently appearing on Fox News to openly speak out against regulating oil and gas extraction.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Despite his posturing as a friend of the working class, Rowe doesn’t have much to say how the industry mercilessly lays off employees while paying shareholders or that working in the fossil fuel industry comes with notoriously dangerous conditions for workers and long-term health risks. (Instead, he suggests safety concerns are overblown). He’s also failed to show much support for labor organizing in the energy sector, even though they could desperately use his support. Federal data shows rates of unionization in the coal, oil, and gas sector is dwindling.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "He’s to the oil and gas industry what Ronald Reagan was for General Electric, a charming pitch man,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Adam Johnson, the co-host of the podcast Citations Needed, wrote in an email.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "That’s likely no accident. As Johnson’s podcast uncovered on a 2019 episode, Rowe’s foundation is funded by anti-regulation groups including the Distribution Contractors Association (yes, the same group funding his new show), auto parts manufacturer Ford-Mogul Motor Parts, a subsidiary of the British multinational energy firm Centrica, and perhaps most damning of all, the massive fossil fuel and petrochemical conglomerate Koch Industries. A document the Climate Investigations Center found on Guidestar, which is marked.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "not open to public inspection,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "shows that Koch Industries and the Koch Foundation, both tied to the massive fortune amassed by the Koch brothers, have together donated more than $1 million dollars to Rowe’s foundation since it was founded.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Johnson described Rowe as the.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "greatest anti-worker avatar money can buy,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "because he’s.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "someone who a lot of working people genuinely love ... but who is 100% against their interests.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Rowe’s an especially useful ally to the fossil fuel sector because he continually perpetuates the age-old conservative myth that environmental regulation must come at the expense of jobs, despite mountains of evidence that the opposite is true and that a just transition for fossil fuel employees is possible (and needed).",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "The dirty truth about fossil fuels and the petrochemical industry is that it is really dangerous dirty work all the way from the frack fields and wellheads to the refineries and chemical plants,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "said Davies. Workers get sick and die. Fenceline communities get sick and die. There are cancer clusters, increased asthma and other health problems associated with petrochemicals, plastics and pesticides.\".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In Six Degrees, Rowe doesn’t take an explicitly anti-renewable stance. In an episode connecting sheep to how we do our taxes, he speaks with a solar installer and asks him when the energy source will.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "become not just an alternative but one of the go-to choices.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "But even then, he doesn’t say anything about why solar might be preferable because oil and gas have created an existential threat.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "API is hitching its wagon to a show that appears to promote discourses of fossil fuel essentialism and fossil fuel solutionism,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "Supran said.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In another episode of the show, for instance, Rowe says electricity is.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "made possible by spinning turbines—turbines powered by wind and solar, but mostly by oil and gas.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In other words, the audience is not-so-subtly indoctrinated with the idea that fossil fuels will inevitably be essential for the foreseeable future, which is a political judgement, not a scientific necessity, and a recipe for climate disaster,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "said Supran.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In an email, a spokesperson for Discovery+ said that Six Degrees is the only program on the network that is funded by advocacy or trade groups. Though he said he could not disclose exactly how much money the American Petroleum Institute or Distribution Contractors Association contributed to the production of Six Degrees, he said that the groups didn’t influence the show’s content.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This sponsorship was simply to get production started,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "he said.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "There was no creative input or influence on the series.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "But it’s clear why the industry itself would want to sponsor this kind of endeavor now. Public concern about the climate crisis is growing. The Biden administration has imposed new regulations limiting extraction, and organizers who correctly state these moves are insufficient are pressuring officials to do far more. There’s also the reality that climate change poses an existential threat if left unchecked. And the fastest way to reduce carbon emissions is to wind down the fossil fuel industry while simultaneously protecting the workers Rowe says he stands in support of. From Six Degrees, though, you’d never know that phasing out fossil fuels is a necessary step to securing working people a livable future.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "As the stakes around climate change continue to get higher—and more people point toward fossil fuels as the main culprit to the warming of our planet—Big Oil’s sponsorship of Mike Rowe’s new show on Discovery+ is concerning,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "said Allison Fisher, climate and energy program director at Media Matters for America.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Unlike the conservative audience that tunes in when Rowe talks about the oil and gas industry on Fox News and Fox Business News, Discovery+ is reaching a new and unwitting audience who may not have an opinion on Big Oil one way or another, but could be persuaded by Rowe.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Six Degrees is right—currently, fossil fuels do provide the foundation of society and are connected to nearly everything. But that’s not an immutable truth, it’s a problem to be solved by creating a just, green economy. It’s precisely because of the interconnectivity of everything, the premise on which the show is built, that we need to forge that new world. Rowe’s new show is a roadblock to do just that, and that’s exactly the way the Six Degrees’ sponsors want it.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]
