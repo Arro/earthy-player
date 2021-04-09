@@ -1,0 +1,36 @@
+[
+  {
+    "text": "Asymptomatic Infection Is a Deep Biological Mystery.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "No, not COVID-19. Many, many viruses can infect humans without making us sick, and how they do that is one of biology’s deepest mysteries.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published by Sarah Zhang on Wednesday, April 7th, 2021.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "There should be a lot more here.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  }
+]
