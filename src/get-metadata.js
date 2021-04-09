@@ -12,6 +12,7 @@ export default function (document, force_no_schema = false) {
     .find((s) => {
       return (
         s?.["@type"] === "NewsArticle" ||
+        s?.["@type"] === "Article" ||
         s?.["@type"] === "BlogPosting" ||
         s?.["@graph"]
       )
@@ -19,6 +20,7 @@ export default function (document, force_no_schema = false) {
 
   if (
     raw_schema?.["@type"] === "NewsArticle" ||
+    raw_schema?.["@type"] === "Article" ||
     raw_schema?.["@type"] === "BlogPosting"
   ) {
     schema = raw_schema
