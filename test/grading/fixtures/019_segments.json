@@ -5,7 +5,7 @@
     "what": "start_of_article"
   },
   {
-    "text": "Grading all 32 first-round picks after Week 2 of the 2020 NFL season.",
+    "text": "Grading all 32 first-round picks after Week 2 of the 2020 NFL season | NFL News, Rankings and Statistics | PFF.",
     "language_code": "en-GB",
     "pitch": -5,
     "speed": 1,
@@ -13,7 +13,15 @@
     "what": "title"
   },
   {
-    "text": "By Sam Monson on Tuesday, September 22nd, 2020.",
+    "text": "PFF looks at the overall grade for each first-round rookie after Week 2 of the 2020 NFL season.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published on Tuesday, September 22nd, 2020.",
     "voice_name": "en-GB-Wavenet-B",
     "language_code": "en-GB",
     "pitch": -5,

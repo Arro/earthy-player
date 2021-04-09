@@ -5,7 +5,7 @@
     "what": "start_of_article"
   },
   {
-    "text": "Justin Herbert did more than enough in Week 2 to be the Chargers' starter moving forward.",
+    "text": "Justin Herbert did more than enough in Week 2 to be the Chargers' starter moving forward | NFL News, Rankings and Statistics | PFF.",
     "language_code": "en-GB",
     "pitch": -5,
     "speed": 1,
@@ -13,7 +13,15 @@
     "what": "title"
   },
   {
-    "text": "By Michael Renner on Tuesday, September 22nd, 2020.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "text": "Los Angeles Chargers head coach Anthony Lynn said Tyrod Taylor will remain the team's starting quarterback if healthy.",
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published on Tuesday, September 22nd, 2020.",
     "voice_name": "en-GB-Wavenet-B",
     "language_code": "en-GB",
     "pitch": -5,
