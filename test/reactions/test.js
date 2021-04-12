@@ -18,7 +18,7 @@ test("html to segments", async (t) => {
     second_para: "In a week that was",
     voices,
     sound_effects_dir:
-      "https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/48000/",
+      "https://clammy-tennis.s3-ap-southeast-1.amazonaws.com/mp3/",
     sound_effects,
     discard_if_found: pff_discard,
     vocab: pff_vocab

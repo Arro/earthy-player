@@ -1,12 +1,14 @@
 import textToSpeech from "@google-cloud/text-to-speech"
 import fs from "fs-extra"
 import path from "path"
+import os from "os"
 import { spawn } from "promisify-child-process"
 
 export default async function ({
   segments,
   slug,
   working_directory,
+  output_directory = path.join(os.homedir(), "Downloads"),
   ffmpeg_path = "/usr/local/bin/ffmpeg"
 }) {
   if (!segments) {
@@ -67,7 +69,7 @@ export default async function ({
   }
 
   const list_filename = path.resolve(`${working_directory}/${slug}-list.txt`)
-  const untracked_filename = path.resolve(`${working_directory}/${slug}.mp3`)
+  const untracked_filename = path.resolve(`${output_directory}/${slug}.mp3`)
   await fs.writeFile(list_filename, filelist, "utf-8")
 
   return await spawn(
