@@ -34,6 +34,9 @@ export default async function ({
 
   for (const [i, segment] of segments.entries()) {
     const next_segment = segments?.[i + 1]
+    if (!segment.what) {
+      continue
+    }
     if (segment.type === "sound_effect") {
       filelist += `file '${segment.filename}'\n`
       continue
