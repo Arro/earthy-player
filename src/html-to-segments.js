@@ -7,7 +7,7 @@ import processList from "./process-list"
 import default_voices from "./default-voices"
 import default_top_level_types from "./default-top-level-types"
 import getMetadata from "./get-metadata"
-import isElementGreatGrandparent from "./is-element-great-grandparent"
+// import isElementGreatGrandparent from "./is-element-great-grandparent"
 import doesElementContainScript from "./does-element-contain-script"
 import getSelectorByText from "./get-selector-by-text"
 
@@ -98,6 +98,13 @@ export default async function (args = {}) {
   })
 
   for (const element of article_elements) {
+    if (element.className == "toc") {
+      continue
+    }
+    if (segments?.[segments.length - 1]?.text === "Footnotes[edit].") {
+      break
+    }
+
     const type = element.nodeName?.toLowerCase()
     let pElements = []
     if (type === "table") {
@@ -117,7 +124,7 @@ export default async function (args = {}) {
       })
     } else {
       if (
-        !isElementGreatGrandparent(element) &&
+        // !isElementGreatGrandparent(element) &&
         !doesElementContainScript(element)
       ) {
         pElements = processElement({

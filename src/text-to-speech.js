@@ -65,6 +65,10 @@ export default async function ({
       }
     })
 
+    await new Promise(function (resolve) {
+      setTimeout(resolve, 150)
+    })
+
     const filename = path.resolve(`${working_directory}/${slug}-${i}.mp3`)
     await fs.writeFile(filename, response.audioContent, "binary")
 

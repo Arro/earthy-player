@@ -24,12 +24,4 @@ test("html to segments", async (t) => {
   )
 
   t.deepEqual(segments, segments_solution)
-  /*
-  await fs.writeFile(
-    path.join(__dirname, "fixtures", "segments_solution.json"),
-    JSON.stringify(segments, null, 2),
-    "utf-8"
-  )
-  t.pass()
- */
 })
