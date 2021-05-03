@@ -9,7 +9,8 @@ import default_top_level_types from "./default-top-level-types"
 import getMetadata from "./get-metadata"
 // import isElementGreatGrandparent from "./is-element-great-grandparent"
 import doesElementContainScript from "./does-element-contain-script"
-import getSelectorByText from "./get-selector-by-text"
+// import getSelectorByText from "./get-selector-by-text"
+import getNearestCommonAncestor from "./get-nearest-common-ancestor"
 
 export default async function (args = {}) {
   let {
@@ -34,13 +35,19 @@ export default async function (args = {}) {
   const document = new JSDOM(html)?.window?.document
   const { title, desc, date, author } = getMetadata(document)
 
-  let first_para_selector = getSelectorByText(document, first_para)
-  let second_para_selector = getSelectorByText(document, second_para)
-  if (first_para_selector !== second_para_selector) {
+  // let first_para_selector = getSelectorByText(document, first_para)
+  // let second_para_selector = getSelectorByText(document, second_para)
+
+  let nearest_common_sel = getNearestCommonAncestor(
+    document,
+    first_para,
+    second_para
+  )
+  if (!nearest_common_sel?.length) {
     throw new Error("Can't figure out paragraph")
   }
   top_level_types = top_level_types.map((type) => {
-    return `${first_para_selector} > ${type}`
+    return `${nearest_common_sel} > ${type}`
   })
 
   const article_elements = document.querySelectorAll(top_level_types.join(","))

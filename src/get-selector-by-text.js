@@ -12,7 +12,7 @@ export default function (document, text) {
     "header",
     "article"
   ]
-  let selector = "body"
+  let selector = [{ type: "tag", value: "body" }]
   while (active_element) {
     const children = Array.from(active_element.children).filter((el) => {
       return types.includes(el.tagName.toLowerCase())
@@ -22,11 +22,20 @@ export default function (document, text) {
     })
     if (active_element) {
       if (active_element.className) {
-        selector += ` > .${active_element.className.replaceAll(" ", ".")}`
+        selector.push({
+          type: "class",
+          value: active_element.className.trim()
+        })
       } else if (active_element.id) {
-        selector += ` > #${active_element.id}`
+        selector.push({
+          type: "id",
+          value: active_element.id
+        })
       } else {
-        selector += ` > ${active_element.tagName.toLowerCase()}`
+        selector.push({
+          type: "tag",
+          value: active_element.tagName.toLowerCase()
+        })
       }
 
       if (active_element.textContent === text) {

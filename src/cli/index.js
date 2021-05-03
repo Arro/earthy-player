@@ -86,11 +86,7 @@ dotenv.config()
     let all_segments = await htmlToSegments({
       html,
       first_para,
-      second_para,
-      vocab: {
-        "No.": "Number",
-        "App.": "Apparent"
-      }
+      second_para
     })
 
     all_segments = await condenseSegments({
