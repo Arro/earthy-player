@@ -2,14 +2,14 @@ import test from "ava"
 import fs from "fs"
 import path from "path"
 
-import condenseSegments from "../src/condense-segments.js"
-import textToSpeech from "../src/text-to-speech.js"
+import condenseSegments from "src/condense-segments.js"
+import textToSpeech from "src/text-to-speech.js"
 
 const { readFile } = fs.promises
 
 test("condense malazan", async (t) => {
   let segments = await readFile(
-    path.resolve("./test/fixtures/000_malazan_segments.json"),
+    path.resolve("./fixtures/000_malazan_segments.json"),
     "utf-8"
   )
   segments = JSON.parse(segments)
@@ -21,7 +21,7 @@ test("condense malazan", async (t) => {
 
 test("condense monocle", async (t) => {
   let segments = await readFile(
-    path.resolve("./test/fixtures/001_monocle_segments.json"),
+    path.resolve("./fixtures/001_monocle_segments.json"),
     "utf-8"
   )
   segments = JSON.parse(segments)

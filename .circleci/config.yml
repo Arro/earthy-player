@@ -6,4 +6,4 @@ version: 2.1
 workflows:
   test_my_app:
     jobs:
-      - node/test
+      - node/test-iso
