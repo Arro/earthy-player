@@ -3,7 +3,13 @@ orbs:
 
 version: 2.1
 
+jobs:
+  test:
+    steps:
+      - checkout
+      - run: npm run test-iso 
+
 workflows:
   test_my_app:
     jobs:
-      - node/test-iso
+      - test
