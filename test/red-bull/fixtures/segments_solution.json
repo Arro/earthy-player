@@ -1,0 +1,579 @@
+[
+  {
+    "text": "Red Bull, Elon Musk, and Matt Gaetz.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "title"
+  },
+  {
+    "text": "Politics and the attention economy.",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "desc"
+  },
+  {
+    "text": "Published by Jonathan V. Last on Wednesday, April 7th, 2021.",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1,
+    "type": "speech",
+    "what": "author-and-date"
+  },
+  {
+    "text": "1. Red Bull and Elon Musk.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "What is \"Red Bull\"?",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "\"Red Bull\" is a carbonated energy drink. It is packaged in metal cans. These cans and the liquid inside them are manufactured by Rauch, a 100-year-old Austrian company that has historically made juices.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "But there is a company called.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Red Bull.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "And this company does one thing and one thing only: It markets the carbonated energy drink called.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Red Bull.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This piece on Red Bull in the Generalist was enough to make me subscribe, all by itself. I can’t recommend it enough. But if you don’t want to pony up the $$$ (it’s not cheap) the takeaway that’s important for our purposes is this:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "There should be stuff here",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "What a world.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "During the GameStop mania, the great Matt Levine stared into the abyss and came up with the Elon Musk Markets Hypothesis:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "At first, Levine thought this thesis was kind of amusing but within a few days it had burned a hole in his soul:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "I wrote the other day that.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "the way finance works now is that things are valuable not based on their cash flows but on their proximity to Elon Musk,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "and I am already tired of it. It was a joke? But in a couple of years there are going to be 800-page textbooks on Elon Musk Proximity Pricing; it will be a whole unit on Level 1 of the CFA. You might think that.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "did Elon Musk tweet about a thing\" would be a simpler valuation metric than, like, \"estimate its cash flows in perpetuity and apply an appropriate discount rate,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "but I don’t know, there’s a lot going on.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Because it’s kind of true. Maybe not universally true. But true enough.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "You could make a thing and people could buy that thing and maybe that’s a business. Or you could be a company that gets tweeted by Elon Musk. Or a company that figures out how to drop a human being out of a balloon with your logo on it floating 24 miles above the earth’s surface.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Those are viable business models, too.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Get More. Join Bulwark+.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "2. The Attention Economy.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "The unifying principle that binds Red Bull and Elon Musk is attention economics: The idea that in a world moving toward post-scarcity,1 the attention of human beings becomes increasingly valuable.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "And not just.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "valuable,",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "but in extreme cases, much more valuable than goods and services. For instance:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In 2020, Tesla delivered 499,550 cars. Tesla’s market cap is currently $661.57 billion. Let’s compare that with the Big Four’s numbers for 2020:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "So, you know, you could revolutionize supply chain logistics and vehicle reliability. Then you could make several million cars and trade them to consumers for money.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Or you could have a memelord as your CEO. They’re equally valid business plans.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "3. Matt Gaetz.",
+    "what": "heading",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-A",
+    "language_code": "en-GB",
+    "pitch": -2.8,
+    "speed": 1.15
+  },
+  {
+    "text": "Which brings us to Matthew Louis Gaetz II.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "A lot of people have goofed on Matt Gaetz for this statement:",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "If you aren’t making news, you aren’t governing.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": ".",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "But he’s right. Or at least, right in his conclusion that Republican party politics now behave according to attention economics.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Does it matter to his future political prospects that Matt Gaetz doesn’t advance legislation? Does it matter that Madison Cawthorn staffed up his office with comms people? Does it matter that Marjorie Taylor Greene doesn’t have committee assignments?",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Well, these quirks would matter in a system where legislative accomplishments influenced voter behavior. But the preponderance of evidence suggests that Republican voters don’t care about tangible government outcomes.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "They don’t care whether or not a border wall is built, or who would have (theoretically) paid for it. They don’t care about whether or not the government fails to manage a global pandemic, killing hundreds of thousands of their fellow citizens. They don’t care if unemployment is up—or down. They don’t care about stimulus checks. Or the national debt.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "It’s a little bit like—check that—it’s exactly like Red Bull.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Consumers don’t care who makes Red Bull. They don’t even care what’s in the can that says.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Red Bull.",
+    "what": "quote",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-D",
+    "language_code": "en-GB",
+    "pitch": -2,
+    "speed": 1
+  },
+  {
+    "text": "What they care about is the amazing content on the Red Bull YouTube channel.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This is post-scarcity politics. Republican voters—a group distinct from Conservatism Inc.—no longer have any concrete outcomes that they want from government.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "What they have, instead, is a lifestyle brand.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "And if you want to move up the ladder within a brand network, you don’t do it by governing or making policy.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "You do it by getting attention.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Donald Trump was the first figure to understand that this was where Republican voters had moved. Once you view Republican politics as an attention economy, everything about Trump’s rise and domination makes sense.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "And it explains Matt Gaetz, too.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "His current—I’m not sure what we’re supposed to call this, maybe \"predicament\"?—isn’t a threat. It’s the best thing that could possibly have happened to him. Gaetz gets to fill the attention vacuum left by Trump’s exile. He gets to posture and preen. Everyone talks about him and the fact that Democrats hate him only makes him more attractive to Republican voters.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "This \"scandal\" has leveled up Matt Gaetz and made him a contender for any office he so desires (so long as he doesn’t actually go to jail) because the attention he has from Republican voters is incredibly valuable—and can be leveraged into power. No part of the Republican voting coalition will consider any of this as a mark against him.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "You think I’m kidding?",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Democrats do not seem to understand this new development in Republican politics, perhaps because they do not live in a post-scarcity political world. There are still a great many legislative outcomes that Democrats want from government. So they think that the governing matters more than getting attention.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "That’s why Joe Biden won the nomination in a walk, even though he was practically allergic to attention. Instead, Democrats wanted a president who could deliver at least part of a long list of legislative outcomes: Vaccine distribution; closing the loophole on Obamacare’s subsidy cliff; creating a public option; granting statehood to the District of Columbia; creating a federal slate of voting rights protections; using the power of government to decrease carbon emissions; and so on.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Democrats continue to comport themselves as if they exist in a real political economy—a real world where they will be judged by voters on the outcomes of their actual policy choices. Meanwhile Republicans operate according to the rules of the attention economy.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "In 2022 and 2024 these two theories of the electorate will be tested against one another. We’re unlikely to get a clean result telling us, to a certainty, which more accurately describes the attitudes of the majority of Americans.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "But the fact that we don’t know which view will triumph tells us something about the state of our polity.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "If a political party making and selling policy widgets can’t beat a party that ignores policy except as it is useful to memeing and producing #content for its various media channels . . .",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Well, post-scarcity is just another way of saying decadence.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Normally this newsletter is only for members of Bulwark+ but today we’ve opened it up to everyone.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "Get More. Join Bulwark+.",
+    "what": "paragraph",
+    "type": "speech",
+    "voice_name": "en-GB-Wavenet-B",
+    "language_code": "en-GB",
+    "pitch": -5,
+    "speed": 1
+  },
+  {
+    "text": "1We are not near \"post-scarcity\" in terms of resources. But we’re closer than we’ve ever been as a species. That’s why we toy with ideas like UBI. Maybe post-scarcity is a mirage: A state of being that always sits just over the horizon. I don’t know. Just roll with it. Because we’re not talking about economic scarcity, but political scarcity."
+  }
+]
