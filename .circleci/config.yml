@@ -1,12 +1,19 @@
 orbs:
-  node: circleci/node@4.1.0
+  node: circleci/node@4.3.0
 
 version: 2.1
 
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:12.16
+
 jobs:
   test:
+    <<: *defaults
     steps:
       - checkout
+      - run: npm install
       - run: npm run test-iso 
 
 workflows:
