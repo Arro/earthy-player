@@ -9,7 +9,6 @@ import default_top_level_types from "./default-top-level-types"
 import getMetadata from "./get-metadata"
 // import isElementGreatGrandparent from "./is-element-great-grandparent"
 import doesElementContainScript from "./does-element-contain-script"
-// import getSelectorByText from "./get-selector-by-text"
 import getNearestCommonAncestor from "./get-nearest-common-ancestor"
 
 export default async function (args = {}) {
