@@ -32,11 +32,14 @@ export default function (document, force_no_schema = false) {
   let title, desc, date, author
 
   if (!force_no_schema) {
+    console.log(schema)
     title = schema?.headline
     desc = schema?.description?.trim()
     date = schema?.datePublished
-    author =
-      schema?.author?.name || schema?.author?.map((a) => a?.name).join(" and ")
+    author = schema?.author?.name 
+    if (Array.isArray(schema?.author)) {
+      author = schema.author.map((a) => a?.name)?.join(" and ")
+    }
   }
 
   if (!title) {

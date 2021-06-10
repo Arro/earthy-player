@@ -9,7 +9,7 @@ module.exports = {
           proposals: true
         },
         targets: {
-          node: "12"
+          node: "14"
         }
       }
     ]

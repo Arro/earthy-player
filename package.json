@@ -18,32 +18,32 @@
     "url": "git+https://github.com/Arro/earthy-player.git"
   },
   "dependencies": {
-    "@babel/core": "^7.14.0",
-    "@babel/preset-env": "^7.14.0",
-    "@babel/runtime": "^7.14.0",
-    "@google-cloud/text-to-speech": "^3.2.0",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/runtime": "^7.14.5",
+    "@google-cloud/text-to-speech": "^3.2.2",
     "axios": "^0.21.1",
-    "core-js": "^3.11.1",
-    "dotenv": "^8.2.0",
-    "fs-extra": "^9.1.0",
-    "jsdom": "^16.5.3",
+    "core-js": "^3.14.0",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "jsdom": "^16.6.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "promisify-child-process": "^4.1.1",
-    "terminal-kit": "^2.1.0"
+    "terminal-kit": "^2.1.5"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
-    "@babel/cli": "^7.13.16",
-    "@babel/eslint-parser": "^7.13.14",
-    "@babel/node": "^7.13.13",
-    "@babel/register": "^7.13.16",
-    "@babel/runtime": "^7.14.0",
+    "@babel/cli": "^7.14.5",
+    "@babel/eslint-parser": "^7.14.5",
+    "@babel/node": "^7.14.5",
+    "@babel/register": "^7.14.5",
+    "@babel/runtime": "^7.14.5",
     "ava": "^3.15.0",
     "babel-plugin-module-resolver": "^4.1.0",
-    "eslint": "^7.25.0",
+    "eslint": "^7.28.0",
     "eslint-plugin-babel": "^5.3.1",
-    "prettier": "^2.2.1"
+    "prettier": "^2.3.1"
   },
   "ava": {
     "babel": true,

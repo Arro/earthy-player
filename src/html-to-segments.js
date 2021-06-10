@@ -42,14 +42,23 @@ export default async function (args = {}) {
     first_para,
     second_para
   )
+  console.log(nearest_common_sel)
   if (!nearest_common_sel?.length) {
     throw new Error("Can't figure out paragraph")
   }
   top_level_types = top_level_types.map((type) => {
     return `${nearest_common_sel} > ${type}`
   })
+  console.log(`\n\n\n`)
+  console.log(html)
+  console.log(`\n\n\n`)
 
   const article_elements = document.querySelectorAll(top_level_types.join(","))
+  console.log(Array.from(article_elements))
+  console.log(Array.from(article_elements).length)
+  for (const a of article_elements) {
+    console.log(a.textContent)
+  }
 
   let segments = []
 
