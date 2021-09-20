@@ -1,9 +1,11 @@
 import axios from "axios"
-import { terminal as term } from "terminal-kit"
+import terminalKit from "terminal-kit"
 import filenamifyUrl from "filenamify-url"
-import { pullFromCache, putIntoCache } from "src/cache"
+import { pullFromCache, putIntoCache } from "src/cache.js"
 import os from "os"
 import path from "path"
+
+const term = terminalKit.terminal
 
 term.on("key", function (name) {
   if (name === "CTRL_C") {

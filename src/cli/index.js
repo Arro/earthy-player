@@ -1,15 +1,16 @@
 #!/usr/bin/env node
-import { terminal as term } from "terminal-kit"
-import packageJson from "packageJson"
+import terminalKit from "terminal-kit"
 import path from "path"
 import os from "os"
 import fs from "fs-extra"
 import dotenv from "dotenv"
-import urlFetch from "./url-fetch"
+import urlFetch from "src/cli/url-fetch.js"
 import paginatedMenu from "src/cli/paginated-menu.js"
 import htmlToSegments from "src/html-to-segments.js"
-import condenseSegments from "src/condense-segments"
-import textToSpeech from "src/text-to-speech"
+import condenseSegments from "src/condense-segments.js"
+import textToSpeech from "src/text-to-speech.js"
+
+const term = terminalKit.terminal
 
 dotenv.config()
 ;(async function () {
@@ -18,14 +19,7 @@ dotenv.config()
       process.exit()
     }
   })
-  const logo_url = path.join(
-    __dirname,
-    "..",
-    "..",
-    "public",
-    "img",
-    "earthy-player-simple.jpg"
-  )
+  const logo_url = path.join("public", "img", "earthy-player-simple.jpg")
 
   term.bgWhite.black(
     "                        Earthy Player                       "
@@ -36,7 +30,7 @@ dotenv.config()
   })
 
   await term.bgWhite.black(
-    `                       Version ${packageJson.version}                        `
+    `                       Version ${process.env.npm_package_version}                        `
   )
   term("\n\n")
 

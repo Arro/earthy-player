@@ -1,4 +1,5 @@
-import { terminal as term } from "terminal-kit"
+import terminalKit from "terminal-kit"
+const term = terminalKit.terminal
 
 const menu_key_bindings = {
   UP: "previous",

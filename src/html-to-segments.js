@@ -1,15 +1,15 @@
 import { JSDOM } from "jsdom"
 import url from "url"
 import path from "path"
-import processElement from "./process-element"
-import processTable from "./process-table"
-import processList from "./process-list"
-import default_voices from "./default-voices"
+import processElement from "./process-element.js"
+import processTable from "./process-table.js"
+import processList from "./process-list.js"
+import default_voices from "./default-voices.js"
 // import default_top_level_types from "./default-top-level-types"
-import getMetadata from "./get-metadata"
+import getMetadata from "./get-metadata.js"
 // import isElementGreatGrandparent from "./is-element-great-grandparent"
-import doesElementContainScript from "./does-element-contain-script"
-import getNearestCommonAncestor from "./get-nearest-common-ancestor"
+import doesElementContainScript from "./does-element-contain-script.js"
+import getNearestCommonAncestor from "./get-nearest-common-ancestor.js"
 
 export default async function (args = {}) {
   let {

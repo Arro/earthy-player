@@ -3,7 +3,7 @@
   "version": "0.4.15",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
-    "cli": "babel-node src/cli/index.js",
+    "cli": "npm run build && node dist/cli/index.js",
     "test-iso": "npx ava --verbose test/isolated/**/test.js",
     "test-full": "npx ava test/full/**/test.js"
   },
