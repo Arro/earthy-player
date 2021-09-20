@@ -66,21 +66,7 @@ dotenv.config()
   term("\n")
 
   if (choice.command === "by_url") {
-    const html = await urlFetch()
-    term("\n")
-
-    term("\n")
-    await term(`Copy and paste the first few words of the first paragraph.`)
-    term("\n")
-
-    let first_para = await term.inputField().promise
-    term("\n")
-
-    term("\n")
-    await term(`Copy and paste the first few words of the second paragraph.`)
-    term("\n")
-
-    let second_para = await term.inputField().promise
+    const { html, first_para, second_para } = await urlFetch()
     term("\n")
 
     let all_segments = await htmlToSegments({

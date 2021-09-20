@@ -5,7 +5,7 @@ import processElement from "./process-element"
 import processTable from "./process-table"
 import processList from "./process-list"
 import default_voices from "./default-voices"
-import default_top_level_types from "./default-top-level-types"
+// import default_top_level_types from "./default-top-level-types"
 import getMetadata from "./get-metadata"
 // import isElementGreatGrandparent from "./is-element-great-grandparent"
 import doesElementContainScript from "./does-element-contain-script"
@@ -16,7 +16,7 @@ export default async function (args = {}) {
     html,
     first_para,
     second_para,
-    top_level_types = default_top_level_types,
+    // top_level_types = default_top_level_types,
     voices = default_voices,
     sound_effects,
     sound_effects_dir,
@@ -46,15 +46,17 @@ export default async function (args = {}) {
   if (!nearest_common_sel?.length) {
     throw new Error("Can't figure out paragraph")
   }
+  /*
   top_level_types = top_level_types.map((type) => {
     return `${nearest_common_sel} > ${type}`
   })
   console.log(`\n\n\n`)
-  console.log(html)
+  console.log(top_level_types)
   console.log(`\n\n\n`)
-
   const article_elements = document.querySelectorAll(top_level_types.join(","))
-  console.log(Array.from(article_elements))
+ */
+  const article_elements = document.querySelectorAll(nearest_common_sel)
+
   console.log(Array.from(article_elements).length)
   for (const a of article_elements) {
     console.log(a.textContent)
@@ -113,6 +115,7 @@ export default async function (args = {}) {
   })
 
   for (const element of article_elements) {
+    console.log(element.textContent)
     if (element.className == "toc") {
       continue
     }
