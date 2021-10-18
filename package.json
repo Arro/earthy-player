@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.4.15",
+  "version": "0.5.0",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
     "cli": "npm run build && node dist/cli/index.js",

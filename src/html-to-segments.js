@@ -22,27 +22,32 @@ export default async function (args = {}) {
     sound_effects_dir,
     discard_if_found = [],
     no_desc = false,
+    selector = null,
     vocab = {}
   } = args
   if (!html?.length) {
     throw new Error("HTML not provided")
   }
-  if (!first_para || !second_para) {
-    throw new Error("Paragraphs not provided")
-  }
-
   const document = new JSDOM(html)?.window?.document
+  let nearest_common_sel
+
+  if (selector) {
+    nearest_common_sel = selector
+  } else {
+    if (!first_para || !second_para) {
+      throw new Error("Paragraphs not provided")
+    }
+    nearest_common_sel = getNearestCommonAncestor(
+      document,
+      first_para,
+      second_para
+    )
+  }
   const { title, desc, date, author } = getMetadata(document)
 
   // let first_para_selector = getSelectorByText(document, first_para)
   // let second_para_selector = getSelectorByText(document, second_para)
 
-  let nearest_common_sel = getNearestCommonAncestor(
-    document,
-    first_para,
-    second_para
-  )
-  console.log(nearest_common_sel)
   if (!nearest_common_sel?.length) {
     throw new Error("Can't figure out paragraph")
   }
@@ -56,11 +61,14 @@ export default async function (args = {}) {
   const article_elements = document.querySelectorAll(top_level_types.join(","))
  */
   const article_elements = document.querySelectorAll(nearest_common_sel)
+  /*
+  // console.log(article_elements)
 
   console.log(Array.from(article_elements).length)
   for (const a of article_elements) {
     console.log(a.textContent)
   }
+  */
 
   let segments = []
 
@@ -115,7 +123,7 @@ export default async function (args = {}) {
   })
 
   for (const element of article_elements) {
-    console.log(element.textContent)
+    // console.log(element.textContent)
     if (element.className == "toc") {
       continue
     }

@@ -84,6 +84,7 @@ export default function ({
   // replacing fancy quotes with regular ones to make regex simpler
   text = text.replaceAll(/[“”]/g, `"`)
 
+  /*
   let has_quote
   do {
     has_quote = /(")(?:(?=(\\?))\2.)*?[,.]\1/.exec(text)
@@ -106,6 +107,7 @@ export default function ({
       text = text.substring(has_quote[0].length + has_quote.index).trim()
     }
   } while (has_quote)
+ */
 
   return_value.push({
     text,

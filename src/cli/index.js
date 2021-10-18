@@ -5,6 +5,7 @@ import os from "os"
 import fs from "fs-extra"
 import dotenv from "dotenv"
 import urlFetch from "src/cli/url-fetch.js"
+import localFile from "src/cli/local-file.js"
 import paginatedMenu from "src/cli/paginated-menu.js"
 import htmlToSegments from "src/html-to-segments.js"
 import condenseSegments from "src/condense-segments.js"
@@ -42,12 +43,16 @@ dotenv.config()
       command: "by_url"
     },
     {
-      name: "Start with an earthy-player config file",
-      command: "by_config"
+      name: "Start with a local html filename",
+      command: "by_filename"
     },
     {
       name: "Verify my API keys are set up correctly",
       command: "verify"
+    },
+    {
+      name: "Start with an earthy-player config file",
+      command: "by_config"
     },
     {
       name: "Quit",
@@ -59,47 +64,57 @@ dotenv.config()
 
   term("\n")
 
+  let html, first_para, second_para
   if (choice.command === "by_url") {
-    const { html, first_para, second_para } = await urlFetch()
+    const result = await urlFetch()
+    html = result.html
+    first_para = result.first_para
+    second_para = result.first_para
     term("\n")
-
-    let all_segments = await htmlToSegments({
-      html,
-      first_para,
-      second_para
-    })
-
-    all_segments = await condenseSegments({
-      segments: all_segments,
-      max_chars: 4000
-    })
-
-    console.log(all_segments)
-
+  } else if (choice.command === "by_filename") {
+    const result = await localFile()
+    html = result.html
+    first_para = result.first_para
+    second_para = result.first_para
     term("\n")
-    await term(
-      `Give us a slug to use. (No spaces.  Example: 'my-cool-article')`
-    )
-    term("\n")
-
-    let slug = await term.inputField().promise
-    term("\n")
-
-    const working_directory = path.join(os.tmpdir(), slug)
-    await fs.mkdirp(working_directory)
-
-    term("\n\n")
-    const spinner = await term.spinner("dotSpinner")
-    term(" Converting HTML to audio...")
-    await textToSpeech({
-      segments: all_segments,
-      slug,
-      working_directory,
-      ffmpeg_path: process.env.ffmpeg_path
-    })
-    spinner.destroy()
-
-    term("\n")
+  } else {
+    process.exit()
   }
+
+  let all_segments = await htmlToSegments({
+    html,
+    first_para,
+    second_para
+  })
+
+  all_segments = await condenseSegments({
+    segments: all_segments,
+    max_chars: 4000
+  })
+
+  // console.log(all_segments)
+
+  term("\n")
+  await term(`Give us a slug to use. (No spaces.  Example: 'my-cool-article')`)
+  term("\n")
+
+  let slug = await term.inputField().promise
+  term("\n")
+
+  const working_directory = path.join(os.tmpdir(), slug)
+  await fs.mkdirp(working_directory)
+
+  term("\n\n")
+  const spinner = await term.spinner("dotSpinner")
+  term(" Converting HTML to audio...")
+  await textToSpeech({
+    segments: all_segments,
+    slug,
+    working_directory,
+    ffmpeg_path: process.env.ffmpeg_path
+  })
+  spinner.destroy()
+
+  term("\n")
   process.exit()
 })()
