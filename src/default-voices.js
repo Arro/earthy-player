@@ -2,28 +2,28 @@ export default {
   heading: {
     type: "speech",
     voice_name: `en-GB-Wavenet-A`,
-    language_code: `en-GB`,
+    language_code: `en-US`,
     pitch: -2.8,
     speed: 1.15
   },
   list_item: {
     type: "speech",
     voice_name: `en-GB-Wavenet-C`,
-    language_code: `en-GB`,
+    language_code: `en-US`,
     pitch: -3.6,
     speed: 1.23
   },
   paragraph: {
     type: "speech",
     voice_name: `en-GB-Wavenet-B`,
-    language_code: `en-GB`,
+    language_code: `en-US`,
     pitch: -5,
     speed: 1
   },
   quote: {
     type: "speech",
     voice_name: `en-GB-Wavenet-D`,
-    language_code: `en-GB`,
+    language_code: `en-US`,
     pitch: -2,
     speed: 1
   }

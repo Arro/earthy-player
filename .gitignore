@@ -1,5 +1,5 @@
 /node_modules/
 dist
 example/node_modules
-.todo.md
 .env
+.DS_Store
