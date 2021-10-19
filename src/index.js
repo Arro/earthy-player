@@ -1,7 +1,7 @@
-import _textToSpeech from "./text-to-speech"
-import _condenseSegments from "./condense-segments"
-import _htmlToSegments from "./html-to-segments"
-import _addChapterMetadata from "./add-chapter-metadata"
+import _textToSpeech from "./text-to-speech.js"
+import _condenseSegments from "./condense-segments.js"
+import _htmlToSegments from "./html-to-segments.js"
+import _addChapterMetadata from "./add-chapter-metadata.js"
 
 export async function htmlToSegments(args) {
   return await _htmlToSegments(args)

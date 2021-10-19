@@ -1,9 +1,9 @@
-import { getAudioDuration } from "./get-audio-duration"
+import { getAudioDuration } from "./get-audio-duration.js"
 import { spawn } from "promisify-child-process"
 import moment from "moment"
 import path from "path"
 import { promises as fsPromises } from "fs"
-import { curry } from "lodash"
+import _ from "lodash"
 
 export default async function ({
   segments,
@@ -21,7 +21,7 @@ export default async function ({
   let addChapter = (title, start, end) => {
     chapters.push({ title, start, end })
   }
-  let curried = curry(addChapter)
+  let curried = _.curry(addChapter)
 
   for (const [i, segment] of segments.entries()) {
     if (segment.type === "sound_effect") {
@@ -36,7 +36,7 @@ export default async function ({
     if (segment.what === "title") {
       if (passed_here_once) {
         curried(ms_passed)
-        curried = curry(addChapter)
+        curried = _.curry(addChapter)
       }
       curried = curried(segment.text)(ms_passed)
       passed_here_once = true
