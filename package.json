@@ -21,7 +21,6 @@
   "dependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
-    "@babel/runtime": "^7.15.4",
     "@google-cloud/text-to-speech": "^3.3.1",
     "axios": "^0.23.0",
     "core-js": "^3.18.3",
@@ -31,31 +30,26 @@
     "jsdom": "^18.0.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
-    "promisify-child-process": "^4.1.1",
-    "terminal-kit": "^2.1.8"
+    "promisify-child-process": "^4.1.1"
   },
   "devDependencies": {
-    "@ava/babel": "^2.0.0",
     "@babel/cli": "^7.15.7",
     "@babel/eslint-parser": "^7.15.8",
-    "@babel/node": "^7.15.8",
     "@babel/register": "^7.15.3",
-    "@babel/runtime": "^7.15.4",
     "ava": "^3.15.0",
-    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^8.0.1",
-    "eslint-plugin-babel": "^5.3.1",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "terminal-kit": "^2.1.8"
   },
   "ava": {
-    "babel": true,
     "files": [
       "test/isolated/**/test.js",
       "test/full/**/test.js"
-    ],
-    "require": [
-      "@babel/register"
     ]
+  },
+  "imports": {
+    "#src/*": "./src/*",
+    "#test/*": "./test/*"
   },
   "bin": {
     "earthy": "dist/cli/index.js"

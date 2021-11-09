@@ -2,7 +2,7 @@ import test from "ava"
 import fs from "fs-extra"
 import path from "path"
 import { JSDOM } from "jsdom"
-import getNearestCommonAncestor from "src/get-nearest-common-ancestor"
+import getNearestCommonAncestor from "#src/get-nearest-common-ancestor.js"
 
 test("get ancestor, removing extraneous class names", async (t) => {
   const html = await fs.readFile(

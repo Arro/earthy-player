@@ -1,7 +1,7 @@
 import test from "ava"
 import path from "path"
 import fs from "fs-extra"
-import htmlToSegments from "src/html-to-segments"
+import htmlToSegments from "#src/html-to-segments.js"
 
 test("html to segments", async (t) => {
   const html = await fs.readFile(

@@ -9,22 +9,12 @@ module.exports = {
           proposals: true
         },
         targets: {
-          node: "14"
+          node: "14",
+          esmodules: true
         },
         modules: false
       }
     ]
-  ],
-  plugins: [
-    [
-      "module-resolver",
-      {
-        alias: {
-          test: "./test",
-          src: "./src",
-          packageJson: "./package.json"
-        }
-      }
-    ]
   ]
 }
+

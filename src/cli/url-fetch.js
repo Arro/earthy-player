@@ -1,7 +1,7 @@
 import axios from "axios"
 import terminalKit from "terminal-kit"
 import filenamifyUrl from "filenamify-url"
-import { pullFromCache, putIntoCache } from "src/cache.js"
+import { pullFromCache, putIntoCache } from "#src/cache.js"
 import os from "os"
 import path from "path"
 

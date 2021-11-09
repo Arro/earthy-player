@@ -29,10 +29,13 @@ export default function (document, text_1, text_2) {
 
   common_selector = common_selector
     .reduce((comb, sel) => {
+      console.log(sel)
       if (sel.type == "tag") {
         return `${comb} > ${sel.value}`
       } else if (sel.type == "class") {
-        return `${comb} > .${sel.value.replaceAll(" ", ".")}`
+        return `${comb} > .${sel.value
+          .replaceAll("  ", " ")
+          .replaceAll(" ", ".")}`
       } else {
         return `${comb} > #${sel.value}`
       }

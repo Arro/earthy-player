@@ -3,8 +3,8 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getSelectorByText from "src/get-selector-by-text"
-import getMetadata from "src/get-metadata"
+import getSelectorByText from "#src/get-selector-by-text.js"
+import getMetadata from "#src/get-metadata.js"
 
 test("get selector by text: author", async (t) => {
   const html = await fs.readFile(

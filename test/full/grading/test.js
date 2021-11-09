@@ -1,11 +1,11 @@
 import test from "ava"
 import path from "path"
 import fs from "fs-extra"
-import htmlToSegments from "src/html-to-segments"
-import pff_vocab from "test/shared/pff-vocab"
-import pff_discard from "test/shared/pff-discard"
-import voices from "test/shared/voices"
-import sound_effects from "test/shared/sound-effects"
+import htmlToSegments from "#src/html-to-segments.js"
+import pff_vocab from "#test/shared/pff-vocab.js"
+import pff_discard from "#test/shared/pff-discard.js"
+import voices from "#test/shared/voices.js"
+import sound_effects from "#test/shared/sound-effects.js"
 
 test("html to segments", async (t) => {
   const html = await fs.readFile(

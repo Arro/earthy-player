@@ -3,7 +3,7 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getMetadata from "src/get-metadata"
+import getMetadata from "#src/get-metadata.js"
 
 test("get metadata", async (t) => {
   const html = await fs.readFile(

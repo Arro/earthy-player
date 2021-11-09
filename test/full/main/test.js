@@ -2,8 +2,8 @@ import test from "ava"
 import fs from "fs"
 import path from "path"
 
-import condenseSegments from "src/condense-segments.js"
-import textToSpeech from "src/text-to-speech.js"
+import condenseSegments from "#src/condense-segments.js"
+import textToSpeech from "#src/text-to-speech.js"
 
 const { readFile } = fs.promises
 

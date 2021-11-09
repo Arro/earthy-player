@@ -3,9 +3,9 @@ import path from "path"
 import { JSDOM } from "jsdom"
 
 import fs from "fs-extra"
-import getMetadata from "src/get-metadata"
-import getSelectorByText from "src/get-selector-by-text"
-import htmlToSegments from "src/html-to-segments"
+import getMetadata from "#src/get-metadata.js"
+import getSelectorByText from "#src/get-selector-by-text.js"
+import htmlToSegments from "#src/html-to-segments.js"
 
 test("get metadata", async (t) => {
   const html = await fs.readFile(
