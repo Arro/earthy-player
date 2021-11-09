@@ -5,7 +5,7 @@ module.exports = {
       {
         useBuiltIns: "usage",
         corejs: {
-          version: 3,
+          version: "3.19.1",
           proposals: true
         },
         targets: {
@@ -17,4 +17,3 @@ module.exports = {
     ]
   ]
 }
-
