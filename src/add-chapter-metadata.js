@@ -1,9 +1,13 @@
+import child_process from "child_process"
+import util from "util"
+
 import { getAudioDuration } from "./get-audio-duration.js"
-import { spawn } from "promisify-child-process"
 import moment from "moment"
 import path from "path"
 import { promises as fsPromises } from "fs"
 import curry from "lodash.curry"
+
+const exec = util.promisify(child_process.exec)
 
 export default async function ({
   segments,
@@ -83,20 +87,19 @@ export default async function ({
     `${working_directory}/${slug}-untracked.mp3`
   )
   const output_filename = path.resolve(`${working_directory}/${slug}.mp3`)
-  await spawn(
+  const command = [
     ffmpeg_path,
-    [
-      "-i",
-      untracked_filename,
-      "-i",
-      chapter_filename,
-      "-map_metadata",
-      "1",
-      "-codec",
-      "copy",
-      "-y",
-      output_filename
-    ],
-    { encoding: "utf-8", maxBuffer: 200 * 1024 }
-  )
+    "-i",
+    untracked_filename,
+    "-i",
+    chapter_filename,
+    "-map_metadata",
+    "1",
+    "-codec",
+    "copy",
+    "-y",
+    output_filename
+  ].join(" ")
+  console.log(command)
+  return await exec(command)
 }

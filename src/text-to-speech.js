@@ -1,8 +1,12 @@
+import child_process from "child_process"
+import util from "util"
+
 import textToSpeech from "@google-cloud/text-to-speech"
 import fs from "fs-extra"
 import path from "path"
 import os from "os"
-import { spawn } from "promisify-child-process"
+
+const exec = util.promisify(child_process.exec)
 
 export default async function ({
   segments,
@@ -79,9 +83,18 @@ export default async function ({
   const untracked_filename = path.resolve(`${output_directory}/${slug}.mp3`)
   await fs.writeFile(list_filename, filelist, "utf-8")
 
-  return await spawn(
+  const command = [
     ffmpeg_path,
-    ["-f", "concat", "-safe", 0, "-i", list_filename, "-y", untracked_filename],
-    { encoding: "utf-8", maxBuffer: 1000 * 1024 }
-  )
+    "-f",
+    "concat",
+    "-safe",
+    0,
+    "-i",
+    list_filename,
+    "-y",
+    untracked_filename
+  ].join(" ")
+  console.log(command)
+
+  return await exec(command)
 }
