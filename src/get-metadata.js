@@ -1,5 +1,3 @@
-import moment from "moment-timezone"
-
 export default function (document, force_no_schema = false) {
   let schema
   let raw_schema = Array.from(
@@ -67,7 +65,10 @@ export default function (document, force_no_schema = false) {
   }
 
   if (date) {
-    date = moment.tz(date, "America/New_York").format("dddd, MMMM Do, YYYY")
+    date = new Intl.DateTimeFormat("en-US", {
+      dateStyle: "full",
+      timeStyle: "medium"
+    }).format(new Date())
   }
 
   return { title, desc, date, author }
