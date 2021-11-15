@@ -3,11 +3,11 @@ import fs from "fs-extra"
 import path from "path"
 import { JSDOM } from "jsdom"
 import getNearestCommonAncestor from "#src/get-nearest-common-ancestor.js"
+import __dirname from "./__dirname.cjs"
 
 test("get ancestor, removing extraneous class names", async (t) => {
-  const dirname = path.dirname(import.meta.url)
   const html = await fs.readFile(
-    path.join(dirname, "fixtures", "main.html"),
+    path.join(__dirname, "fixtures", "main.html"),
     "utf-8"
   )
   const document = new JSDOM(html)?.window?.document
@@ -20,7 +20,7 @@ test("get ancestor, removing extraneous class names", async (t) => {
 
 test("get ancestor, 2", async (t) => {
   const html = await fs.readFile(
-    path.join(path.resolve(), "fixtures", "2.html"),
+    path.join(__dirname, "fixtures", "2.html"),
     "utf-8"
   )
   const document = new JSDOM(html)?.window?.document
