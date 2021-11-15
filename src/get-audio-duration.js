@@ -1,25 +1,19 @@
-import { spawn } from "promisify-child-process"
+import child_process from "child_process"
+import util from "util"
+
 import moment from "moment"
+
+const exec = util.promisify(child_process.exec)
 
 export async function getAudioDuration({
   filename,
   ffprobe_path = "/usr/local/bin/ffprobe"
 }) {
-  const probe = spawn(ffprobe_path, ["-i", filename], {
-    encoding: "utf-8",
-    maxBuffer: "200 * 1024"
-  })
-
   let duration = "3:00:00.00"
-  probe.stderr.on(`data`, (data) => {
-    data = data.toString()
-
-    let poss_duration = data.match(/Duration: [0-9.:]*/g)
-    if (poss_duration && poss_duration[0]) {
-      duration = poss_duration[0].split(" ")[1]
-    }
+  let result = await exec(`${ffprobe_path} -i ${filename}`, {
+    encoding: "utf-8"
   })
-  await probe
+  duration = /Duration: ([0-9:.]+)/g.exec(result?.stderr)?.[1]
 
   duration = moment.duration(duration).asMilliseconds()
 
