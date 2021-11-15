@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
     "cli": "npm run build && node dist/cli/index.js",
@@ -19,7 +19,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@babel/core": "^7.16.0",
     "@google-cloud/text-to-speech": "^3.3.1",
     "core-js": "^3.19.1",
     "dotenv": "^10.0.0",
@@ -31,6 +30,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "@babel/register": "^7.16.0",
