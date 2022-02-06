@@ -4,6 +4,7 @@ export default function ({ segments, max_chars = 4000 }) {
   let new_segments = []
   for (const segment of segments) {
     if (!segment.text || segment?.text?.length < max_chars) {
+      console.log("pushing under cond 1")
       new_segments.push({
         ...segment
       })
@@ -11,17 +12,20 @@ export default function ({ segments, max_chars = 4000 }) {
       const working_max_chars = max_chars - 100
       for (
         let i = 0;
-        i < Math.ceil(working_max_chars / (segment.text?.length || 0)) + 1;
+        i < Math.ceil(working_max_chars / (segment.text?.length || 0)) + 2;
         i++
       ) {
         // todo find a better split point
         const this_marker = i * working_max_chars
         const next_marker = (i + 1) * working_max_chars
+        console.log("pushing under cond 2")
         new_segments.push({
           ...segment,
           text: segment.text.substring(this_marker, next_marker)
         })
       }
+      console.log(new_segments)
+      console.log(`\n\n`)
     }
   }
 

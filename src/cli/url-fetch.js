@@ -30,6 +30,8 @@ export default async function () {
     html = cached_data.html
     first_para = cached_data.first_para
     second_para = cached_data.second_para
+    console.log(first_para)
+    console.log(second_para)
   } else {
     const spinner = await term.spinner("dotSpinner")
     term(" Fetching HTML from the url...")

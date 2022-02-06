@@ -5,11 +5,11 @@ module.exports = {
       {
         useBuiltIns: "usage",
         corejs: {
-          version: "3.19.1",
+          version: "3.21.0",
           proposals: true
         },
         targets: {
-          node: "14",
+          node: "16",
           esmodules: true
         },
         modules: false

@@ -13,6 +13,7 @@ export default function ({
   if (text === "") {
     return [null]
   }
+  console.log(text)
 
   for (const d of discard_if_found) {
     if (text.indexOf(d) !== -1) {
@@ -63,7 +64,8 @@ export default function ({
     h6: "heading",
     li: "list_item",
     p: "paragraph",
-    blockquote: "paragraph"
+    blockquote: "paragraph",
+    div: "paragraph"
   }
 
   let what = element_to_what[type]

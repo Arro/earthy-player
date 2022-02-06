@@ -51,6 +51,7 @@ export default async function (args = {}) {
   if (!nearest_common_sel?.length) {
     throw new Error("Can't figure out paragraph")
   }
+  console.log(nearest_common_sel)
   /*
   top_level_types = top_level_types.map((type) => {
     return `${nearest_common_sel} > ${type}`
@@ -60,10 +61,11 @@ export default async function (args = {}) {
   console.log(`\n\n\n`)
   const article_elements = document.querySelectorAll(top_level_types.join(","))
  */
-  const article_elements = document.querySelectorAll(nearest_common_sel)
-  /*
-  // console.log(article_elements)
 
+  const article_elements = document.querySelectorAll(nearest_common_sel)
+  console.log(Array.from(article_elements).map((a) => a.textContent))
+
+  /*
   console.log(Array.from(article_elements).length)
   for (const a of article_elements) {
     console.log(a.textContent)

@@ -1,6 +1,8 @@
 export default function (document, text_1, text_2) {
   const selector_1 = _getSelectorArrayByText(document, text_1)
   const selector_2 = _getSelectorArrayByText(document, text_2)
+  console.log(selector_1)
+  console.log(selector_2)
 
   let common_selector = []
 
@@ -29,7 +31,6 @@ export default function (document, text_1, text_2) {
 
   common_selector = common_selector
     .reduce((comb, sel) => {
-      console.log(sel)
       if (sel.type == "tag") {
         return `${comb} > ${sel.value}`
       } else if (sel.type == "class") {
@@ -45,6 +46,8 @@ export default function (document, text_1, text_2) {
 }
 
 function _getSelectorArrayByText(document, text) {
+  console.log("\n_getSelectorArrayByText")
+  console.log(text)
   let active_element = document.querySelector("body")
   let types = [
     "div",

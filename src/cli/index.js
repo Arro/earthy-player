@@ -69,7 +69,7 @@ dotenv.config()
     const result = await urlFetch()
     html = result.html
     first_para = result.first_para
-    second_para = result.first_para
+    second_para = result.second_para
     term("\n")
   } else if (choice.command === "by_filename") {
     const result = await localFile()
@@ -86,13 +86,16 @@ dotenv.config()
     first_para,
     second_para
   })
+  console.log(`\nall_segments`)
+  console.log(all_segments)
 
   all_segments = await condenseSegments({
     segments: all_segments,
     max_chars: 4000
   })
 
-  // console.log(all_segments)
+  console.log(`\npost condense all_segments`)
+  console.log(all_segments)
 
   term("\n")
   await term(`Give us a slug to use. (No spaces.  Example: 'my-cool-article')`)
