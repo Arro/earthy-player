@@ -1,6 +1,6 @@
 {
   "name": "earthy-player",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "scripts": {
     "build": "babel src --out-dir dist && chmod +x dist/cli/index.js",
     "cli": "npm run build && node dist/cli/index.js",
@@ -21,24 +21,24 @@
   "type": "module",
   "dependencies": {
     "@google-cloud/text-to-speech": "^3.4.0",
-    "axios": "^0.25.0",
-    "core-js": "^3.21.0",
-    "dotenv": "^16.0.0",
+    "axios": "^0.27.2",
+    "core-js": "^3.22.7",
+    "dotenv": "^16.0.1",
     "filenamify-url": "^3.0.0",
-    "fs-extra": "^10.0.0",
+    "fs-extra": "^10.1.0",
     "jsdom": "^19.0.0",
     "lodash.curry": "^4.1.1",
-    "moment": "^2.29.1"
+    "moment": "^2.29.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.0",
-    "@babel/core": "^7.17.0",
-    "@babel/eslint-parser": "^7.17.0",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
     "babel-plugin-polyfill-corejs3": "^0.5.2",
-    "eslint": "^8.8.0",
-    "prettier": "^2.5.1",
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2",
     "terminal-kit": "^2.4.0"
   },
   "ava": {
