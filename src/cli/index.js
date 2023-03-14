@@ -81,6 +81,20 @@ dotenv.config()
     process.exit()
   }
 
+  await term(`Which synthesizer would you like to use?`)
+  term("\n")
+  const menu_items_2 = [
+    {
+      name: "Google WaveNet",
+      synthesizer: "google"
+    },
+    {
+      name: "Eleven Labs",
+      sythesizer: "eleven"
+    }
+  ]
+  const next_choice = await paginatedMenu(menu_items_2, (m) => m.name)
+
   let all_segments = await htmlToSegments({
     html,
     first_para,
@@ -91,7 +105,8 @@ dotenv.config()
 
   all_segments = await condenseSegments({
     segments: all_segments,
-    max_chars: 4000
+    max_chars: 4000,
+    synthesizer: next_choice.sythesizer
   })
 
   console.log(`\npost condense all_segments`)
@@ -114,7 +129,8 @@ dotenv.config()
     segments: all_segments,
     slug,
     working_directory,
-    ffmpeg_path: process.env.ffmpeg_path
+    ffmpeg_path: process.env.ffmpeg_path,
+    synthesizer: next_choice.sythesizer
   })
   spinner.destroy()
 

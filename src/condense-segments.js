@@ -1,5 +1,12 @@
-export default function ({ segments, max_chars = 4000 }) {
+export default function ({
+  segments,
+  max_chars = 4000,
+  synthesizer = "google"
+}) {
   let condensed = []
+  console.log(`\n\n`)
+  console.log(synthesizer)
+  console.log(`\n\n`)
 
   let new_segments = []
   for (const segment of segments) {
@@ -38,9 +45,15 @@ export default function ({ segments, max_chars = 4000 }) {
       prev_segment?.voice_name === segment.voice_name &&
       prev_segment?.text?.length + segment.text.length < max_chars
     ) {
-      condensed[
-        condensed.length - 1
-      ].text = `${prev_segment.text}<break time="1s"/>${segment.text}`
+      if (synthesizer === "google") {
+        condensed[
+          condensed.length - 1
+        ].text = `${prev_segment.text}<break time="1s"/>${segment.text}`
+      } else {
+        condensed[
+          condensed.length - 1
+        ].text = `${prev_segment.text}\n...\n${segment.text}`
+      }
     } else {
       condensed.push(segment)
     }
